@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a482ce16-4263-4cd8-9e6c-782023ffb0c9",
+  "path": "java-architect-2",
+  "path_key": "java-architect-2",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

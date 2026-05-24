@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7e292ecb-44bb-4006-8584-77b951191c6e",
+  "path": "pm-retro",
+  "path_key": "pm-retro",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

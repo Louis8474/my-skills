@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0f3a149b-398b-4752-860a-7721dcb90095",
+  "path": "smart-init",
+  "path_key": "smart-init",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

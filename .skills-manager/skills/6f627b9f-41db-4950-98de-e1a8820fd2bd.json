@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6f627b9f-41db-4950-98de-e1a8820fd2bd",
+  "path": "lit-rendering",
+  "path_key": "lit-rendering",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

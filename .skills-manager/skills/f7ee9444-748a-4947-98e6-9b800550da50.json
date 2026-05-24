@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f7ee9444-748a-4947-98e6-9b800550da50",
+  "path": "database-seeding",
+  "path_key": "database-seeding",
+  "enabled": true,
+  "tags": [
+    "database"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f2a001b4-0a4e-4d1c-9b97-0f2cd038668e",
+  "path": "airc_version",
+  "path_key": "airc_version",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

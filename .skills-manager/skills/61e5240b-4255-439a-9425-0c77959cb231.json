@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "61e5240b-4255-439a-9425-0c77959cb231",
+  "path": "signup-flow-cro",
+  "path_key": "signup-flow-cro",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

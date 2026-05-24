@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "20c9a208-6b2f-48cb-af12-e5ab4c813342",
+  "path": "pm-aarrr",
+  "path_key": "pm-aarrr",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

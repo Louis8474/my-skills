@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8ff54f4c-4b6e-49a2-a96f-cc66b150fc7d",
+  "path": "docs-create-readme",
+  "path_key": "docs-create-readme",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

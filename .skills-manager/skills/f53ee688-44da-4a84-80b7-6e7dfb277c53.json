@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f53ee688-44da-4a84-80b7-6e7dfb277c53",
+  "path": "stitch__generate-design",
+  "path_key": "stitch__generate-design",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

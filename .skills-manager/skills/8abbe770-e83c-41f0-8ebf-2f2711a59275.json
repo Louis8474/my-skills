@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8abbe770-e83c-41f0-8ebf-2f2711a59275",
+  "path": "galyarder-ceo",
+  "path_key": "galyarder-ceo",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

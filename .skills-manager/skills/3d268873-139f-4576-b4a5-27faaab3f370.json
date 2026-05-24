@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "3d268873-139f-4576-b4a5-27faaab3f370",
+  "path": "cpp-coding-standards",
+  "path_key": "cpp-coding-standards",
+  "enabled": true,
+  "tags": [
+    "embedded-iot",
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

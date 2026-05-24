@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "55515447-dde3-4c7e-bedc-ddbd1d2441a8",
+  "path": "profiling-threat-actor-groups",
+  "path_key": "profiling-threat-actor-groups",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

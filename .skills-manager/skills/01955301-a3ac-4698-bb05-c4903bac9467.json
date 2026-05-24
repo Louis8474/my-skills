@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "01955301-a3ac-4698-bb05-c4903bac9467",
+  "path": "article-writing",
+  "path_key": "article-writing",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

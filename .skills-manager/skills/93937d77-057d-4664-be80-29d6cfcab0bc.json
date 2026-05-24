@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "93937d77-057d-4664-be80-29d6cfcab0bc",
+  "path": "email-ops",
+  "path_key": "email-ops",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

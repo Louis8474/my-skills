@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "47268a07-f752-448a-a95c-039d8ecaf0fb",
+  "path": "env-validator",
+  "path_key": "env-validator",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

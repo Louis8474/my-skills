@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "527d3ba1-68fd-4da7-b5c4-aa4c3bea6fdd",
+  "path": "immune",
+  "path_key": "immune",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

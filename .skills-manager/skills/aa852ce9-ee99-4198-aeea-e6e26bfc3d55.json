@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "aa852ce9-ee99-4198-aeea-e6e26bfc3d55",
+  "path": "odg",
+  "path_key": "odg",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

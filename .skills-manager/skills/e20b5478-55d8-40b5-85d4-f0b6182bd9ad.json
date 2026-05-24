@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e20b5478-55d8-40b5-85d4-f0b6182bd9ad",
+  "path": "sre-engineer-2",
+  "path_key": "sre-engineer-2",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

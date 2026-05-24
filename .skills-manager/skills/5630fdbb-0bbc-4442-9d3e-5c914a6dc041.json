@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "skill_id": "5630fdbb-0bbc-4442-9d3e-5c914a6dc041",
+  "path": "api-design-principles",
+  "path_key": "api-design-principles",
+  "enabled": true,
+  "tags": [
+    "architecture",
+    "backend",
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

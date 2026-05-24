@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6c2fb95a-9789-4948-8b7b-31412aa8c3f1",
+  "path": "bundle-maintenance",
+  "path_key": "bundle-maintenance",
+  "enabled": true,
+  "tags": [
+    "backend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

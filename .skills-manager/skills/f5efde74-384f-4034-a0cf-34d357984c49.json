@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f5efde74-384f-4034-a0cf-34d357984c49",
+  "path": "net",
+  "path_key": "net",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

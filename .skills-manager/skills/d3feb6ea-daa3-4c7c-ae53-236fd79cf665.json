@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d3feb6ea-daa3-4c7c-ae53-236fd79cf665",
+  "path": "oauth-2-0-setup",
+  "path_key": "oauth-2-0-setup",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

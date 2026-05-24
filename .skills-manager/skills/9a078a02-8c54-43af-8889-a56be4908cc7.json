@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "9a078a02-8c54-43af-8889-a56be4908cc7",
+  "path": "adr-write",
+  "path_key": "adr-write",
+  "enabled": true,
+  "tags": [
+    "architecture",
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

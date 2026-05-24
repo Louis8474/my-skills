@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d6e53657-9c51-48f9-8854-6d889d860a1d",
+  "path": "jlink",
+  "path_key": "jlink",
+  "enabled": true,
+  "tags": [
+    "embedded-iot"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

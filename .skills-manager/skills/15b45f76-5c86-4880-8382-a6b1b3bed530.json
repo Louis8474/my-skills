@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "15b45f76-5c86-4880-8382-a6b1b3bed530",
+  "path": "obsidian-cli",
+  "path_key": "obsidian-cli",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

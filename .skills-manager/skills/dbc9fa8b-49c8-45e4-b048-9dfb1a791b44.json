@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "dbc9fa8b-49c8-45e4-b048-9dfb1a791b44",
+  "path": "launch-strategy",
+  "path_key": "launch-strategy",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

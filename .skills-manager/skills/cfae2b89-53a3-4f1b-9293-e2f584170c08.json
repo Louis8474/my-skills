@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "cfae2b89-53a3-4f1b-9293-e2f584170c08",
+  "path": "decision-logger",
+  "path_key": "decision-logger",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

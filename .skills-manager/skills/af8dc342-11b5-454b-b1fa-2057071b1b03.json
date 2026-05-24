@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "af8dc342-11b5-454b-b1fa-2057071b1b03",
+  "path": "check-skill-updates",
+  "path_key": "check-skill-updates",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "80adf914-54ae-4907-bcf7-50f87cd99df8",
+  "path": "010102-install-and-setup",
+  "path_key": "010102-install-and-setup",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

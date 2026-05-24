@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8bb5bc7f-c9dc-4933-834e-af0ecf3fc0fa",
+  "path": "design-md-revolut",
+  "path_key": "design-md-revolut",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

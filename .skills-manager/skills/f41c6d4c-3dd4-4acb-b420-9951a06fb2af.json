@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "f41c6d4c-3dd4-4acb-b420-9951a06fb2af",
+  "path": "hexagonal-architecture",
+  "path_key": "hexagonal-architecture",
+  "enabled": true,
+  "tags": [
+    "architecture",
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

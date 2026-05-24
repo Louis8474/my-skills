@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "89e60ec1-6f49-4f36-b813-abf0991680e2",
+  "path": "security-guidance",
+  "path_key": "security-guidance",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

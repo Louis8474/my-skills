@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3e79b970-48dd-4822-9030-875dd3307e66",
+  "path": "zk-merge",
+  "path_key": "zk-merge",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

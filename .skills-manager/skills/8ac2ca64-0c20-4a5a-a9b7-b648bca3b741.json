@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8ac2ca64-0c20-4a5a-a9b7-b648bca3b741",
+  "path": "automation-audit-ops",
+  "path_key": "automation-audit-ops",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

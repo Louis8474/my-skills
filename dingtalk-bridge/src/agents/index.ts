@@ -1,0 +1,1 @@
+export { agentRegistry } from './registry';

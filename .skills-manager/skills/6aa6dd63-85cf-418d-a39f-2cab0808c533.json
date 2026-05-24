@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6aa6dd63-85cf-418d-a39f-2cab0808c533",
+  "path": "autonomous-loops",
+  "path_key": "autonomous-loops",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

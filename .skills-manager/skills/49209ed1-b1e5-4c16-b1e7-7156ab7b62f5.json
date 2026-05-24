@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "49209ed1-b1e5-4c16-b1e7-7156ab7b62f5",
+  "path": "serial",
+  "path_key": "serial",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

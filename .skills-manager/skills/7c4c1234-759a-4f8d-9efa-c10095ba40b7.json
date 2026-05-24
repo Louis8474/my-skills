@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7c4c1234-759a-4f8d-9efa-c10095ba40b7",
+  "path": "test-cases-generation",
+  "path_key": "test-cases-generation",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

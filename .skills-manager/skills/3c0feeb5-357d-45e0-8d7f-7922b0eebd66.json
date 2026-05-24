@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3c0feeb5-357d-45e0-8d7f-7922b0eebd66",
+  "path": "nutrient-document-processing",
+  "path_key": "nutrient-document-processing",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

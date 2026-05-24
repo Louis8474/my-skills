@@ -1,0 +1,181 @@
+{
+  "evals": [
+    {
+      "id": "playbook_nginx",
+      "prompt": "Crie um playbook para instalar nginx, configurar virtual hosts e iniciar o serviço",
+      "description": "Playbook completo para configuração de Nginx com virtual hosts",
+      "expected_patterns": [
+        "apt:",
+        "nginx",
+        "service:",
+        "virtual host",
+        "server_name",
+        "listen",
+        "root"
+      ],
+      "required_modules": ["apt", "template", "service", "file"],
+      "assertions": [
+        {
+          "type": "contains",
+          "pattern": "name:.*nginx",
+          "description": "Nome do play deve mencionar nginx"
+        },
+        {
+          "type": "contains",
+          "pattern": "apt:",
+          "description": "Deve usar módulo apt para instalação"
+        },
+        {
+          "type": "contains",
+          "pattern": "service:",
+          "description": "Deve usar módulo service para gerenciar serviço"
+        },
+        {
+          "type": "yaml_valid",
+          "description": "Saída deve ser YAML válido"
+        },
+        {
+          "type": "has_tasks",
+          "min_tasks": 3,
+          "description": "Deve ter pelo menos 3 tarefas"
+        }
+      ]
+    },
+    {
+      "id": "loop_copy_files",
+      "prompt": "Como faço para copiar vários arquivos de um diretório para vários servidores usando loop?",
+      "description": "Trecho de playbook com loop para cópia de múltiplos arquivos",
+      "expected_patterns": [
+        "copy:",
+        "loop:",
+        "with_items",
+        "inventory_hostname",
+        "src",
+        "dest"
+      ],
+      "required_modules": ["copy"],
+      "assertions": [
+        {
+          "type": "contains",
+          "pattern": "copy:",
+          "description": "Deve usar módulo copy"
+        },
+        {
+          "type": "contains",
+          "pattern": "loop:",
+          "description": "Deve usar loop ou with_items"
+        },
+        {
+          "type": "contains",
+          "pattern": "src:",
+          "description": "Deve definir origem dos arquivos"
+        },
+        {
+          "type": "contains",
+          "pattern": "dest:",
+          "description": "Deve definir destino dos arquivos"
+        },
+        {
+          "type": "yaml_valid",
+          "description": "Trecho deve ser YAML válido"
+        }
+      ]
+    },
+    {
+      "id": "explain_playbook",
+      "prompt": "Explaine este playbook que herdei de outro time",
+      "input_file": "complex_playbook.yml",
+      "description": "Explicação de playbook complexo existente",
+      "expected_sections": [
+        "hosts",
+        "vars",
+        "tasks",
+        "handlers",
+        "roles"
+      ],
+      "assertions": [
+        {
+          "type": "structured_response",
+          "description": "Resposta deve ter seções organizadas"
+        },
+        {
+          "type": "mentions_key_concepts",
+          "concepts": ["inventário", "variáveis", "tarefas", "handlers"],
+          "description": "Deve mencionar conceitos-chave do Ansible"
+        },
+        {
+          "type": "identifies_patterns",
+          "description": "Deve identificar padrões no playbook"
+        }
+      ]
+    },
+    {
+      "id": "error_handling",
+      "prompt": "Adicione tratamento de erros para ignorar falhas em um bloco de tarefas",
+      "description": "Implementação de tratamento de erros com block/rescue/always",
+      "expected_patterns": [
+        "block:",
+        "rescue:",
+        "ignore_errors:",
+        "always:",
+        "failed_when"
+      ],
+      "assertions": [
+        {
+          "type": "contains",
+          "pattern": "block:",
+          "description": "Deve usar block para agrupar tarefas"
+        },
+        {
+          "type": "contains",
+          "pattern": "rescue:",
+          "description": "Deve ter seção rescue para tratamento de erros"
+        },
+        {
+          "type": "yaml_valid",
+          "description": "Código deve ser YAML válido"
+        },
+        {
+          "type": "explains_why",
+          "description": "Deve explicar por que usar block/rescue"
+        }
+      ]
+    },
+    {
+      "id": "role_structure",
+      "prompt": "Crie a estrutura básica de uma role Ansible para configurar um servidor web",
+      "description": "Estrutura de diretórios e arquivos para role de servidor web",
+      "expected_structure": [
+        "tasks/",
+        "handlers/",
+        "templates/",
+        "files/",
+        "vars/",
+        "defaults/",
+        "meta/",
+        "main.yml"
+      ],
+      "assertions": [
+        {
+          "type": "directory_structure",
+          "directories": ["tasks", "handlers", "templates", "vars", "defaults", "meta"],
+          "description": "Deve ter estrutura de diretórios correta"
+        },
+        {
+          "type": "has_main_yml",
+          "description": "Deve incluir main.yml em cada diretório"
+        },
+        {
+          "type": "includes_meta",
+          "description": "Deve incluir arquivo meta/main.yml"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-03-20",
+    "description": "Casos de teste para a skill ansible-playbook-creator",
+    "author": "Auto-generated"
+  }
+}

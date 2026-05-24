@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "5f0e8573-d4fb-47ab-8a5f-12ab169839bb",
+  "path": "design-md-raycast",
+  "path_key": "design-md-raycast",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

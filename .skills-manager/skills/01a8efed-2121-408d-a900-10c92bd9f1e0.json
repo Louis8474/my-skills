@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "01a8efed-2121-408d-a900-10c92bd9f1e0",
+  "path": "pre-landing-review",
+  "path_key": "pre-landing-review",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

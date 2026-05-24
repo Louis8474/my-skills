@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "cb52da81-2547-4d9a-ba3c-39ad0e968864",
+  "path": "rust-testing",
+  "path_key": "rust-testing",
+  "enabled": true,
+  "tags": [
+    "languages",
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

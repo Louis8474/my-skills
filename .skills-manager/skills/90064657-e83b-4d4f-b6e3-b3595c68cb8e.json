@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "90064657-e83b-4d4f-b6e3-b3595c68cb8e",
+  "path": "vue-expert",
+  "path_key": "vue-expert",
+  "enabled": true,
+  "tags": [
+    "frontend",
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

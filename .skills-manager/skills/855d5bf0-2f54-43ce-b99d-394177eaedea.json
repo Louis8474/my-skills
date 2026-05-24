@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "855d5bf0-2f54-43ce-b99d-394177eaedea",
+  "path": "status",
+  "path_key": "status",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

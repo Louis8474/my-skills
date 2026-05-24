@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7b661b10-0f05-48b3-9cee-3b8adece7f5d",
+  "path": "opencode-orchestrator-subagents",
+  "path_key": "opencode-orchestrator-subagents",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

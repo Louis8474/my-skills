@@ -1,0 +1,16 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@xsyetopz/easel@0.5.0": "0.5.0"
+  },
+  "jsr": {
+    "@xsyetopz/easel@0.5.0": {
+      "integrity": "261e1027596b8503aabff713a42f45e3a34b49179cf949fc762c463afb66102d"
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@xsyetopz/easel@0.5.0"
+    ]
+  }
+}

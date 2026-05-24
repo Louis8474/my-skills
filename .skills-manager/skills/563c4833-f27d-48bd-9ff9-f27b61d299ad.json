@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "563c4833-f27d-48bd-9ff9-f27b61d299ad",
+  "path": "design-md-pinterest",
+  "path_key": "design-md-pinterest",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

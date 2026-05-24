@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "9ae196e5-0100-4784-8eeb-1825bcdf99e3",
+  "path": "responsive-design",
+  "path_key": "responsive-design",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

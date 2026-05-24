@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "19c08c8b-e016-4feb-a606-909e20047357",
+  "path": "service-boundary-analysis",
+  "path_key": "service-boundary-analysis",
+  "enabled": true,
+  "tags": [
+    "architecture"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

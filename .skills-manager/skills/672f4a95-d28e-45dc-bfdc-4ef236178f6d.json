@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "672f4a95-d28e-45dc-bfdc-4ef236178f6d",
+  "path": "docker",
+  "path_key": "docker",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

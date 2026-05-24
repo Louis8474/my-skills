@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "27f058e2-2530-4b04-8520-5f6430799387",
+  "path": "incident",
+  "path_key": "incident",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "be916039-57df-4828-92fc-492daaee241e",
+  "path": "skill-generalizer",
+  "path_key": "skill-generalizer",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

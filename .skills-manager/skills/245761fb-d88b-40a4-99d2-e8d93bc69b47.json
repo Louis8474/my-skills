@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "245761fb-d88b-40a4-99d2-e8d93bc69b47",
+  "path": "design-md-minimax",
+  "path_key": "design-md-minimax",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

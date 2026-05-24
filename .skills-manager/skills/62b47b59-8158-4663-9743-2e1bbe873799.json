@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "62b47b59-8158-4663-9743-2e1bbe873799",
+  "path": "socratic-planning",
+  "path_key": "socratic-planning",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

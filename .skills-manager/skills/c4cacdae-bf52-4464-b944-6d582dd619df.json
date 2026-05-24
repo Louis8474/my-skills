@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c4cacdae-bf52-4464-b944-6d582dd619df",
+  "path": "jenkins",
+  "path_key": "jenkins",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

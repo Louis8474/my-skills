@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "5d8c0259-a17d-4a08-8ce9-50e2da981dd5",
+  "path": "angular-architect",
+  "path_key": "angular-architect",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

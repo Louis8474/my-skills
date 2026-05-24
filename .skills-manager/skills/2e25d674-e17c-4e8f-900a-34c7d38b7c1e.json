@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2e25d674-e17c-4e8f-900a-34c7d38b7c1e",
+  "path": "autoresearch-agent",
+  "path_key": "autoresearch-agent",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

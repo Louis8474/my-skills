@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f9703564-3613-437d-b0f2-4409fa7b8198",
+  "path": "architecture-plan",
+  "path_key": "architecture-plan",
+  "enabled": true,
+  "tags": [
+    "architecture"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

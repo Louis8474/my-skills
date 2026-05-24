@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ad4a1149-d7c2-4ec8-ab4d-3ce522d22977",
+  "path": "healthcare-eval-harness",
+  "path_key": "healthcare-eval-harness",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

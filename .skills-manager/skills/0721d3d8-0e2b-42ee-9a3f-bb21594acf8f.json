@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0721d3d8-0e2b-42ee-9a3f-bb21594acf8f",
+  "path": "task-automation",
+  "path_key": "task-automation",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

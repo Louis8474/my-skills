@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "794b015e-31a8-45e3-979d-fb7f984465ac",
+  "path": "stripe-integration",
+  "path_key": "stripe-integration",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

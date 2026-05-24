@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "aef8b117-e297-49da-b588-6374be05e16e",
+  "path": "pm-feedback",
+  "path_key": "pm-feedback",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ac70e527-5c40-4aad-bff9-21cb6269382c",
+  "path": "ab-test-setup",
+  "path_key": "ab-test-setup",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

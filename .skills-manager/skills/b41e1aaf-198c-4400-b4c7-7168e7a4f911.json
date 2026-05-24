@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b41e1aaf-198c-4400-b4c7-7168e7a4f911",
+  "path": "home-assistant-lit-rendering",
+  "path_key": "home-assistant-lit-rendering",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

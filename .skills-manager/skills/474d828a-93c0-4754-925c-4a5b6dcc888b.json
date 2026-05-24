@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "474d828a-93c0-4754-925c-4a5b6dcc888b",
+  "path": "trace",
+  "path_key": "trace",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

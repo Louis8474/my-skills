@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e3addbf8-5ebe-4b5e-ae79-0b74e32578b3",
+  "path": "security-plan",
+  "path_key": "security-plan",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

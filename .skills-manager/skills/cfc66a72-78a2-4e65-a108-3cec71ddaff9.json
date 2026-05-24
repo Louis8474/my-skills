@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "cfc66a72-78a2-4e65-a108-3cec71ddaff9",
+  "path": "airc_doctor",
+  "path_key": "airc_doctor",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

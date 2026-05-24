@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "dd5fa598-921c-4d5b-a262-903b84886114",
+  "path": "ultrawork",
+  "path_key": "ultrawork",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

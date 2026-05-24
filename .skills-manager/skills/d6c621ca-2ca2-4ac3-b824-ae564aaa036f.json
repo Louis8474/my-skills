@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d6c621ca-2ca2-4ac3-b824-ae564aaa036f",
+  "path": "laravel-specialist",
+  "path_key": "laravel-specialist",
+  "enabled": true,
+  "tags": [
+    "backend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

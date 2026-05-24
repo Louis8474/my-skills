@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "1d360c14-61b5-4057-8896-600dd4b56b9f",
+  "path": "dotfiles-stow",
+  "path_key": "dotfiles-stow",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

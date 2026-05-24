@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b0e8c933-cf13-4801-9da6-21af17cc8843",
+  "path": "analyze",
+  "path_key": "analyze",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

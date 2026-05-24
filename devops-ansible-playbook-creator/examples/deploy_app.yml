@@ -1,0 +1,245 @@
+---
+# Playbook de Deploy de Aplicação
+# Exemplo completo de deploy com rollback, health checks e notificações
+
+- name: Deploy da aplicação
+  hosts: app_servers
+  become: yes
+  vars:
+    app_name: "minha-app"
+    app_repo: "https://github.com/org/minha-app.git"
+    app_branch: "main"
+    app_dir: "/opt/{{ app_name }}"
+    app_current: "{{ app_dir }}/current"
+    app_releases: "{{ app_dir }}/releases"
+    app_shared: "{{ app_dir }}/shared"
+    app_keep_releases: 5
+    app_port: 3000
+    app_user: "deploy"
+    app_env: "production"
+    deploy_timestamp: "{{ ansible_date_time.iso8601_basic_short }}"
+
+  pre_tasks:
+    - name: Verificar espaço em disco
+      assert:
+        that:
+          - ansible_mounts | selectattr('mount', 'equalto', '/') | map(attribute='size_available') | first > 5368709120
+        fail_msg: "Espaço insuficiente no disco (menos de 5GB livres)"
+
+    - name: Verificar conectividade com repositório
+      uri:
+        url: "{{ app_repo }}"
+        status_code: 200
+        timeout: 10
+      ignore_errors: yes
+      register: repo_check
+
+    - name: Abortar se repositório inacessível
+      fail:
+        msg: "Repositório inacessível: {{ app_repo }}"
+      when: repo_check is failed
+
+  tasks:
+    - name: Criar estrutura de diretórios
+      file:
+        path: "{{ item }}"
+        state: directory
+        owner: "{{ app_user }}"
+        group: "{{ app_user }}"
+        mode: '0755'
+      loop:
+        - "{{ app_dir }}"
+        - "{{ app_releases }}"
+        - "{{ app_shared }}"
+        - "{{ app_shared }}/log"
+        - "{{ app_shared }}/tmp"
+        - "{{ app_shared }}/config"
+
+    - name: Criar novo diretório de release
+      file:
+        path: "{{ app_releases }}/{{ deploy_timestamp }}"
+        state: directory
+        owner: "{{ app_user }}"
+        group: "{{ app_user }}"
+        mode: '0755'
+      register: new_release
+
+    - name: Clonar repositório
+      git:
+        repo: "{{ app_repo }}"
+        dest: "{{ app_releases }}/{{ deploy_timestamp }}"
+        version: "{{ app_branch }}"
+        force: yes
+      become_user: "{{ app_user }}"
+
+    - name: Copiar configuração compartilhada
+      copy:
+        src: "{{ app_shared }}/config/"
+        dest: "{{ app_releases }}/{{ deploy_timestamp }}/config/"
+        remote_src: yes
+        owner: "{{ app_user }}"
+        group: "{{ app_user }}"
+
+    - name: Instalar dependências
+      command: "{{ item }}"
+      args:
+        chdir: "{{ app_releases }}/{{ deploy_timestamp }}"
+      become_user: "{{ app_user }}"
+      environment:
+        NODE_ENV: "{{ app_env }}"
+      loop:
+        - "npm ci --production"
+        - "npm run build"
+
+    - name: Criar symlinks para diretórios compartilhados
+      file:
+        src: "{{ app_shared }}/{{ item }}"
+        dest: "{{ app_releases }}/{{ deploy_timestamp }}/{{ item }}"
+        state: link
+        force: yes
+      loop:
+        - log
+        - tmp
+
+    - name: Executar migrações do banco de dados
+      command: "npm run migrate -- --env={{ app_env }}"
+      args:
+        chdir: "{{ app_releases }}/{{ deploy_timestamp }}"
+      become_user: "{{ app_user }}"
+      environment:
+        NODE_ENV: "{{ app_env }}"
+      register: migration_result
+      ignore_errors: yes
+
+    - name: Rollback em caso de falha na migração
+      block:
+        - name: Falha na migração - iniciando rollback
+          debug:
+            msg: "Migração falhou. Removendo release {{ deploy_timestamp }}"
+        
+        - name: Remover release com falha
+          file:
+            path: "{{ app_releases }}/{{ deploy_timestamp }}"
+            state: absent
+        
+        - name: Abortar deploy
+          fail:
+            msg: "Deploy abortado devido a falha na migração"
+      when: migration_result is failed
+
+    - name: Atualizar symlink current
+      file:
+        src: "{{ app_releases }}/{{ deploy_timestamp }}"
+        dest: "{{ app_current }}"
+        state: link
+        force: yes
+      register: symlink_update
+
+    - name: Reiniciar aplicação
+      systemd:
+        name: "{{ app_name }}"
+        state: restarted
+        daemon_reload: yes
+      register: restart_result
+      ignore_errors: yes
+
+    - name: Rollback em caso de falha no restart
+      block:
+        - name: Falha no restart - restaurando release anterior
+          debug:
+            msg: "Restart falhou. Restaurando release anterior"
+        
+        - name: Identificar release anterior
+          find:
+            paths: "{{ app_releases }}"
+            file_type: directory
+            patterns: "*"
+            sort: mtime
+            sort_order: descending
+          register: releases
+        
+        - name: Restaurar symlink
+          file:
+            src: "{{ app_releases }}/{{ releases.files[1].path | basename }}"
+            dest: "{{ app_current }}"
+            state: link
+            force: yes
+          when: releases.files | length > 1
+        
+        - name: Reiniciar com release anterior
+          systemd:
+            name: "{{ app_name }}"
+            state: restarted
+            daemon_reload: yes
+        
+        - name: Abortar deploy
+          fail:
+            msg: "Deploy abortado. Rollback para release anterior executado"
+      when: restart_result is failed
+
+    - name: Health check da aplicação
+      uri:
+        url: "http://localhost:{{ app_port }}/health"
+        status_code: 200
+        timeout: 5
+      register: health_check
+      until: health_check.status == 200
+      retries: 5
+      delay: 10
+
+    - name: Remover releases antigos
+      shell: |
+        ls -dt {{ app_releases }}/* | tail -n +{{ app_keep_releases | int + 1 }} | xargs rm -rf
+      args:
+        executable: /bin/bash
+
+    - name: Limpeza de releases antigos (alternativa)
+      find:
+        paths: "{{ app_releases }}"
+        file_type: directory
+        patterns: "*"
+        sort: mtime
+        sort_order: descending
+      register: all_releases
+
+    - name: Remover releases excedentes
+      file:
+        path: "{{ item.path }}"
+        state: absent
+      loop: "{{ all_releases.files[app_keep_releases:] }}"
+      when: all_releases.files | length > app_keep_releases
+
+  post_tasks:
+    - name: Verificar status final da aplicação
+      systemd:
+        name: "{{ app_name }}"
+        state: started
+      register: final_status
+
+    - name: Relatório de deploy
+      debug:
+        msg: |
+          ✅ Deploy concluído com sucesso!
+          
+          Aplicação: {{ app_name }}
+          Branch: {{ app_branch }}
+          Release: {{ deploy_timestamp }}
+          Ambiente: {{ app_env }}
+          URL: http://{{ ansible_fqdn }}:{{ app_port }}
+          Status: {{ 'Ativo' if final_status.status.ActiveState == 'active' else 'Inativo' }}
+
+  handlers:
+    - name: Restart {{ app_name }}
+      systemd:
+        name: "{{ app_name }}"
+        state: restarted
+        daemon_reload: yes
+
+    - name: Notificar deploy
+      mail:
+        to: "team@example.com"
+        subject: "Deploy de {{ app_name }} - {{ app_env }}"
+        body: "Deploy da release {{ deploy_timestamp }} concluído com sucesso"
+      listen: "Notify deploy success"
+
+  tags: [deploy, app]

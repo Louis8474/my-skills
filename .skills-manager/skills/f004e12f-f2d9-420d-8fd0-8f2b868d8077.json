@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f004e12f-f2d9-420d-8fd0-8f2b868d8077",
+  "path": "monitoring",
+  "path_key": "monitoring",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

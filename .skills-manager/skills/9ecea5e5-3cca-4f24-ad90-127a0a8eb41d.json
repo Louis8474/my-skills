@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "9ecea5e5-3cca-4f24-ad90-127a0a8eb41d",
+  "path": "design-md-opencodeai",
+  "path_key": "design-md-opencodeai",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "671896a7-40ae-401b-930f-b3d6226a061a",
+  "path": "opencode-browser",
+  "path_key": "opencode-browser",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

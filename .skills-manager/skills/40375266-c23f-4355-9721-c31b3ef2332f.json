@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "40375266-c23f-4355-9721-c31b3ef2332f",
+  "path": "ecc-tools-cost-audit",
+  "path_key": "ecc-tools-cost-audit",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e0162f52-70d9-4439-b2d2-1965e4721d6b",
+  "path": "social-media-posting",
+  "path_key": "social-media-posting",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

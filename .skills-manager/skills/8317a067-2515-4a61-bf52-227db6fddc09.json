@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8317a067-2515-4a61-bf52-227db6fddc09",
+  "path": "port",
+  "path_key": "port",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "skill_name": "executor",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Implement task: Create a Pydantic v2 schema for a Product entity with fields: id (UUID), name (str, max 200 chars), price (Decimal, positive), stock (int, >=0), created_at (datetime). Add Base, Create, and Out variants.",
+      "expected_output": "Agent reads existing schema directory first. Creates ProductBase, ProductCreate, ProductOut Pydantic v2 models with Mapped[] annotations. Runs mypy or ruff check. Reports: files changed with exact paths, validation result. Does not modify other files.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Implement task: Add a GET /api/v1/products endpoint that returns a paginated list of products. Use the existing PaginatedResponse[T] envelope. Auth not required for this route.",
+      "expected_output": "Agent reads existing router file before writing. Adds only the GET route using the existing PaginatedResponse schema. Delegates to ProductService (which it also creates if missing) following the existing pattern. Reports files changed without touching unrelated routes.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Implement task: I need to add 'order cancellation' but I'm realizing the cancel action also needs to trigger a refund if payment was already captured. This wasn't in the original plan.",
+      "expected_output": "Agent detects scope expansion (refund is not in the task), raises a Scope Change flag per Step 6 of the SOP, describes the impact (payment service integration, new task needed), and does NOT silently implement the refund. Routes back to plan for checklist update.",
+      "files": []
+    }
+  ]
+}

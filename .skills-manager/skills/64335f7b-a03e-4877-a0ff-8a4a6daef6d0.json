@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "64335f7b-a03e-4877-a0ff-8a4a6daef6d0",
+  "path": "agent-payment-x402",
+  "path_key": "agent-payment-x402",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

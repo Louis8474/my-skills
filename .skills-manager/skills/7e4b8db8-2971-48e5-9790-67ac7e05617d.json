@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7e4b8db8-2971-48e5-9790-67ac7e05617d",
+  "path": "argo-cd",
+  "path_key": "argo-cd",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

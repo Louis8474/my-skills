@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "8fbba784-1cd0-4116-882c-a342f50d31b6",
+  "path": "kimi-xlsx",
+  "path_key": "kimi-xlsx",
+  "enabled": true,
+  "tags": [
+    "agents-meta",
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

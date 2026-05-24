@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "cd56fdfc-ba56-4f2a-8522-b264b1e61e64",
+  "path": "design-md-uber",
+  "path_key": "design-md-uber",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

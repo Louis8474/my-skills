@@ -1,0 +1,63 @@
+{
+  "skill_name": "vagrant-file-creator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a simple Vagrantfile for an Ubuntu development environment",
+      "expected_output": "A valid Vagrantfile with ubuntu/focal box, VirtualBox provider, and reasonable defaults (1GB RAM, 2 CPUs). Should include comments and usage instructions.",
+      "assertions": [
+        "contains 'Vagrant.configure'",
+        "contains 'ubuntu/focal' or 'ubuntu/jammy'",
+        "contains 'virtualbox'",
+        "contains memory configuration",
+        "contains cpus configuration"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I need a Vagrantfile with port 8080 forwarded to port 80 and a private network at 192.168.50.10",
+      "expected_output": "A Vagrantfile with proper forwarded_port and private_network configuration using the specified values.",
+      "assertions": [
+        "contains 'forwarded_port'",
+        "contains 'guest: 80' or 'guest:80'",
+        "contains 'host: 8080' or 'host:8080'",
+        "contains 'private_network'",
+        "contains '192.168.50.10'"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Create a Vagrantfile that installs Docker on startup using a shell provisioner",
+      "expected_output": "A Vagrantfile with a shell provisioner that installs docker.io or docker-ce, with clear comments explaining the provisioner.",
+      "assertions": [
+        "contains 'provision'",
+        "contains 'shell'",
+        "contains 'docker'",
+        "contains 'apt-get' or 'yum' or package manager"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Set up a multi-machine Vagrant environment with a master node and two worker nodes",
+      "expected_output": "A Vagrantfile with three VM definitions using config.vm.define, with proper private networking for inter-VM communication.",
+      "assertions": [
+        "contains 'vm.define'",
+        "contains 'master'",
+        "contains 'worker'",
+        "contains multiple 'private_network'",
+        "contains at least 3 vm blocks"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Create a Vagrantfile with 4GB RAM and 4 CPUs for a memory-intensive application",
+      "expected_output": "A Vagrantfile with provider configuration specifying 4096MB memory and 4 CPUs.",
+      "assertions": [
+        "contains '4096' or '4096'",
+        "contains memory",
+        "contains cpus",
+        "contains '4'"
+      ]
+    }
+  ]
+}

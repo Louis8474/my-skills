@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "666d51aa-d3bd-4174-9754-0520a4e03117",
+  "path": "perl-security",
+  "path_key": "perl-security",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

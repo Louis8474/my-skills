@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "465a036d-b8df-4a22-b8f2-fb0379586305",
+  "path": "growth",
+  "path_key": "growth",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "fdd5f8ba-997f-4a58-9a15-715b6eb77cf9",
+  "path": "opensource-pipeline",
+  "path_key": "opensource-pipeline",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

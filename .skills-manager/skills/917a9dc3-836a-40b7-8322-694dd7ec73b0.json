@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "917a9dc3-836a-40b7-8322-694dd7ec73b0",
+  "path": "inbox-triage",
+  "path_key": "inbox-triage",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

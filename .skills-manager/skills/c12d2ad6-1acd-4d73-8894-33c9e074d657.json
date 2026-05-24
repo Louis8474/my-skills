@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c12d2ad6-1acd-4d73-8894-33c9e074d657",
+  "path": "pm-resource",
+  "path_key": "pm-resource",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

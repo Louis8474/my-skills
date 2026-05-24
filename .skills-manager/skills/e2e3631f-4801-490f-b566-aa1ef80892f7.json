@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e2e3631f-4801-490f-b566-aa1ef80892f7",
+  "path": "test-plan-generation",
+  "path_key": "test-plan-generation",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

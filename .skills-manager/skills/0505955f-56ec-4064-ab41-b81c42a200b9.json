@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0505955f-56ec-4064-ab41-b81c42a200b9",
+  "path": "cost-aware-llm-pipeline",
+  "path_key": "cost-aware-llm-pipeline",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

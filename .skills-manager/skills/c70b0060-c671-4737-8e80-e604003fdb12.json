@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c70b0060-c671-4737-8e80-e604003fdb12",
+  "path": "full",
+  "path_key": "full",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

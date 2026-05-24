@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c9130543-c86e-45c2-a6ff-a0940d83a619",
+  "path": "payments",
+  "path_key": "payments",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

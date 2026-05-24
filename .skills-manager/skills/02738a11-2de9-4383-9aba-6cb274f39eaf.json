@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "02738a11-2de9-4383-9aba-6cb274f39eaf",
+  "path": "note-taking",
+  "path_key": "note-taking",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

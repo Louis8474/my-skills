@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e23c0d09-eb58-4985-91bd-5ab6a504a9c9",
+  "path": "docker-optimize",
+  "path_key": "docker-optimize",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

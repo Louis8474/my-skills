@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "2255a54a-8652-4461-b3ca-364d67b39b80",
+  "path": "agentkit-seo-x-twitter",
+  "path_key": "agentkit-seo-x-twitter",
+  "enabled": true,
+  "tags": [
+    "agents-meta",
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

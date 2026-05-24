@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e1a13c0e-b9f0-4874-9df7-e08aafeac354",
+  "path": "branch-context-consumer",
+  "path_key": "branch-context-consumer",
+  "enabled": true,
+  "tags": [
+    "git-workflow"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

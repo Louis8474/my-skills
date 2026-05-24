@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "95ff1cbd-1065-4477-baa4-0ae966c7b535",
+  "path": "knowledge-ops",
+  "path_key": "knowledge-ops",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

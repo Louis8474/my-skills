@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "58047384-27e3-4fb6-a7a9-e724d260b404",
+  "path": "prisma-client-api",
+  "path_key": "prisma-client-api",
+  "enabled": true,
+  "tags": [
+    "database"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

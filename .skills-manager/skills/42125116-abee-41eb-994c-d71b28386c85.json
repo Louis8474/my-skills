@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "42125116-abee-41eb-994c-d71b28386c85",
+  "path": "schema-factory-pattern",
+  "path_key": "schema-factory-pattern",
+  "enabled": true,
+  "tags": [
+    "architecture"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

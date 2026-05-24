@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d8525c6a-1661-4218-8de8-ca67da07c51e",
+  "path": "doc-maintenance",
+  "path_key": "doc-maintenance",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

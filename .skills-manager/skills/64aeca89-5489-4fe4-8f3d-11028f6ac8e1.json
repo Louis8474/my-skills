@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "64aeca89-5489-4fe4-8f3d-11028f6ac8e1",
+  "path": "nextjs-2",
+  "path_key": "nextjs-2",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

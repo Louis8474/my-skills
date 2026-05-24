@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3545ca28-fec7-4103-96c5-7089bc55495a",
+  "path": "joc-setup",
+  "path_key": "joc-setup",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0c2c0af6-3a86-4a26-9dae-89937d5b125e",
+  "path": "content-strategy",
+  "path_key": "content-strategy",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

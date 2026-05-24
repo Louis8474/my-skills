@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "14d10c4e-7192-4745-b5b7-a34ad660160f",
+  "path": "architecture-patterns",
+  "path_key": "architecture-patterns",
+  "enabled": true,
+  "tags": [
+    "architecture",
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

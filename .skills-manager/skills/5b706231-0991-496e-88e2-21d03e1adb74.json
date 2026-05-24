@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "5b706231-0991-496e-88e2-21d03e1adb74",
+  "path": "sql-pro",
+  "path_key": "sql-pro",
+  "enabled": true,
+  "tags": [
+    "database",
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

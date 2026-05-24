@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "38dd0afc-6e21-4dfa-bfef-7487d8706eac",
+  "path": "laravel-plugin-discovery",
+  "path_key": "laravel-plugin-discovery",
+  "enabled": true,
+  "tags": [
+    "backend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f8d751d0-54be-43b1-824b-fcd44b6711d4",
+  "path": "graph-thinking",
+  "path_key": "graph-thinking",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

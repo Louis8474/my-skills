@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "407ce3e2-4179-4c62-bc76-c224575e2ba7",
+  "path": "competitor-alternatives",
+  "path_key": "competitor-alternatives",
+  "enabled": true,
+  "tags": [
+    "marketing-sales",
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

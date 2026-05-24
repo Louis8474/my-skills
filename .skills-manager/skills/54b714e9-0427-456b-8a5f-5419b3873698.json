@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "54b714e9-0427-456b-8a5f-5419b3873698",
+  "path": "python-pro-2",
+  "path_key": "python-pro-2",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ea0d9a0c-31d9-473b-8b75-16e82847915d",
+  "path": "design-md-superhuman",
+  "path_key": "design-md-superhuman",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

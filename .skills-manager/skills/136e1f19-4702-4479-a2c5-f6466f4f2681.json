@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "136e1f19-4702-4479-a2c5-f6466f4f2681",
+  "path": "pm-proto",
+  "path_key": "pm-proto",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d7b40f1c-d186-4ced-90ba-11442be3c6fb",
+  "path": "python-package-management",
+  "path_key": "python-package-management",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2f3d7d84-71a4-4c46-9005-7a8bba52670b",
+  "path": "perseus",
+  "path_key": "perseus",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

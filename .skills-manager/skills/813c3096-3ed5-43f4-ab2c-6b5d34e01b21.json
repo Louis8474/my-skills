@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "813c3096-3ed5-43f4-ab2c-6b5d34e01b21",
+  "path": "cloud-architect",
+  "path_key": "cloud-architect",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

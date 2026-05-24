@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "34c4fbb3-20a4-4b60-b25f-5125b849ed01",
+  "path": "project-context-primer",
+  "path_key": "project-context-primer",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

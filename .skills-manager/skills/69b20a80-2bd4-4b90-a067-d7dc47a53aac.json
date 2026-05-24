@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "69b20a80-2bd4-4b90-a067-d7dc47a53aac",
+  "path": "qmd-search",
+  "path_key": "qmd-search",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

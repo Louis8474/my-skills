@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "68807187-1ecc-4899-a858-3654553aa2fd",
+  "path": "airc_invite",
+  "path_key": "airc_invite",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

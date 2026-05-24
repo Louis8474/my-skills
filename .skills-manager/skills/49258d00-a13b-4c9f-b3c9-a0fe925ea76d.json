@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "49258d00-a13b-4c9f-b3c9-a0fe925ea76d",
+  "path": "nx-plugins",
+  "path_key": "nx-plugins",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "skill_name": "book-chapter-summarizer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Summarize chapter 1 of 'Clean Code' by Robert C. Martin. The chapter is called 'Clean Code' and discusses what clean code is according to several experts (Bjarne Stroustrup, Grady Booch, Dave Thomas, Michael Feathers, etc.), the idea of the 'Boy Scout Rule' (leave the campground cleaner than you found it), and the metaphor of the long-term cost of dirty code. The author argues that dirty code reduces team productivity to nearly zero, and the only real remedy is writing clean code from the start.",
+      "expected_output": "A complete summary with: descriptive title, Cornell questions (5-8), TL;DR of maximum 4 sentences, AI Summary with bullet points explaining the expert quotes and book metaphors, and Final Summary with conclusions.",
+      "files": [],
+      "assertions": [
+        "The summary contains the sections: title (##), Key Questions, TL;DR, AI Summary, Final Summary and Conclusions",
+        "The Cornell questions are at least 5 and are formulated as real questions (ending in ?)",
+        "The TL;DR has a maximum of 4 sentences",
+        "The AI Summary uses bullet point lists",
+        "The summary mentions the 'Boy Scout Rule' metaphor or leaving code better than you found it",
+        "The summary mentions the productivity degradation caused by dirty code"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I need you to summarize chapter 3 of 'Design Patterns: Elements of Reusable Object-Oriented Software' (the Gang of Four book). This chapter covers creational patterns: Abstract Factory, Builder, Factory Method, Prototype, and Singleton. Explain what creational patterns are, what they are used for, and describe each pattern with its intent, motivation, and when to use it.",
+      "expected_output": "Summary with title, Cornell questions, TL;DR, AI Summary with bullet points for each pattern, and a Java code example of at least one of the mentioned design patterns, plus conclusions.",
+      "files": [],
+      "assertions": [
+        "The summary contains the 5 required sections in the correct order",
+        "There is at least one Java code example inside a code block (```java)",
+        "The AI Summary mentions all 5 creational patterns: Abstract Factory, Builder, Factory Method, Prototype, Singleton",
+        "The Cornell questions connect concepts and are not just definitions",
+        "The summary uses bullet points in the AI Summary section"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Summarize the chapter 'The Power of Habit' from the book 'Atomic Habits' by James Clear. The chapter discusses the habit loop (cue, craving, response, reward), how habits form in the brain through repetition, the importance of small wins, and how systems beat goals. Clear uses examples like the British cycling team and the concept of '1% improvement'.",
+      "expected_output": "Complete summary with descriptive title, Cornell questions about the habit loop and key concepts, TL;DR of maximum 4 sentences, AI Summary with bullet points explaining the loop, examples, and main ideas, and final conclusions. No Java code since it is a non-fiction book about psychology/productivity.",
+      "files": [],
+      "assertions": [
+        "The summary contains the 5 required sections",
+        "The TL;DR does not exceed 4 sentences",
+        "The summary mentions the habit loop: cue, craving, response, and reward",
+        "The summary mentions the 1% improvement concept or small wins",
+        "There are no Java code blocks (it is a productivity book, not programming)",
+        "The Cornell questions include critical reflection questions, not just definitions"
+      ]
+    }
+  ]
+}

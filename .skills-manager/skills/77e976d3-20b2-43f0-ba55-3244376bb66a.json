@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "77e976d3-20b2-43f0-ba55-3244376bb66a",
+  "path": "social-graph-ranker",
+  "path_key": "social-graph-ranker",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

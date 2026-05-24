@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "b349b7fe-0f84-4cc9-8c8d-90f2d509f11f",
+  "path": "react-expert",
+  "path_key": "react-expert",
+  "enabled": true,
+  "tags": [
+    "frontend",
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

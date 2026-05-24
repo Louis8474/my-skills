@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "53a01387-21a1-444b-bca6-d6de03d248a9",
+  "path": "connection-review",
+  "path_key": "connection-review",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

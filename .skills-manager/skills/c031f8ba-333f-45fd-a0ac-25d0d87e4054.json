@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c031f8ba-333f-45fd-a0ac-25d0d87e4054",
+  "path": "investigating-phishing-email-incident",
+  "path_key": "investigating-phishing-email-incident",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

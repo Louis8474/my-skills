@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "93244118-78ac-43dd-a7cc-1af8d7870aa4",
+  "path": "sourcegraph-search",
+  "path_key": "sourcegraph-search",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

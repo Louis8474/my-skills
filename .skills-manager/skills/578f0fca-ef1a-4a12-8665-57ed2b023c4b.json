@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "578f0fca-ef1a-4a12-8665-57ed2b023c4b",
+  "path": "opencode-context-maintenance",
+  "path_key": "opencode-context-maintenance",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

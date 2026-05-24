@@ -1,0 +1,23 @@
+{
+    "skill_name": "ai-integration",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Add an AI chat feature to my app where users can ask questions and get answers in real-time. The text should stream in like ChatGPT.",
+            "expected_output": "Agent implements POST /chat/stream returning StreamingResponse with text/event-stream media type. Uses anthropic.messages.stream() context manager, yields SSE data lines (data: {text}\\n\\n). Frontend reads with ReadableStream, decodes chunks, extracts data: lines, updates UI progressively. Explains why non-streaming causes bad UX on 5+ second responses.",
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "I have a PDF of my company's product documentation. I want users to be able to ask questions about it and get accurate answers from the doc.",
+            "expected_output": "Agent implements full RAG pipeline: 1) Document ingestion: chunk PDF by paragraph, embed each chunk via text-embedding-3-small, store in PostgreSQL with pgvector. 2) Query: embed the question, cosine similarity search for top-5 chunks, inject chunks as context into Claude prompt with system instruction to answer from context only. Shows the pgvector SQL and SQLAlchemy Vector column.",
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "My AI feature is costing me $200/month on OpenAI and I only have 100 users. How do I reduce the cost?",
+            "expected_output": "Agent performs cost audit: check max_tokens (is it set or defaulting to model max?), check if same prompt is being sent repeatedly (Redis cache for identical inputs), check model selection (is GPT-4o when GPT-4o-mini would suffice?). Shows how to log input_tokens + output_tokens per request to identify expensive endpoints. Suggests Claude Haiku for classification tasks.",
+            "files": []
+        }
+    ]
+}

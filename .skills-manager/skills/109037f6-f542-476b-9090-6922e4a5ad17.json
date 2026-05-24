@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "109037f6-f542-476b-9090-6922e4a5ad17",
+  "path": "accessibility",
+  "path_key": "accessibility",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

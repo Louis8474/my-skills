@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "cd00c888-746f-4179-8f82-34b7d733f86d",
+  "path": "skillify",
+  "path_key": "skillify",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "140f0718-86a7-469f-9e4d-cadd7a6f58ab",
+  "path": "home-assistant-list-components",
+  "path_key": "home-assistant-list-components",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

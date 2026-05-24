@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ed6d4832-ceb4-41c8-aa7f-4971b041d178",
+  "path": "information-architecture",
+  "path_key": "information-architecture",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

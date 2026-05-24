@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8d857c6b-b342-4833-b7ba-a9e9a63b0686",
+  "path": "010103-package-ops",
+  "path_key": "010103-package-ops",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

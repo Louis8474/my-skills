@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d8610e4e-e2ad-4fea-b8e2-cc7e3216a856",
+  "path": "finish",
+  "path_key": "finish",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

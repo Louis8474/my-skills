@@ -1,0 +1,10 @@
+{
+  "skill_name": "system-architecture",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Please execute a standard system-architecture demonstration scenario.",
+      "expected_output": "Model successfully invokes the system-architecture skill and follows its progressive disclosure rules."
+    }
+  ]
+}

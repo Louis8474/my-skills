@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "619b4e4b-c842-4e71-b244-bacfc46f3d4c",
+  "path": "build-error-resolver",
+  "path_key": "build-error-resolver",
+  "enabled": true,
+  "tags": [
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

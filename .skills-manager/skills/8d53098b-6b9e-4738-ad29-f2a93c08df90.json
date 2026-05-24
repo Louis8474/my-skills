@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8d53098b-6b9e-4738-ad29-f2a93c08df90",
+  "path": "retention-specialist",
+  "path_key": "retention-specialist",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

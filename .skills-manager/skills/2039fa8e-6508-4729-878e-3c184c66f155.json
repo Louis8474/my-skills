@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2039fa8e-6508-4729-878e-3c184c66f155",
+  "path": "concept-to-video",
+  "path_key": "concept-to-video",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

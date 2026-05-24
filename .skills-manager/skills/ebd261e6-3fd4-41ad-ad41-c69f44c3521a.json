@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ebd261e6-3fd4-41ad-ad41-c69f44c3521a",
+  "path": "minimalist-ui",
+  "path_key": "minimalist-ui",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "91afa7bc-9330-42e7-91a3-f9b9e69cd79e",
+  "path": "ui-ux-designer",
+  "path_key": "ui-ux-designer",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "fbdfabb6-d248-4112-9c28-7893aa45cc21",
+  "path": "laravel-tdd",
+  "path_key": "laravel-tdd",
+  "enabled": true,
+  "tags": [
+    "backend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

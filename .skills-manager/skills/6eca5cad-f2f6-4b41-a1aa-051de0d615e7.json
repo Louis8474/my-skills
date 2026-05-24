@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6eca5cad-f2f6-4b41-a1aa-051de0d615e7",
+  "path": "openocd",
+  "path_key": "openocd",
+  "enabled": true,
+  "tags": [
+    "embedded-iot"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

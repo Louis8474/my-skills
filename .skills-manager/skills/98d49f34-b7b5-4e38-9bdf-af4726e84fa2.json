@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "98d49f34-b7b5-4e38-9bdf-af4726e84fa2",
+  "path": "eradicating-malware-from-infected-systems",
+  "path_key": "eradicating-malware-from-infected-systems",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

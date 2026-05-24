@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "2870ab41-0561-495d-af13-fb0c3c9f068b",
+  "path": "java-testing",
+  "path_key": "java-testing",
+  "enabled": true,
+  "tags": [
+    "languages",
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

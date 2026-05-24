@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3d170a02-b098-43c1-8694-8e6c547ba1bf",
+  "path": "billing-automation",
+  "path_key": "billing-automation",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

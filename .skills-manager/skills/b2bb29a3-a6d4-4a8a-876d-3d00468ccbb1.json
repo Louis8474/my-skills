@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b2bb29a3-a6d4-4a8a-876d-3d00468ccbb1",
+  "path": "ci-pipeline",
+  "path_key": "ci-pipeline",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

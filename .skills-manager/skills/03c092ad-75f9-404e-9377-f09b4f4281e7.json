@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "03c092ad-75f9-404e-9377-f09b4f4281e7",
+  "path": "deep-research-skills-research-deep",
+  "path_key": "deep-research-skills-research-deep",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

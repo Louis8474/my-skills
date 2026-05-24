@@ -1,0 +1,23 @@
+{
+  "skill_name": "report",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Write a sprint status report for my non-technical founder. We're 3 weeks into building a food delivery app. Auth is done, menu browsing is done, the cart is 50% done, and checkout hasn't started yet.",
+      "expected_output": "Agent writes BLUF paragraph for executive: status, key blocker, recommendation. Uses the status report template with a Progress table (Done/In Progress/Not Started), a Metrics section (feature completion %), and Next Sprint checklist. No technical jargon, no code references.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Our API went down for 45 minutes last Tuesday. Server ran out of memory. DB connections pooled up. Here's the timeline: 2pm deploy, 2:15 alert, 2:30 found root cause (N+1 query on user feed), 2:45 fix deployed.",
+      "expected_output": "Agent writes technical post-mortem using the template: Timeline table with UTC times, 5 Whys root cause chain ending at 'no query performance test in CI', Impact section with user count and revenue, Action Items table with owners and due dates.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Generate release notes for v1.2.0. New features: dark mode, CSV export. Bug fixes: login loop on Safari, broken pagination. Known issues: slow load on mobile.",
+      "expected_output": "Agent produces audience-appropriate release notes. BLUF summary at top. Sections: New Features (user-language descriptions, not technical), Bug Fixes, Known Issues. No commit hashes or internal ticket numbers in the user-facing version.",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6be58917-8c85-471e-b91c-b08618a55f97",
+  "path": "typescript-advanced-types",
+  "path_key": "typescript-advanced-types",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

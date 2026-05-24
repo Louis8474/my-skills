@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d7fec9af-1ab8-4b1d-8644-1db8c6619ed3",
+  "path": "pudo-code-system-plan",
+  "path_key": "pudo-code-system-plan",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

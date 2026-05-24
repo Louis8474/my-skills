@@ -1,0 +1,23 @@
+{
+  "skill_name": "docs",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Write the README for my open-source task management API built with FastAPI. It should help developers get it running locally in under 5 minutes.",
+      "expected_output": "Agent runs Phase 1 context interview (target audience: developers, purpose: local setup). README includes: project description, prerequisites (Python 3.12, Docker, uv), Quick Start (clone, .env setup, docker-compose up, alembic upgrade, uvicorn), API reference link, contributing guide stub.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I need a technical design document (TDD) for a new notification system. It will fan out to email, SMS, and push. Should be async and queue-based.",
+      "expected_output": "Agent runs Phase 1 Q&A (who reads this: engineers, purpose: alignment before build). Produces TDD with: Problem Statement, Proposed Architecture (diagram), Data Flow, Tech Decisions (Celery+Redis chosen, rationale), API interface definition, Failure Modes, Open Questions section.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Update the existing API docs for the /users endpoint. We just added a new optional `bio` field to the response.",
+      "expected_output": "Agent identifies this as a doc update (not greenfield). Reads existing doc, adds `bio: string | null` to the UserOut schema table, adds a changelog entry at the bottom. Does not rewrite sections that haven't changed.",
+      "files": []
+    }
+  ]
+}

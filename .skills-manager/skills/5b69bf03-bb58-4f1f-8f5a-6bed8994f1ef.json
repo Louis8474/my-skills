@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "5b69bf03-bb58-4f1f-8f5a-6bed8994f1ef",
+  "path": "rails-expert",
+  "path_key": "rails-expert",
+  "enabled": true,
+  "tags": [
+    "backend",
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

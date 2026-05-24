@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "83adb6d6-8e5a-4e9b-9419-d177892af32c",
+  "path": "javascript-pro",
+  "path_key": "javascript-pro",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

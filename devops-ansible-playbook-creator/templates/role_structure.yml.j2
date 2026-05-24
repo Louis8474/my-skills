@@ -1,0 +1,147 @@
+---
+# Role: {{ role_name | default('my_role') }}
+# Descrição: {{ role_description | default('Descrição da role') }}
+# Autor: {{ author | default('Seu Nome') }}
+# Data: {{ date | default(ansible_date_time.date) }}
+
+# Estrutura de diretórios:
+# roles/
+# └── {{ role_name | default('my_role') }}/
+#     ├── defaults/
+#     │   └── main.yml          # Variáveis padrão (baixa prioridade)
+#     ├── vars/
+#     │   └── main.yml          # Variáveis da role (alta prioridade)
+#     ├── tasks/
+#     │   └── main.yml          # Tarefas principais
+#     ├── handlers/
+#     │   └── main.yml          # Handlers (notificações)
+#     ├── templates/
+#     │   └── config.j2         # Templates Jinja2
+#     ├── files/
+#     │   └── config.conf       # Arquivos estáticos
+#     ├── meta/
+#     │   └── main.yml          # Metadados da role
+#     └── README.md             # Documentação
+
+# ============================================
+# defaults/main.yml
+# ============================================
+# Variáveis com valores padrão (sobrescritíveis pelo playbook)
+{{ app_name | default('myapp') }}_version: "{{ app_version | default('latest') }}"
+{{ app_name | default('myapp') }}_port: {{ app_port | default(8080) }}
+{{ app_name | default('myapp') }}_user: "{{ app_user | default('appuser') }}"
+{{ app_name | default('myapp') }}_config_dir: "{{ config_dir | default('/etc/' + (app_name | default('myapp'))) }}"
+{{ app_name | default('myapp') }}_log_dir: "{{ log_dir | default('/var/log/' + (app_name | default('myapp'))) }}"
+
+# ============================================
+# vars/main.yml
+# ============================================
+# Variáveis internas da role (não devem ser sobrescritas)
+{{ app_name | default('myapp') }}_service_name: "{{ app_name | default('myapp') }}"
+{{ app_name | default('myapp') }}_package_name: "{{ package_name | default('myapp') }}"
+
+# ============================================
+# tasks/main.yml
+# ============================================
+- name: Instalar dependências do sistema
+  package:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ {{ app_name | default('myapp') }}_dependencies | default([]) }}"
+
+- name: Criar usuário da aplicação
+  user:
+    name: "{{ {{ app_name | default('myapp') }}_user }}"
+    system: yes
+    shell: /bin/bash
+    create_home: no
+  when: {{ app_name | default('myapp') }}_create_user | default(true)
+
+- name: Criar diretórios
+  file:
+    path: "{{ item }}"
+    state: directory
+    owner: "{{ {{ app_name | default('myapp') }}_user }}"
+    group: "{{ {{ app_name | default('myapp') }}_user }}"
+    mode: '0755'
+  loop:
+    - "{{ {{ app_name | default('myapp') }}_config_dir }}"
+    - "{{ {{ app_name | default('myapp') }}_log_dir }}"
+
+- name: Configurar aplicação
+  template:
+    src: config.j2
+    dest: "{{ {{ app_name | default('myapp') }}_config_dir }}/config.conf"
+    owner: "{{ {{ app_name | default('myapp') }}_user }}"
+    group: "{{ {{ app_name | default('myapp') }}_user }}"
+    mode: '0644'
+    backup: yes
+  notify: "Restart {{ {{ app_name | default('myapp') }}_service_name }}"
+
+- name: Habilitar e iniciar serviço
+  service:
+    name: "{{ {{ app_name | default('myapp') }}_service_name }}"
+    state: started
+    enabled: yes
+
+# ============================================
+# handlers/main.yml
+# ============================================
+- name: "Restart {{ {{ app_name | default('myapp') }}_service_name }}"
+  service:
+    name: "{{ {{ app_name | default('myapp') }}_service_name }}"
+    state: restarted
+
+# ============================================
+# meta/main.yml
+# ============================================
+galaxy_info:
+  author: "{{ author | default('Seu Nome') }}"
+  description: "{{ role_description | default('Descrição da role') }}"
+  license: "{{ license | default('MIT') }}"
+  min_ansible_version: "{{ min_ansible_version | default('2.10') }}"
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+        - jammy
+    - name: EL
+      versions:
+        - '8'
+        - '9'
+  galaxy_tags:
+    - {{ app_name | default('myapp') }}
+    - web
+    - server
+
+dependencies: []
+# - role: common
+# - role: firewall
+
+# ============================================
+# templates/config.j2
+# ============================================
+# {{ ansible_managed }}
+# Configuração do {{ app_name | default('myapp') }}
+
+[general]
+name = {{ {{ app_name | default('myapp') }}_name | default(app_name | default('myapp')) }}
+version = {{ {{ app_name | default('myapp') }}_version }}
+port = {{ {{ app_name | default('myapp') }}_port }}
+user = {{ {{ app_name | default('myapp') }}_user }}
+
+[logging]
+log_dir = {{ {{ app_name | default('myapp') }}_log_dir }}
+log_level = {{ {{ app_name | default('myapp') }}_log_level | default('info') }}
+
+# ============================================
+# Uso no playbook
+# ============================================
+# - name: Configurar aplicação
+#   hosts: app_servers
+#   roles:
+#     - role: {{ app_name | default('myapp') }}
+#       vars:
+#         {{ app_name | default('myapp') }}_version: "2.0"
+#         {{ app_name | default('myapp') }}_port: 9090
+#         {{ app_name | default('myapp') }}_log_level: "debug"

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a652b3e9-ca56-41aa-9dea-e54151481b51",
+  "path": "chief-of-staff",
+  "path_key": "chief-of-staff",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

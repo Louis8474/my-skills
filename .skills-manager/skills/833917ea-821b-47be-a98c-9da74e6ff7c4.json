@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "833917ea-821b-47be-a98c-9da74e6ff7c4",
+  "path": "software-system-analyzer",
+  "path_key": "software-system-analyzer",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

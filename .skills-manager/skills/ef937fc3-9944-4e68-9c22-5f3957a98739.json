@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ef937fc3-9944-4e68-9c22-5f3957a98739",
+  "path": "pm-priority",
+  "path_key": "pm-priority",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

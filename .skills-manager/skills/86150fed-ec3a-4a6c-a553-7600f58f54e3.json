@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "86150fed-ec3a-4a6c-a553-7600f58f54e3",
+  "path": "paywall-upgrade-cro",
+  "path_key": "paywall-upgrade-cro",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

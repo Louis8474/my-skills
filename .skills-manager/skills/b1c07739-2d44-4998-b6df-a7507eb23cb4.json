@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b1c07739-2d44-4998-b6df-a7507eb23cb4",
+  "path": "spec-driven-development",
+  "path_key": "spec-driven-development",
+  "enabled": true,
+  "tags": [
+    "architecture"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

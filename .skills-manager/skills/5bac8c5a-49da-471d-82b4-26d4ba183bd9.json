@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "5bac8c5a-49da-471d-82b4-26d4ba183bd9",
+  "path": "pkexec-root",
+  "path_key": "pkexec-root",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

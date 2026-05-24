@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "fdaed421-c6fe-4dec-b068-465e8f9dc89e",
+  "path": "wireframing",
+  "path_key": "wireframing",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

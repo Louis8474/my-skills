@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "619e8ca9-9c2b-4b79-a19c-b65199a84562",
+  "path": "tracking-threat-actor-infrastructure",
+  "path_key": "tracking-threat-actor-infrastructure",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

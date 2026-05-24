@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c2545c9a-0cac-4df6-aacf-88bdd20d3fb6",
+  "path": "nx-workspace",
+  "path_key": "nx-workspace",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "skill_name": "infra",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Set up a Terraform module to provision a production-grade PostgreSQL RDS instance on AWS in a private subnet. It should not be publicly accessible.",
+      "expected_output": "Agent checks for existing .tfstate first. Creates modules/database/main.tf with aws_db_instance in private subnet group, publicly_accessible=false, multi_az=true for prod, storage_encrypted=true, deletion_protection=true. IAM policy grants app role secretsmanager:GetSecretValue for the DB password secret.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Write a Kubernetes Deployment manifest for my FastAPI container. It should run 2 replicas, never run as root, have liveness/readiness probes, and pull DB credentials from a secret.",
+      "expected_output": "Agent produces Deployment with replicas:2, securityContext runAsNonRoot:true, containers with livenessProbe and readinessProbe on /health, DATABASE_URL from secretKeyRef, resources.requests and resources.limits defined. Image tag uses {IMAGE_TAG} placeholder.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I accidentally ran terraform apply on an existing staging environment without reviewing the plan first and now something broke. How do I safely recover?",
+      "expected_output": "Agent provides recovery SOP: 1) run terraform plan to see current drift, 2) do not run apply again, 3) use terraform state show on affected resources, 4) attempt terraform apply -target on specific resource to restore, 5) if data was deleted, restore from automated RDS backup, 6) post-mortem: add PR requirement for apply, add backend.tf remote state lock.",
+      "files": []
+    }
+  ]
+}

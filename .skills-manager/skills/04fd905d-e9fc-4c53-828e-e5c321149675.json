@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "04fd905d-e9fc-4c53-828e-e5c321149675",
+  "path": "presentation-creation",
+  "path_key": "presentation-creation",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "be4d7d0e-a2b2-4889-b486-fd46a850c9dd",
+  "path": "github-actions",
+  "path_key": "github-actions",
+  "enabled": true,
+  "tags": [
+    "devops-cloud",
+    "git-workflow"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

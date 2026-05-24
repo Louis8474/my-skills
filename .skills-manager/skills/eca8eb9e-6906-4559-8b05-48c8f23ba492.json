@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "eca8eb9e-6906-4559-8b05-48c8f23ba492",
+  "path": "dotnet-core-expert",
+  "path_key": "dotnet-core-expert",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "c4f8a385-964e-453a-932b-24b03201b64f",
+  "path": "kimi-docx",
+  "path_key": "kimi-docx",
+  "enabled": true,
+  "tags": [
+    "agents-meta",
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

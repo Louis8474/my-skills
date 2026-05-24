@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "05212b20-29d7-416d-b838-c6df82bdc73e",
+  "path": "incident-postmortem",
+  "path_key": "incident-postmortem",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

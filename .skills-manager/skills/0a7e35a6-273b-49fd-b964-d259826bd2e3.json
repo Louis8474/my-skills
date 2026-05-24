@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0a7e35a6-273b-49fd-b964-d259826bd2e3",
+  "path": "monorepo-management",
+  "path_key": "monorepo-management",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

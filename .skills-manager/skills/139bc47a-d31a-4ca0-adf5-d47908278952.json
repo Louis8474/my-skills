@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "139bc47a-d31a-4ca0-adf5-d47908278952",
+  "path": "evolution-from-patches",
+  "path_key": "evolution-from-patches",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

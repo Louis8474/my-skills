@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "89c4c07a-cc92-4f9c-a7de-1d3c28cdb199",
+  "path": "context-budget",
+  "path_key": "context-budget",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

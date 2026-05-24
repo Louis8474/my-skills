@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0ea327b8-11f2-40f3-abe1-65e0b077af77",
+  "path": "sequential-thinking",
+  "path_key": "sequential-thinking",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

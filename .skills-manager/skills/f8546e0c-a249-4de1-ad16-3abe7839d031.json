@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f8546e0c-a249-4de1-ad16-3abe7839d031",
+  "path": "page-cro",
+  "path_key": "page-cro",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

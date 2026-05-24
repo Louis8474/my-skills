@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0efaa051-46fc-49c3-830e-9ae0b5d51179",
+  "path": "foundation-models-on-device",
+  "path_key": "foundation-models-on-device",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b7ccde3d-b66f-47b3-adc2-0726bae472e4",
+  "path": "experimentation-engineer",
+  "path_key": "experimentation-engineer",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

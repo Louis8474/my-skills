@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e9f7546f-0615-4a8d-be85-deccd1ae07a4",
+  "path": "defi-amm-security",
+  "path_key": "defi-amm-security",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

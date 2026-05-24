@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "886c5c5d-b15e-43a0-a3b0-d1594befadaf",
+  "path": "youtube-analysis",
+  "path_key": "youtube-analysis",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "9cfba0fc-6dfc-41c8-a6aa-8f70e35c9480",
+  "path": "open-source-license",
+  "path_key": "open-source-license",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

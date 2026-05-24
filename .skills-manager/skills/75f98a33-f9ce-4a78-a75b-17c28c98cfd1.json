@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "75f98a33-f9ce-4a78-a75b-17c28c98cfd1",
+  "path": "monitoring-darkweb-sources",
+  "path_key": "monitoring-darkweb-sources",
+  "enabled": true,
+  "tags": [
+    "devops-cloud",
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Yolobox Orchestrator"
+  short_description: "Launch and control yolobox sessions"
+  default_prompt: "Use $yolobox-orchestrator to choose and run the right yolobox command for this task."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d7f19781-3cc7-4aff-8ee1-53b82c3cde79",
+  "path": "eng-career-goals-writer",
+  "path_key": "eng-career-goals-writer",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

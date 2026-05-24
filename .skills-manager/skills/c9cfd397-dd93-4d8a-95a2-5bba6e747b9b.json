@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c9cfd397-dd93-4d8a-95a2-5bba6e747b9b",
+  "path": "test-fix-loop",
+  "path_key": "test-fix-loop",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

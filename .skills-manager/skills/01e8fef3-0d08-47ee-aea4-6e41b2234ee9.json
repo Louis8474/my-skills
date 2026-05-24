@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "01e8fef3-0d08-47ee-aea4-6e41b2234ee9",
+  "path": "spring-boot-engineer",
+  "path_key": "spring-boot-engineer",
+  "enabled": true,
+  "tags": [
+    "backend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

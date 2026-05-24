@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ff761571-b8ea-4f08-ae61-51856465fbde",
+  "path": "linkedin-post-style",
+  "path_key": "linkedin-post-style",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a686ef2c-1c3f-4af8-993f-49abe42e03c4",
+  "path": "jpa-patterns",
+  "path_key": "jpa-patterns",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

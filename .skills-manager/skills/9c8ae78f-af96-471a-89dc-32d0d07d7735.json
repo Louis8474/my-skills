@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "9c8ae78f-af96-471a-89dc-32d0d07d7735",
+  "path": "pm-decision",
+  "path_key": "pm-decision",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

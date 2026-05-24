@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "796bbbf2-7136-4217-95c4-6508f281854f",
+  "path": "data-visualization",
+  "path_key": "data-visualization",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

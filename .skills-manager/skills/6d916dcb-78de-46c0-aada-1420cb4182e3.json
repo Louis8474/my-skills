@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6d916dcb-78de-46c0-aada-1420cb4182e3",
+  "path": "pm-portfolio",
+  "path_key": "pm-portfolio",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

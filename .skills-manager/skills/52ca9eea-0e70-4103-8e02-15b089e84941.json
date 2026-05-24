@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "52ca9eea-0e70-4103-8e02-15b089e84941",
+  "path": "reverse-engineering-malware-with-ghidra",
+  "path_key": "reverse-engineering-malware-with-ghidra",
+  "enabled": true,
+  "tags": [
+    "research",
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

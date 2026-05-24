@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c513605b-899f-427e-b26e-6ab620b9f1b1",
+  "path": "pm-docs",
+  "path_key": "pm-docs",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

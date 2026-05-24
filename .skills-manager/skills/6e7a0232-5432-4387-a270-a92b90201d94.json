@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6e7a0232-5432-4387-a270-a92b90201d94",
+  "path": "hud",
+  "path_key": "hud",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8d091b84-1eda-43c1-9900-94b47829f875",
+  "path": "qa-automation-engineer",
+  "path_key": "qa-automation-engineer",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

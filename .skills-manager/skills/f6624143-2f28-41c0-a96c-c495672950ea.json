@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f6624143-2f28-41c0-a96c-c495672950ea",
+  "path": "project-management",
+  "path_key": "project-management",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

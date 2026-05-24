@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "9567a81f-31ca-4d47-b174-f5a75ce8fa28",
+  "path": "jira-integration",
+  "path_key": "jira-integration",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "5991bbbf-3343-44f6-970f-ad8a44e97786",
+  "path": "market-analyzer",
+  "path_key": "market-analyzer",
+  "enabled": true,
+  "tags": [
+    "marketing-sales",
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

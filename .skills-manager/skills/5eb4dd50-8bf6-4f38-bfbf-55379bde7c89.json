@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "5eb4dd50-8bf6-4f38-bfbf-55379bde7c89",
+  "path": "prompt-evaluator",
+  "path_key": "prompt-evaluator",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

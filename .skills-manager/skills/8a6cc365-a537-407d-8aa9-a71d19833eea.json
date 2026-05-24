@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8a6cc365-a537-407d-8aa9-a71d19833eea",
+  "path": "docker-patterns",
+  "path_key": "docker-patterns",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

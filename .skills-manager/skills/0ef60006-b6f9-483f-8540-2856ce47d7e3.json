@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0ef60006-b6f9-483f-8540-2856ce47d7e3",
+  "path": "memory-debug",
+  "path_key": "memory-debug",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

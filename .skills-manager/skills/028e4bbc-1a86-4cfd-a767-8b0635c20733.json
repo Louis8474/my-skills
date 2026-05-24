@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "028e4bbc-1a86-4cfd-a767-8b0635c20733",
+  "path": "decompose",
+  "path_key": "decompose",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

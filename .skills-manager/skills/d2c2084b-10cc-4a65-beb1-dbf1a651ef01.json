@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "d2c2084b-10cc-4a65-beb1-dbf1a651ef01",
+  "path": "agentkit-seo-agent-context-optimization",
+  "path_key": "agentkit-seo-agent-context-optimization",
+  "enabled": true,
+  "tags": [
+    "agents-meta",
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

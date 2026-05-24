@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "9cf54027-07a6-4f1e-91a5-47ca8a4a434f",
+  "path": "design-md-framer",
+  "path_key": "design-md-framer",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "42aa10b3-01ea-4ce9-a0ba-a24eba8f8ed9",
+  "path": "review-agent-setup",
+  "path_key": "review-agent-setup",
+  "enabled": true,
+  "tags": [
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

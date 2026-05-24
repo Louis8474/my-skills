@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "14fd1624-54b4-45a9-93f4-433ec2621549",
+  "path": "playwright-cucumber-expert",
+  "path_key": "playwright-cucumber-expert",
+  "enabled": true,
+  "tags": [
+    "languages",
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

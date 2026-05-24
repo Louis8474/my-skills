@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ec8103f6-7bda-4d25-a68a-0966b2e65cde",
+  "path": "nestjs",
+  "path_key": "nestjs",
+  "enabled": true,
+  "tags": [
+    "backend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

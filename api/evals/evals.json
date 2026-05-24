@@ -1,0 +1,23 @@
+{
+  "skill_name": "api",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Design and implement a REST API for a blog platform. Posts can have multiple authors, tags, and comments. Should I use REST or GraphQL?",
+      "expected_output": "Agent applies the complexity rule: multiple entities with relationships (posts->authors->comments->tags) makes this a GraphQL candidate. Agent asks if there are multiple consumers (mobile + web). If yes, recommends GraphQL. Produces Strawberry schema with types for Post, Author, Tag, Comment and N+1-safe resolvers with dataloaders.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Add a REST endpoint POST /api/v1/orders that creates a new order. Authenticated users only. Return the created order ID.",
+      "expected_output": "Agent creates route with Depends(get_current_user), POST body validated via Pydantic OrderCreate model, response wrapped in SuccessResponse[OrderOut], status_code=201. Rate limit applied. Delegates to OrderService.create().",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "My API has no standard error format. Sometimes it returns {error: 'bad'}, sometimes just a string. Fix it.",
+      "expected_output": "Agent defines ErrorDetail and ErrorResponse Pydantic models in schemas/common.py, adds a global @app.exception_handler(HTTPException) that always returns ErrorResponse format, and a global exception handler for unhandled errors that logs with structlog and returns a generic 500 ErrorResponse.",
+      "files": []
+    }
+  ]
+}

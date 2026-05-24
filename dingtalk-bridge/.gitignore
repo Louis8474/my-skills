@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Coverage
+coverage/
+
+# Data
+data/
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+
+# Claude Code (local config, worktrees, sessions)
+.claude/
+
+# IDE
+.idea/
+.vscode/
+.weavefox/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Planning docs (session-local progress tracking)
+task_plan.md
+findings.md
+progress.md
+CLAUDE.md
+docs/cc-connect-learnings.md
+docs/streaming-card-plan.md
+
+# Docs (生成文档)
+docs/superpowers/

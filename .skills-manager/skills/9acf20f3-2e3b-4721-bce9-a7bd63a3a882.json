@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "9acf20f3-2e3b-4721-bce9-a7bd63a3a882",
+  "path": "selenium-cucumber-expert",
+  "path_key": "selenium-cucumber-expert",
+  "enabled": true,
+  "tags": [
+    "languages",
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

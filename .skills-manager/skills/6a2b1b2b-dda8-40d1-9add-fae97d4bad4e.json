@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6a2b1b2b-dda8-40d1-9add-fae97d4bad4e",
+  "path": "nx-workspace-patterns",
+  "path_key": "nx-workspace-patterns",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

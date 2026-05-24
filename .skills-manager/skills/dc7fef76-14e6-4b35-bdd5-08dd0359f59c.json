@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "dc7fef76-14e6-4b35-bdd5-08dd0359f59c",
+  "path": "recovering-from-ransomware-attack",
+  "path_key": "recovering-from-ransomware-attack",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

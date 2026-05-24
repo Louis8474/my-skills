@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "00cc6b1e-134d-4b86-bdd0-40214f373c94",
+  "path": "terraform-engineer",
+  "path_key": "terraform-engineer",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

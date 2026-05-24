@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "9a314aa0-e91f-40bb-ba11-253349ddc38a",
+  "path": "design-md-supabase",
+  "path_key": "design-md-supabase",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

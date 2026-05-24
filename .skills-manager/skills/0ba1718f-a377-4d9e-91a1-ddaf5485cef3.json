@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0ba1718f-a377-4d9e-91a1-ddaf5485cef3",
+  "path": "swift-concurrency-6-2",
+  "path_key": "swift-concurrency-6-2",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

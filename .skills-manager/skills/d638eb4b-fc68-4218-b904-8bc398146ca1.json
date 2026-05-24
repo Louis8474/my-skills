@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d638eb4b-fc68-4218-b904-8bc398146ca1",
+  "path": "sciomc",
+  "path_key": "sciomc",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

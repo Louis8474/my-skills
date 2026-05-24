@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "13acb11e-f36d-4cf4-b28e-930201414ba6",
+  "path": "exam-problem-human-explainer",
+  "path_key": "exam-problem-human-explainer",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

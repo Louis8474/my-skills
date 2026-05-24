@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a51ad0ea-1302-4bfe-b46a-2c8347928d40",
+  "path": "ideation",
+  "path_key": "ideation",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

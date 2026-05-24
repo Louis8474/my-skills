@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "608ce70b-ed44-4320-a6f7-ea3c29bba146",
+  "path": "vault-health-feedback",
+  "path_key": "vault-health-feedback",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

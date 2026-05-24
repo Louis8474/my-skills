@@ -1,0 +1,14 @@
+[
+  {
+    "prompt": "How can I optimize this slow query? SELECT * FROM orders WHERE YEAR(order_date) = 2023",
+    "expected_topics": ["SELECT *", "function on indexed column", "performance optimization"]
+  },
+  {
+    "prompt": "Make this SQL more readable: SELECT o.id, c.name, SUM(oi.quantity) as total FROM orders o JOIN customers c ON o.customer_id = c.id JOIN order_items oi ON o.id = oi.order_id WHERE o.status = 'shipped' GROUP BY o.id, c.name HAVING total > 100",
+    "expected_topics": ["CTE", "formatting", "readability"]
+  },
+  {
+    "prompt": "What's wrong with my table design? I have a users table with columns: id, name, email, phone, address_line1, address_line2, city, state, zip_code, country",
+    "expected_topics": ["normalization", "database design", "address storage"]
+  }
+]

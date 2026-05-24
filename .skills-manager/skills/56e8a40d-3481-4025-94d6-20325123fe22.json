@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "56e8a40d-3481-4025-94d6-20325123fe22",
+  "path": "javascript-testing-patterns",
+  "path_key": "javascript-testing-patterns",
+  "enabled": true,
+  "tags": [
+    "languages",
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

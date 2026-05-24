@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c55f2fc8-bd71-4a77-ac5b-5d70af2ded5d",
+  "path": "project-flow-ops",
+  "path_key": "project-flow-ops",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

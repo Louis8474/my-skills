@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "de4212e1-bbac-4b7a-a3e1-c609fc002431",
+  "path": "revenue-architect",
+  "path_key": "revenue-architect",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

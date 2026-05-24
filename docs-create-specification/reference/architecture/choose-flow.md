@@ -1,0 +1,105 @@
+---
+title: Choose Your Flow
+description: Compare Simple, FIRE, and AI-DLC flows to find the right fit for your project
+---
+
+## Three Flows, Every Use Case
+
+specs.md offers three development flows, each designed for different project needs and team sizes.
+
+| Flow | Description | Best For |
+|------|-------------|----------|
+| **Simple** | Spec generation only | Quick requirements, design, and task documents without execution tracking |
+| **FIRE** | Rapid execution | Ship in hours with adaptive checkpoints and first-class brownfield support |
+| **AI-DLC** | Full methodology | Complete lifecycle with DDD, 4 agents, and comprehensive traceability |
+
+## Quick Decision Guide
+
+1. **Do you need execution tracking?**
+   - **No** → Use **Simple Flow** (spec generation only)
+   - **Yes** → Continue to Step 2
+
+2. **Do you want adaptive or fixed ceremony?**
+   - **Adaptive** (right-size rigor based on task complexity) → **FIRE Flow**
+   - **Fixed** (predictable checkpoints every time) → **AI-DLC Flow**
+
+3. **Do you hate unnecessary friction?**
+   - **Yes** (check when necessary, not everything) → **FIRE Flow**
+   - **No** (prefer comprehensive documentation always) → **AI-DLC Flow**
+
+## Detailed Comparison
+
+| Aspect | Simple | FIRE | AI-DLC |
+|--------|--------|------|--------|
+| **Optimized For** | Spec generation, prototypes | Teams who hate friction | Full traceability needs |
+| **Execution Planning** | N/A | Dynamic (recommends next run) | Pre-planned (bolts) |
+| **Requirement Changes** | N/A | Just update specs | May need bolt re-planning |
+| **Checkpoints** | 3 (phase gates) | Adaptive (complexity + config) | Comprehensive (fixed) |
+| **Agents** | 1 | 3 | 4 |
+| **Execution Tracking** | No | Yes (runs, walkthroughs) | Yes (bolts, stages) |
+| **Design Docs** | Basic | When complexity warrants | Always (DDD integral) |
+| **Monorepo Support** | No | First-class | Limited |
+| **Brownfield Support** | Basic | First-class | Alpha |
+| **Output Structure** | `specs/{feature}/` | `.specs-fire/` | `memory-bank/` |
+| **Ceremony Style** | Minimal | Adaptive | Comprehensive |
+
+## When to Use Each Flow
+
+### Simple Flow
+
+Choose Simple when you need quick specs without the overhead of execution tracking.
+
+- Building prototypes or MVPs
+- Generating specs for handoff to another team
+- Small features in established projects
+- Solo developers wanting structured documentation
+- Projects that don't need AI-assisted execution
+
+**Output**: `requirements.md`, `design.md`, `tasks.md`
+
+### FIRE Flow
+
+Choose FIRE when you want adaptive execution that right-sizes the rigor.
+
+FIRE is **Adaptive Spec-Driven Development**—it analyzes work complexity and your config to decide when to ask and when to burn through.
+
+- Teams who hate unnecessary friction
+- Brownfield projects with existing code
+- Monorepo architectures
+- Projects where implementation plan is often enough, but design docs when needed
+- Anyone wanting to ship fast without reckless code generation
+
+**Key Features**:
+- **Dynamic execution**: No pre-planned runs—Builder scans work items and recommends what to run next
+- **Change-friendly**: Requirements changed? Just update specs, next run adapts automatically
+- **Adaptive checkpoints**: Based on work complexity + your autonomy preference
+- **Walkthrough generation**: AI documents every change for review
+- **Hierarchical standards**: Module-specific overrides in monorepos
+- **Brownfield-first**: Analyzes your existing structure and respects your patterns
+
+### AI-DLC Flow
+
+Choose AI-DLC when you need full traceability, DDD, and multi-team coordination.
+
+- Teams with multiple developers
+- Complex domain logic requiring DDD
+- Projects needing comprehensive documentation
+- Regulated environments requiring audit trails
+- Multi-stakeholder initiatives
+
+**Key Features**:
+- **Four specialized agents**: Master, Inception, Construction, Operations
+- **Domain-Driven Design**: Full DDD stages in Construction
+- **Complete traceability**: Every decision documented
+- **Mob rituals**: Mob Elaboration, Mob Construction
+
+## Switching Between Flows
+
+Flows are independent—they're not an upgrade path. Choose based on your project needs.
+
+> **Flows are not progressive**: Simple doesn't upgrade to FIRE, FIRE doesn't upgrade to AI-DLC. Each flow is designed for different use cases. Choose the right flow upfront.
+
+However, you can:
+- Use **Simple Flow** to generate initial specs, then implement manually
+- Use **FIRE Flow** for rapid feature development within a project
+- Use **AI-DLC Flow** for major initiatives requiring full planning

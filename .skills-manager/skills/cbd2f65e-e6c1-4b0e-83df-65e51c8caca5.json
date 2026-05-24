@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "cbd2f65e-e6c1-4b0e-83df-65e51c8caca5",
+  "path": "python-testing-deep",
+  "path_key": "python-testing-deep",
+  "enabled": true,
+  "tags": [
+    "languages",
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

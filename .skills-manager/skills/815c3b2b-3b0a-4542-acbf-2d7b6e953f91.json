@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "815c3b2b-3b0a-4542-acbf-2d7b6e953f91",
+  "path": "security-audit",
+  "path_key": "security-audit",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

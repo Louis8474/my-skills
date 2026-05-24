@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "569ad792-b89f-4763-8d4c-4ed923f1654b",
+  "path": "kimi-pdf",
+  "path_key": "kimi-pdf",
+  "enabled": true,
+  "tags": [
+    "agents-meta",
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0d44244c-379c-49f8-a855-d6050a0fb9a0",
+  "path": "crash-analysis",
+  "path_key": "crash-analysis",
+  "enabled": true,
+  "tags": [
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

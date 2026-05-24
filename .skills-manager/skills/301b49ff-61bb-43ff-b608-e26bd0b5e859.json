@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "301b49ff-61bb-43ff-b608-e26bd0b5e859",
+  "path": "ods",
+  "path_key": "ods",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

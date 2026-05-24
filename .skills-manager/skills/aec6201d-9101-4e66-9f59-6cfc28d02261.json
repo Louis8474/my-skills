@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "aec6201d-9101-4e66-9f59-6cfc28d02261",
+  "path": "conventional-commit",
+  "path_key": "conventional-commit",
+  "enabled": true,
+  "tags": [
+    "git-workflow"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

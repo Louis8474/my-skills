@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "aafda5f1-6bcd-4fe0-9438-463968785b8b",
+  "path": "fact-checking",
+  "path_key": "fact-checking",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "4dd7d691-cccb-4860-a0f1-95413d598a6a",
+  "path": "design-md-intercom",
+  "path_key": "design-md-intercom",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

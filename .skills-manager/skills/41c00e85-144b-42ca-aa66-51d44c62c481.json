@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "41c00e85-144b-42ca-aa66-51d44c62c481",
+  "path": "user-flow-mapping",
+  "path_key": "user-flow-mapping",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

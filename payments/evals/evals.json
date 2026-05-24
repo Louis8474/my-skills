@@ -1,0 +1,23 @@
+{
+    "skill_name": "payments",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "I want to add one-time payments to my app so users can buy a lifetime access plan for $99. Set up Stripe Checkout.",
+            "expected_output": "Agent creates checkout session with one-time payment mode, correct metadata with order_id, idempotency_key, success_url and cancel_url. Webhook handler for checkout.session.completed with signature verification. DB schema additions (webhook_events table).",
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Add monthly and yearly subscription plans to my SaaS. Monthly is $29, yearly is $199. Users should be able to see their current subscription status.",
+            "expected_output": "Agent creates Stripe Customer on first checkout, subscription Checkout Session, handles customer.subscription.created/updated/deleted webhook events, syncs subscription status to DB. Frontend shows current plan pulled from DB (not from Stripe API directly).",
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "How do I make sure I don't process the same Stripe webhook twice? Our server sometimes gets the same event multiple times.",
+            "expected_output": "Agent explains Stripe's at-least-once delivery guarantee. Implements WebhookEvent table with Stripe event ID as primary key. Shows the idempotency check at the top of the webhook handler: if event already exists in DB, return 200 immediately without reprocessing.",
+            "files": []
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c81c39f7-b119-46f8-8704-0a47897c2a13",
+  "path": "design-system",
+  "path_key": "design-system",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

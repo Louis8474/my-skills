@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2c4bccaf-1b4d-4755-828e-1f4c48d0f5de",
+  "path": "design-md-cohere",
+  "path_key": "design-md-cohere",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

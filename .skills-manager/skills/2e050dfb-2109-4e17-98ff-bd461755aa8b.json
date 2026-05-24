@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2e050dfb-2109-4e17-98ff-bd461755aa8b",
+  "path": "design-md-apple",
+  "path_key": "design-md-apple",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

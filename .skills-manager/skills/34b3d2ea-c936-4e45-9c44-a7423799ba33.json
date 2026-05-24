@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "34b3d2ea-c936-4e45-9c44-a7423799ba33",
+  "path": "concept-to-image",
+  "path_key": "concept-to-image",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

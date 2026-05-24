@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "13107062-1f01-4b68-ae62-c2d955cfd398",
+  "path": "devils-advocate",
+  "path_key": "devils-advocate",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

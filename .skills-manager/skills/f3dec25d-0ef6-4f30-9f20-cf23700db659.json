@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f3dec25d-0ef6-4f30-9f20-cf23700db659",
+  "path": "fallow",
+  "path_key": "fallow",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

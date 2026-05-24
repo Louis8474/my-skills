@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "83efd33e-23e0-4490-83ac-85be20931ecc",
+  "path": "product",
+  "path_key": "product",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

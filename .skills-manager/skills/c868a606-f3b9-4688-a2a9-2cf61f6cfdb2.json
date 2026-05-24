@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c868a606-f3b9-4688-a2a9-2cf61f6cfdb2",
+  "path": "env-setup",
+  "path_key": "env-setup",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

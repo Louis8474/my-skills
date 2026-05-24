@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "15f3eddd-b977-49c3-8fe5-a3d6e49cbb9d",
+  "path": "board-update",
+  "path_key": "board-update",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

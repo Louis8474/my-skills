@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6ecc7f8d-2eae-407b-8b9a-6f39d3646fdd",
+  "path": "pw-init",
+  "path_key": "pw-init",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ff8771b1-25cd-4396-b7bc-611e0963e808",
+  "path": "test-master",
+  "path_key": "test-master",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "1f1cdb99-c94a-43d8-9a35-539c6e75c2f2",
+  "path": "design-md-sentry",
+  "path_key": "design-md-sentry",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

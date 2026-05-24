@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "393b22b7-73b3-4560-a5b0-a07e40bf6d32",
+  "path": "openapi-spec-generation",
+  "path_key": "openapi-spec-generation",
+  "enabled": true,
+  "tags": [
+    "backend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "dc9cb80e-8b10-46d4-bfbf-163cb567978c",
+  "path": "cpp-pro",
+  "path_key": "cpp-pro",
+  "enabled": true,
+  "tags": [
+    "embedded-iot",
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

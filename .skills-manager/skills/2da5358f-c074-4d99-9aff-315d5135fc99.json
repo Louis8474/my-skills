@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2da5358f-c074-4d99-9aff-315d5135fc99",
+  "path": "deployment-patterns",
+  "path_key": "deployment-patterns",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

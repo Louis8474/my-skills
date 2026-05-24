@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ea501c03-0bff-497c-b48c-90d2d42fd85d",
+  "path": "nx-generate",
+  "path_key": "nx-generate",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

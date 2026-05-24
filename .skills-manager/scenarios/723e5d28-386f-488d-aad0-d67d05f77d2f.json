@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "scenario_id": "723e5d28-386f-488d-aad0-d67d05f77d2f",
+  "name": "Multi-Agent-Workflow",
+  "description": "Git workflow + agent orchestration toolkit",
+  "icon": null,
+  "sort_order": 5
+}

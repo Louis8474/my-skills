@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "beeaa284-dfc0-4bf5-8604-752dc89f878d",
+  "path": "oli-storage-manager",
+  "path_key": "oli-storage-manager",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6903e11b-1cd7-4099-8073-54584f1bbfbf",
+  "path": "secrets-management",
+  "path_key": "secrets-management",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

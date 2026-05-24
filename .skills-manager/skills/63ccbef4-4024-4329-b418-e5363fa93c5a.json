@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "63ccbef4-4024-4329-b418-e5363fa93c5a",
+  "path": "nx-import",
+  "path_key": "nx-import",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

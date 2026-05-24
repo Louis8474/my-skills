@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0da11d9d-3dd2-48e6-afea-669123125f59",
+  "path": "security-bounty-hunter",
+  "path_key": "security-bounty-hunter",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

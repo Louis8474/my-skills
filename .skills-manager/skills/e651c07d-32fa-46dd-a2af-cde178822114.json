@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e651c07d-32fa-46dd-a2af-cde178822114",
+  "path": "pr-triage",
+  "path_key": "pr-triage",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

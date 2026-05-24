@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2e0ab38c-0049-41b9-8af2-fe5f996aec84",
+  "path": "jira",
+  "path_key": "jira",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

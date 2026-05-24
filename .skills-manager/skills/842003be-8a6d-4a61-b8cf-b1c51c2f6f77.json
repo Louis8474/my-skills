@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "842003be-8a6d-4a61-b8cf-b1c51c2f6f77",
+  "path": "design-md-bmw",
+  "path_key": "design-md-bmw",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "92ac4ecf-b769-4697-8c17-ec82c99cb42d",
+  "path": "gcc",
+  "path_key": "gcc",
+  "enabled": true,
+  "tags": [
+    "embedded-iot"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

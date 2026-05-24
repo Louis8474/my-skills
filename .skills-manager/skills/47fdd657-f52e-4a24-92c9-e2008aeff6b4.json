@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "47fdd657-f52e-4a24-92c9-e2008aeff6b4",
+  "path": "healthcare-phi-compliance",
+  "path_key": "healthcare-phi-compliance",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

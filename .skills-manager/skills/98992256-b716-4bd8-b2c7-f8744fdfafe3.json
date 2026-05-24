@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "98992256-b716-4bd8-b2c7-f8744fdfafe3",
+  "path": "lead-scoring",
+  "path_key": "lead-scoring",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

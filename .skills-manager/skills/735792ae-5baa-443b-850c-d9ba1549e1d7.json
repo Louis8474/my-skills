@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "735792ae-5baa-443b-850c-d9ba1549e1d7",
+  "path": "pandas-pro",
+  "path_key": "pandas-pro",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3673fd11-d328-4af2-ac18-5f9b84498caa",
+  "path": "marimo-notebook",
+  "path_key": "marimo-notebook",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

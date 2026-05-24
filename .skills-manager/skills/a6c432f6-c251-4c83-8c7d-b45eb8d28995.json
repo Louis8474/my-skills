@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a6c432f6-c251-4c83-8c7d-b45eb8d28995",
+  "path": "e2e-runner",
+  "path_key": "e2e-runner",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

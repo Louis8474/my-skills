@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2f1bdef9-ed96-449d-87fd-d360c09e90d5",
+  "path": "learning-output",
+  "path_key": "learning-output",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

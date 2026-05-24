@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b93d8c64-9eaf-48f6-80d4-d0ebb106d37a",
+  "path": "design-md-cal",
+  "path_key": "design-md-cal",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

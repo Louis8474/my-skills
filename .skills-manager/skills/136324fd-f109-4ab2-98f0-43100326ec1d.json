@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "136324fd-f109-4ab2-98f0-43100326ec1d",
+  "path": "context7-docs",
+  "path_key": "context7-docs",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

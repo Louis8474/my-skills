@@ -1,0 +1,261 @@
+---
+# Playbook de Configuração de Banco de Dados
+# Exemplo completo com PostgreSQL, usuários, bancos, backups e monitoramento
+
+- name: Configurar servidor PostgreSQL
+  hosts: databases
+  become: yes
+  vars:
+    pg_version: "15"
+    pg_port: 5432
+    pg_data_dir: "/var/lib/postgresql/{{ pg_version }}/main"
+    pg_config_dir: "/etc/postgresql/{{ pg_version }}/main"
+    pg_max_connections: 100
+    pg_shared_buffers: "256MB"
+    pg_effective_cache_size: "1GB"
+    pg_work_mem: "4MB"
+    pg_maintenance_work_mem: "64MB"
+    pg_wal_level: "replica"
+    pg_max_wal_senders: 3
+    pg_databases:
+      - name: app_production
+        encoding: UTF-8
+        lc_collate: en_US.UTF-8
+        lc_ctype: en_US.UTF-8
+        template: template0
+      - name: app_staging
+        encoding: UTF-8
+        lc_collate: en_US.UTF-8
+        lc_ctype: en_US.UTF-8
+        template: template0
+    pg_users:
+      - name: app_user
+        password: "{{ vault_db_password }}"
+        priv: "app_production.*:ALL/app_staging.*:ALL"
+        state: present
+      - name: readonly_user
+        password: "{{ vault_readonly_password }}"
+        priv: "app_production.*:SELECT/app_staging.*:SELECT"
+        state: present
+    pg_backup_enabled: true
+    pg_backup_dir: "/var/backups/postgresql"
+    pg_backup_retention_days: 7
+
+  tasks:
+    - name: Instalar PostgreSQL e dependências
+      apt:
+        name:
+          - "postgresql-{{ pg_version }}"
+          - "postgresql-client-{{ pg_version }}"
+          - "postgresql-contrib-{{ pg_version }}"
+          - "postgresql-server-dev-{{ pg_version }}"
+          - python3-psycopg2
+        state: present
+        update_cache: yes
+      when: ansible_os_family == "Debian"
+
+    - name: Verificar se PostgreSQL está rodando
+      systemd:
+        name: postgresql
+        state: started
+        enabled: yes
+
+    - name: Configurar postgresql.conf
+      template:
+        src: templates/postgresql.conf.j2
+        dest: "{{ pg_config_dir }}/postgresql.conf"
+        owner: postgres
+        group: postgres
+        mode: '0644'
+        backup: yes
+      notify: Restart PostgreSQL
+
+    - name: Configurar pg_hba.conf
+      template:
+        src: templates/pg_hba.conf.j2
+        dest: "{{ pg_config_dir }}/pg_hba.conf"
+        owner: postgres
+        group: postgres
+        mode: '0640'
+        backup: yes
+      notify: Reload PostgreSQL
+
+    - name: Configurar postgresql.conf - parâmetros de performance
+      lineinfile:
+        path: "{{ pg_config_dir }}/postgresql.conf"
+        regexp: "{{ item.regexp }}"
+        line: "{{ item.line }}"
+        state: present
+      loop:
+        - { regexp: "^#?max_connections", line: "max_connections = {{ pg_max_connections }}" }
+        - { regexp: "^#?shared_buffers", line: "shared_buffers = '{{ pg_shared_buffers }}'" }
+        - { regexp: "^#?effective_cache_size", line: "effective_cache_size = '{{ pg_effective_cache_size }}'" }
+        - { regexp: "^#?work_mem", line: "work_mem = '{{ pg_work_mem }}'" }
+        - { regexp: "^#?maintenance_work_mem", line: "maintenance_work_mem = '{{ pg_maintenance_work_mem }}'" }
+        - { regexp: "^#?wal_level", line: "wal_level = '{{ pg_wal_level }}'" }
+        - { regexp: "^#?max_wal_senders", line: "max_wal_senders = {{ pg_max_wal_senders }}" }
+      notify: Restart PostgreSQL
+
+    - name: Criar bancos de dados
+      postgresql_db:
+        name: "{{ item.name }}"
+        encoding: "{{ item.encoding | default('UTF-8') }}"
+        lc_collate: "{{ item.lc_collate | default('en_US.UTF-8') }}"
+        lc_ctype: "{{ item.lc_ctype | default('en_US.UTF-8') }}"
+        template: "{{ item.template | default('template0') }}"
+        state: present
+      become_user: postgres
+      loop: "{{ pg_databases }}"
+      loop_control:
+        label: "{{ item.name }}"
+
+    - name: Criar usuários do banco
+      postgresql_user:
+        name: "{{ item.name }}"
+        password: "{{ item.password }}"
+        state: "{{ item.state | default('present') }}"
+        encrypted: yes
+      become_user: postgres
+      loop: "{{ pg_users }}"
+
+    - name: Conceder permissões aos usuários
+      postgresql_privileges:
+        database: "{{ item.priv.split(':')[0].split('.')[0] }}"
+        roles: "{{ item.name }}"
+        privs: "{{ item.priv.split(':')[1] }}"
+        type: "{{ 'database' if item.priv.split(':')[1] == 'ALL' else 'table' }}"
+        objs: "{{ item.priv.split(':')[0].split('.')[1] if '.' in item.priv.split(':')[0] else 'ALL_IN_SCHEMA' }}"
+        state: present
+      become_user: postgres
+      loop: "{{ pg_users }}"
+      when: item.priv is defined
+      ignore_errors: yes
+
+    - name: Criar extensões úteis
+      postgresql_ext:
+        name: "{{ item }}"
+        db: "{{ pg_databases[0].name }}"
+        state: present
+      become_user: postgres
+      loop:
+        - pg_stat_statements
+        - pg_trgm
+        - uuid-ossp
+
+    - name: Configurar pg_hba.conf para acesso remoto
+      lineinfile:
+        path: "{{ pg_config_dir }}/pg_hba.conf"
+        line: "host    all    all    0.0.0.0/0    md5"
+        state: present
+        insertbefore: "^# IPv6"
+      notify: Reload PostgreSQL
+
+    - name: Criar diretório de backups
+      file:
+        path: "{{ pg_backup_dir }}"
+        state: directory
+        owner: postgres
+        group: postgres
+        mode: '0700'
+      when: pg_backup_enabled | bool
+
+    - name: Configurar backup automático
+      cron:
+        name: "Backup PostgreSQL"
+        hour: "{{ pg_backup_hour | default(2) }}"
+        minute: "{{ pg_backup_minute | default(0) }}"
+        job: |
+          pg_dumpall -U postgres | gzip > {{ pg_backup_dir }}/backup_$(date +\%Y\%m\%d_\%H\%M\%S).sql.gz
+          find {{ pg_backup_dir }} -name "backup_*.sql.gz" -mtime +{{ pg_backup_retention_days }} -delete
+        user: postgres
+      when: pg_backup_enabled | bool
+
+    - name: Criar script de restauração
+      template:
+        src: templates/restore.sh.j2
+        dest: /usr/local/bin/pg-restore.sh
+        owner: postgres
+        group: postgres
+        mode: '0750'
+      when: pg_backup_enabled | bool
+
+    - name: Configurar log do PostgreSQL
+      lineinfile:
+        path: "{{ pg_config_dir }}/postgresql.conf"
+        regexp: "{{ item.regexp }}"
+        line: "{{ item.line }}"
+        state: present
+      loop:
+        - { regexp: "^#?logging_collector", line: "logging_collector = on" }
+        - { regexp: "^#?log_directory", line: "log_directory = 'log'" }
+        - { regexp: "^#?log_filename", line: "log_filename = 'postgresql-%Y-%m-%d.log'" }
+        - { regexp: "^#?log_min_duration_statement", line: "log_min_duration_statement = 1000" }
+        - { regexp: "^#?log_statement", line: "log_statement = 'ddl'" }
+      notify: Reload PostgreSQL
+
+    - name: Verificar conectividade
+      postgresql_query:
+        db: "{{ pg_databases[0].name }}"
+        query: "SELECT 1 AS test"
+      become_user: postgres
+      register: connectivity_test
+
+    - name: Verificar versão do PostgreSQL
+      postgresql_query:
+        db: "{{ pg_databases[0].name }}"
+        query: "SELECT version()"
+      become_user: postgres
+      register: pg_version_result
+
+    - name: Configurar estatísticas de queries
+      postgresql_query:
+        db: "{{ pg_databases[0].name }}"
+        query: "CREATE EXTENSION IF NOT EXISTS pg_stat_statements"
+      become_user: postgres
+      ignore_errors: yes
+
+    - name: Criar view de monitoramento
+      postgresql_query:
+        db: "{{ pg_databases[0].name }}"
+        query: |
+          CREATE OR REPLACE VIEW monitor_queries AS
+          SELECT
+            query,
+            calls,
+            total_exec_time as total_time,
+            mean_exec_time as mean_time,
+            rows
+          FROM pg_stat_statements
+          ORDER BY total_exec_time DESC
+          LIMIT 20
+      become_user: postgres
+      ignore_errors: yes
+
+  post_tasks:
+    - name: Relatório de configuração
+      debug:
+        msg: |
+          ✅ Configuração do PostgreSQL concluída!
+          
+          Versão: PostgreSQL {{ pg_version }}
+          Porta: {{ pg_port }}
+          Dados: {{ pg_data_dir }}
+          Config: {{ pg_config_dir }}
+          
+          Bancos: {{ pg_databases | map(attribute='name') | join(', ') }}
+          Usuários: {{ pg_users | map(attribute='name') | join(', ') }}
+          
+          Status: {{ 'Conectado' if connectivity_test.rowcount > 0 else 'Erro de conexão' }}
+
+  handlers:
+    - name: Restart PostgreSQL
+      systemd:
+        name: postgresql
+        state: restarted
+
+    - name: Reload PostgreSQL
+      systemd:
+        name: postgresql
+        state: reloaded
+
+  tags: [database, postgresql, config]

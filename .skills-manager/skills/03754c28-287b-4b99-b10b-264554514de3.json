@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "03754c28-287b-4b99-b10b-264554514de3",
+  "path": "writing-tests",
+  "path_key": "writing-tests",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

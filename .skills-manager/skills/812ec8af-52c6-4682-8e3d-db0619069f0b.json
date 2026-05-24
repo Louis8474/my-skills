@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "812ec8af-52c6-4682-8e3d-db0619069f0b",
+  "path": "smart-contracts",
+  "path_key": "smart-contracts",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

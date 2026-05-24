@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "065e1650-4aed-40a9-aa24-e49f7014a14c",
+  "path": "financial-analyst",
+  "path_key": "financial-analyst",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

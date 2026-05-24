@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "3fc72275-b696-4068-b86c-3aab3b180ba0",
+  "path": "api-adapter-pattern",
+  "path_key": "api-adapter-pattern",
+  "enabled": true,
+  "tags": [
+    "architecture",
+    "backend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

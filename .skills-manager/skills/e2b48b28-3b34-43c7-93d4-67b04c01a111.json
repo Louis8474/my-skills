@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e2b48b28-3b34-43c7-93d4-67b04c01a111",
+  "path": "rag-auditor",
+  "path_key": "rag-auditor",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

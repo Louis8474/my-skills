@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3019d96c-0c8f-4286-9168-64b1eda371af",
+  "path": "cyber-intel",
+  "path_key": "cyber-intel",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ac94e538-7696-4acb-99ff-05ee9f84d947",
+  "path": "cloud-security",
+  "path_key": "cloud-security",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

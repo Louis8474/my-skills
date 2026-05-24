@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "293508b1-da3f-4f6c-a457-0db849642cac",
+  "path": "webcpu-easel",
+  "path_key": "webcpu-easel",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

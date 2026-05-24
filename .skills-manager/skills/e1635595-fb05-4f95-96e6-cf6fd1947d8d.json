@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "e1635595-fb05-4f95-96e6-cf6fd1947d8d",
+  "path": "test-harness",
+  "path_key": "test-harness",
+  "enabled": true,
+  "tags": [
+    "ai-ml",
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

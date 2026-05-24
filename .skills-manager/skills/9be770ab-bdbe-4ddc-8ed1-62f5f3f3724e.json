@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "9be770ab-bdbe-4ddc-8ed1-62f5f3f3724e",
+  "path": "python-fastapi",
+  "path_key": "python-fastapi",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

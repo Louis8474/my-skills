@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c50239a9-59c5-4a20-8aa6-598f513890e9",
+  "path": "manuscript-provenance",
+  "path_key": "manuscript-provenance",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

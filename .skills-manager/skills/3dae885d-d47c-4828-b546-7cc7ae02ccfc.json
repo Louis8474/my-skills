@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3dae885d-d47c-4828-b546-7cc7ae02ccfc",
+  "path": "project-overlay-generation",
+  "path_key": "project-overlay-generation",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

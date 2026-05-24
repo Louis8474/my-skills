@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e878fceb-dc4a-445c-ad75-1745e5019723",
+  "path": "hipaa-compliance",
+  "path_key": "hipaa-compliance",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

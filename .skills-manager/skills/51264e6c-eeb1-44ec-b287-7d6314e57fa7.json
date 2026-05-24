@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "51264e6c-eeb1-44ec-b287-7d6314e57fa7",
+  "path": "meeting-scheduler",
+  "path_key": "meeting-scheduler",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

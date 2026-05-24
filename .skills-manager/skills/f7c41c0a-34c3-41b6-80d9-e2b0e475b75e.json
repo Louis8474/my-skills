@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f7c41c0a-34c3-41b6-80d9-e2b0e475b75e",
+  "path": "pm-roadmap",
+  "path_key": "pm-roadmap",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

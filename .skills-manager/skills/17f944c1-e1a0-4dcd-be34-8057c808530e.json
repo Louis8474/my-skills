@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "17f944c1-e1a0-4dcd-be34-8057c808530e",
+  "path": "fastapi-expert-2",
+  "path_key": "fastapi-expert-2",
+  "enabled": true,
+  "tags": [
+    "backend",
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

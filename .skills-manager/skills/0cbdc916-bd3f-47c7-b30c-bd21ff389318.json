@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0cbdc916-bd3f-47c7-b30c-bd21ff389318",
+  "path": "changelog-composer",
+  "path_key": "changelog-composer",
+  "enabled": true,
+  "tags": [
+    "git-workflow"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

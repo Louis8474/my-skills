@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "57bbf2bd-fb24-4490-9e72-b38a1ac4bc17",
+  "path": "database-sql-expert",
+  "path_key": "database-sql-expert",
+  "enabled": true,
+  "tags": [
+    "database",
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

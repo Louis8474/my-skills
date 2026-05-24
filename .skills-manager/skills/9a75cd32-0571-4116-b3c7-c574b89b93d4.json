@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "9a75cd32-0571-4116-b3c7-c574b89b93d4",
+  "path": "web-artifacts-builder",
+  "path_key": "web-artifacts-builder",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

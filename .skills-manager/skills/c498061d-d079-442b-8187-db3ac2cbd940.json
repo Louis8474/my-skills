@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c498061d-d079-442b-8187-db3ac2cbd940",
+  "path": "git-release",
+  "path_key": "git-release",
+  "enabled": true,
+  "tags": [
+    "git-workflow"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

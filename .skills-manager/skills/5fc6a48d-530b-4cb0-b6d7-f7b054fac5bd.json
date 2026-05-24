@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "5fc6a48d-530b-4cb0-b6d7-f7b054fac5bd",
+  "path": "manuscript-review",
+  "path_key": "manuscript-review",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

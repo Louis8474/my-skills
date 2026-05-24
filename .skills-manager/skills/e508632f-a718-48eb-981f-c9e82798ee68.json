@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e508632f-a718-48eb-981f-c9e82798ee68",
+  "path": "design-md-stripe",
+  "path_key": "design-md-stripe",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

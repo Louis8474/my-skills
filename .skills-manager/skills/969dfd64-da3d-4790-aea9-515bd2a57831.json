@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "969dfd64-da3d-4790-aea9-515bd2a57831",
+  "path": "static-application-security-testing",
+  "path_key": "static-application-security-testing",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

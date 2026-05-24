@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "96e0404b-be62-4940-8722-b66c221a0d5b",
+  "path": "design-md-xai",
+  "path_key": "design-md-xai",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

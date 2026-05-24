@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "deab51e1-f405-4503-82f1-a54308559cbf",
+  "path": "pm-iteration",
+  "path_key": "pm-iteration",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

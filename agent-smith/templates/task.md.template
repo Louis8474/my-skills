@@ -1,0 +1,27 @@
+# 任务: {TITLE}
+
+## 任务信息
+- **任务ID**: {TASK_ID}
+- **所属史密斯**: {SMITH_ID}
+- **父任务ID**: {PARENT_TASK_ID}
+- **创建时间**: {TIMESTAMP}
+- **层级**: {LEVEL}
+
+## 任务描述
+{DESCRIPTION}
+
+## 输入上下文
+{CONTEXT}
+
+## 期望输出
+{EXPECTED_OUTPUT}
+
+## 完成标准
+- [ ] 标准1
+- [ ] 标准2
+- [ ] 标准3
+
+## 状态
+- [ ] 待处理
+- [ ] 处理中
+- [ ] 已完成

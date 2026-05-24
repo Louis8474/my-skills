@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "651f0868-22cb-457f-955d-92eead8f6095",
+  "path": "referral-program",
+  "path_key": "referral-program",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

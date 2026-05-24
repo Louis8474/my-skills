@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8f3f88fc-990b-4067-908a-688e53b7d421",
+  "path": "workspace-surface-audit",
+  "path_key": "workspace-surface-audit",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

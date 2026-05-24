@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "cd35ed33-d246-4e0d-8871-b4ed1d782563",
+  "path": "design-md-runwayml",
+  "path_key": "design-md-runwayml",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

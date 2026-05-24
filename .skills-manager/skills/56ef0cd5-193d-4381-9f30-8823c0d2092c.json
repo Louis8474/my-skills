@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "56ef0cd5-193d-4381-9f30-8823c0d2092c",
+  "path": "obsidian-architect",
+  "path_key": "obsidian-architect",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

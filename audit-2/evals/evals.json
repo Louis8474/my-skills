@@ -1,0 +1,23 @@
+{
+  "skill_name": "audit",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Audit the security of my FastAPI user management module. Here are the route handlers: [user pastes code with missing auth checks and f-string SQL]",
+      "expected_output": "Agent identifies: Critical - SQL injection via f-string query, Critical - missing Depends(get_current_user) on DELETE route. Produces structured Finding format with File:Line:Code:Risk:Remediation for each. Audit report shows 2 Critical, outputs remediation checklist.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Review the code quality of this service file. I think it's getting complex. [500-line service with nested ifs and no tests]",
+      "expected_output": "Agent identifies: High - functions over 40 lines (cite specific function names), High - nesting depth >4 levels, Medium - 0% test coverage for this module, Low - repeated logic in 3 places. Report uses the 5-tier severity taxonomy with SLAs.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Run a full audit before we ship v1.0. Focus on the API layer and the payment module.",
+      "expected_output": "Agent defines scope (api/ and payments/ modules only), checks OWASP Top 10 items relevant to payment: missing idempotency keys, no rate limiting on payment endpoint, logs potentially including card data. Produces report with executive summary table plus detailed findings.",
+      "files": []
+    }
+  ]
+}

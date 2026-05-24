@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c69ecb62-060f-4217-bbaf-98a95012603b",
+  "path": "prompt-optimizer",
+  "path_key": "prompt-optimizer",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

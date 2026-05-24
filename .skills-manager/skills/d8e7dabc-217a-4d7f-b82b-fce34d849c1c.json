@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d8e7dabc-217a-4d7f-b82b-fce34d849c1c",
+  "path": "python-tooling",
+  "path_key": "python-tooling",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

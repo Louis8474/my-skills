@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "28f1b2a5-8716-45be-9f94-4bb6e91aa36c",
+  "path": "team",
+  "path_key": "team",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

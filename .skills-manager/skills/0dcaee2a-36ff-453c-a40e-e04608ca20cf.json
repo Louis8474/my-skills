@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0dcaee2a-36ff-453c-a40e-e04608ca20cf",
+  "path": "regression-checking",
+  "path_key": "regression-checking",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

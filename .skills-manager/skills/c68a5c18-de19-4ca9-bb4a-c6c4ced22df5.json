@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c68a5c18-de19-4ca9-bb4a-c6c4ced22df5",
+  "path": "programming-practices-core",
+  "path_key": "programming-practices-core",
+  "enabled": true,
+  "tags": [
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

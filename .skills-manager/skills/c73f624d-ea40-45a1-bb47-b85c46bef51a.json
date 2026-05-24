@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c73f624d-ea40-45a1-bb47-b85c46bef51a",
+  "path": "coding-standards",
+  "path_key": "coding-standards",
+  "enabled": true,
+  "tags": [
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

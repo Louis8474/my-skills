@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "skill_id": "982f9019-7d48-43a2-bee1-ceade11cbb27",
+  "path": "api-design-plan",
+  "path_key": "api-design-plan",
+  "enabled": true,
+  "tags": [
+    "architecture",
+    "backend",
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

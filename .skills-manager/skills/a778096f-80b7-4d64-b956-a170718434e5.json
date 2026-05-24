@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a778096f-80b7-4d64-b956-a170718434e5",
+  "path": "runbook-generator",
+  "path_key": "runbook-generator",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

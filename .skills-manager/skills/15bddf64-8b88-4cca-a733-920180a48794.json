@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "15bddf64-8b88-4cca-a733-920180a48794",
+  "path": "the-fool",
+  "path_key": "the-fool",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

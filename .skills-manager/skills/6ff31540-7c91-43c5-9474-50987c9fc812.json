@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6ff31540-7c91-43c5-9474-50987c9fc812",
+  "path": "continuous-learning",
+  "path_key": "continuous-learning",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

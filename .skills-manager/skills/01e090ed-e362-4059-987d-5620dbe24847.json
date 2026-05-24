@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "01e090ed-e362-4059-987d-5620dbe24847",
+  "path": "pm-demand",
+  "path_key": "pm-demand",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

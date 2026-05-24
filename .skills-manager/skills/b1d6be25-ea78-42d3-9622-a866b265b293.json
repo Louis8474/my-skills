@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b1d6be25-ea78-42d3-9622-a866b265b293",
+  "path": "business-logic",
+  "path_key": "business-logic",
+  "enabled": true,
+  "tags": [
+    "architecture"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

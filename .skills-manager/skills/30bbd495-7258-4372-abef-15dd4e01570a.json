@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "30bbd495-7258-4372-abef-15dd4e01570a",
+  "path": "performance-profile",
+  "path_key": "performance-profile",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

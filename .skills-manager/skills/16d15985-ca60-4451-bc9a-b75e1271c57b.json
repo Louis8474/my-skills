@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "16d15985-ca60-4451-bc9a-b75e1271c57b",
+  "path": "rust-engineer-2",
+  "path_key": "rust-engineer-2",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

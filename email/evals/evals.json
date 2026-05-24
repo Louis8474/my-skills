@@ -1,0 +1,23 @@
+{
+    "skill_name": "email",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "When a new user registers, send them a welcome email with their name and a link to the dashboard.",
+            "expected_output": "Agent creates welcome.html Jinja2 template extending base.html, implements send_welcome_email() using Resend, wraps in a Celery task with max_retries=3 and 60s delay, calls task.delay() (not await) from the signup service. Explains why sync email in the request handler is wrong.",
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Add a 'Forgot Password' flow. The user enters their email, gets a reset link, clicks it, and sets a new password.",
+            "expected_output": "Agent implements initiate_password_reset() (creates hashed token, 30min expiry, sends email via Celery, does NOT reveal if email exists), complete_password_reset() (validates token hash, enforces expiry, updates password hash, marks token used). password_reset DB table with token_hash, user_id, expires_at, used_at.",
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Users are complaining our password reset email goes to spam. What do I need to fix?",
+            "expected_output": "Agent identifies likely causes: not sending from a custom domain (using Resend's default domain instead), missing SPF/DKIM DNS records, no List-Unsubscribe header. Provides the DNS records to add (SPF TXT record, DKIM CNAME records from Resend dashboard), shows how to add List-Unsubscribe to email headers.",
+            "files": []
+        }
+    ]
+}

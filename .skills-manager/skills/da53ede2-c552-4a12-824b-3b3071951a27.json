@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "da53ede2-c552-4a12-824b-3b3071951a27",
+  "path": "pm-clarify",
+  "path_key": "pm-clarify",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

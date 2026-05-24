@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2b197559-d9fa-40cc-8c05-e8591f89ae17",
+  "path": "security-requirement-extraction",
+  "path_key": "security-requirement-extraction",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

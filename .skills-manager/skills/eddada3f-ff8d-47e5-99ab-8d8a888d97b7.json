@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "eddada3f-ff8d-47e5-99ab-8d8a888d97b7",
+  "path": "pm-abtest",
+  "path_key": "pm-abtest",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

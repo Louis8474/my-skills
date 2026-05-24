@@ -1,0 +1,23 @@
+{
+    "skill_name": "monitoring",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Users are reporting errors but I can't see what's going wrong in my FastAPI app. Set up error tracking.",
+            "expected_output": "Agent sets up Sentry with sentry-sdk[fastapi], configures in main.py with FastApiIntegration + SqlalchemyIntegration, sets traces_sample_rate=0.1, send_default_pii=False. Shows the manual capture pattern for handled exceptions with user context. Also sets up Sentry in Next.js frontend with the wizard command.",
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "My logs are a mess - everything is print() statements and I can't search them in production. Set up proper structured logging.",
+            "expected_output": "Agent replaces all print() with structlog. Sets up configure_logging() with JSON renderer for prod, ConsoleRenderer for dev, contextvars processor for request-scoped data. Shows log.info() and log.error() with structured key-value pairs. Explains why f-string log messages can't be searched by field in log aggregators.",
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "I need to set up a health check endpoint for my Kubernetes deployment. It should check that the DB and Redis are up.",
+            "expected_output": "Agent creates GET /health endpoint that runs SELECT 1 against the DB and redis.ping() against Redis. Returns {status: 'ok'|'degraded', db: 'ok'|'error', redis: 'ok'|'error', version: ...}. Returns 200 if ok, 503 if degraded. Explains liveness vs readiness probes and which to point at /health.",
+            "files": []
+        }
+    ]
+}

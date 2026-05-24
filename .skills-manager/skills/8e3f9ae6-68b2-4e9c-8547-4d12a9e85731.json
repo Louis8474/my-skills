@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8e3f9ae6-68b2-4e9c-8547-4d12a9e85731",
+  "path": "wiki",
+  "path_key": "wiki",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

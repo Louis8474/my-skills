@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "70336e52-895e-41b7-b575-b6286852ce08",
+  "path": "design-md-zapier",
+  "path_key": "design-md-zapier",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

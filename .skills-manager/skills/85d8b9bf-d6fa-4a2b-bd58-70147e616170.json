@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "85d8b9bf-d6fa-4a2b-bd58-70147e616170",
+  "path": "java-exception-robustness",
+  "path_key": "java-exception-robustness",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

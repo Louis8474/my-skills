@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a7a25ba0-1880-4cde-89e2-d3c9d39d3497",
+  "path": "workflow",
+  "path_key": "workflow",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

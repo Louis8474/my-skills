@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6fa5d07f-18cc-48c3-b3d1-0a0376d792eb",
+  "path": "design-md-airtable",
+  "path_key": "design-md-airtable",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

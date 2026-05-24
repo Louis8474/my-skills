@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2b62b92b-ff28-45a1-b88e-d6a337aae46e",
+  "path": "gan-style-harness",
+  "path_key": "gan-style-harness",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

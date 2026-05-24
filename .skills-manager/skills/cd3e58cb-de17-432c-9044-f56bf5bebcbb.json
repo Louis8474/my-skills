@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "cd3e58cb-de17-432c-9044-f56bf5bebcbb",
+  "path": "model-training",
+  "path_key": "model-training",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

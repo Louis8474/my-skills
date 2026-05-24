@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ae3390be-dfdc-4fc9-9d69-379e851cac8d",
+  "path": "reinikeai-latest-post",
+  "path_key": "reinikeai-latest-post",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

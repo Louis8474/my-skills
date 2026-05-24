@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6de7ed62-7f18-45cb-b86f-11dfd92daebf",
+  "path": "worktree",
+  "path_key": "worktree",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

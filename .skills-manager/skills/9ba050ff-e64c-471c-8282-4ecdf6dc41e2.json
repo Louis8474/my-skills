@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "9ba050ff-e64c-471c-8282-4ecdf6dc41e2",
+  "path": "airc_resume",
+  "path_key": "airc_resume",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

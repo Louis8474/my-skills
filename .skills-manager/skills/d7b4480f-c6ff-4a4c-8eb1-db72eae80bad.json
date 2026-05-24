@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d7b4480f-c6ff-4a4c-8eb1-db72eae80bad",
+  "path": "yt-llm-translate",
+  "path_key": "yt-llm-translate",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

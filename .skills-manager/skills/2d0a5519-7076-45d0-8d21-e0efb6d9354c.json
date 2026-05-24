@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2d0a5519-7076-45d0-8d21-e0efb6d9354c",
+  "path": "test-master-2",
+  "path_key": "test-master-2",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

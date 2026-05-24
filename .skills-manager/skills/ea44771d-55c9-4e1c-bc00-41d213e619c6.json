@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ea44771d-55c9-4e1c-bc00-41d213e619c6",
+  "path": "design-md-vercel",
+  "path_key": "design-md-vercel",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7bf13bbe-8ca3-4a55-9b57-59a6883c87b3",
+  "path": "kotlin-specialist",
+  "path_key": "kotlin-specialist",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

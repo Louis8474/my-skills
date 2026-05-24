@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3d36ccc5-1db0-4386-b175-1a31ec66e930",
+  "path": "graphql-api-design",
+  "path_key": "graphql-api-design",
+  "enabled": true,
+  "tags": [
+    "backend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

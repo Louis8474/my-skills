@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "cfecf8f2-b412-499e-abc8-1101f659d13d",
+  "path": "awesome-ai-agent-skills-testing",
+  "path_key": "awesome-ai-agent-skills-testing",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

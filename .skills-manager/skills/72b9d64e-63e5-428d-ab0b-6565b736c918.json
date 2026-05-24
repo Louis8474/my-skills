@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "72b9d64e-63e5-428d-ab0b-6565b736c918",
+  "path": "state-management",
+  "path_key": "state-management",
+  "enabled": true,
+  "tags": [
+    "architecture"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

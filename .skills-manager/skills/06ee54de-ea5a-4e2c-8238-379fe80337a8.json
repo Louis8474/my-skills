@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "06ee54de-ea5a-4e2c-8238-379fe80337a8",
+  "path": "gitlab-ci",
+  "path_key": "gitlab-ci",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

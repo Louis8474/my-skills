@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8cd32539-0ce0-472d-b209-5453c61f5598",
+  "path": "data-labeling",
+  "path_key": "data-labeling",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

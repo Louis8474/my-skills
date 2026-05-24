@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "27aeeb90-76fe-47a6-9bc0-8515f7c6e651",
+  "path": "lead-intelligence",
+  "path_key": "lead-intelligence",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6d0f1bcd-6215-43bf-b62f-efcf2b39c360",
+  "path": "design-md-warp",
+  "path_key": "design-md-warp",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

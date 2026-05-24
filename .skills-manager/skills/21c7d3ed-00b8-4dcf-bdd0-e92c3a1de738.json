@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "21c7d3ed-00b8-4dcf-bdd0-e92c3a1de738",
+  "path": "error-triage",
+  "path_key": "error-triage",
+  "enabled": true,
+  "tags": [
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

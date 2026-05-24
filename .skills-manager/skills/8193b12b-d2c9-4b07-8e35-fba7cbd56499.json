@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8193b12b-d2c9-4b07-8e35-fba7cbd56499",
+  "path": "airc_peers",
+  "path_key": "airc_peers",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

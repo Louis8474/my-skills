@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c752465a-f88c-4da8-8687-bc096481f270",
+  "path": "super-pm-upgrade",
+  "path_key": "super-pm-upgrade",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ef2b2137-8e0b-48f6-8e5e-d46c45be38d8",
+  "path": "analytics-tracking",
+  "path_key": "analytics-tracking",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

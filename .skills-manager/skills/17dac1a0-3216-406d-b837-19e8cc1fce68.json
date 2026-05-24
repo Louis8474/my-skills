@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "17dac1a0-3216-406d-b837-19e8cc1fce68",
+  "path": "remove-single-use-functions",
+  "path_key": "remove-single-use-functions",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

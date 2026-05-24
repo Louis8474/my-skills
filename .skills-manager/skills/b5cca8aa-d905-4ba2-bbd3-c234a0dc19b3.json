@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b5cca8aa-d905-4ba2-bbd3-c234a0dc19b3",
+  "path": "ui-demo",
+  "path_key": "ui-demo",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

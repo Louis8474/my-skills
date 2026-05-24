@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8240e869-528c-4071-af70-8d664698a31c",
+  "path": "weizhena-deep-research-skills-research-report",
+  "path_key": "weizhena-deep-research-skills-research-report",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

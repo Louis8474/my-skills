@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "670fe398-b95f-4038-986a-559f6adeeb11",
+  "path": "documentation-lookup",
+  "path_key": "documentation-lookup",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

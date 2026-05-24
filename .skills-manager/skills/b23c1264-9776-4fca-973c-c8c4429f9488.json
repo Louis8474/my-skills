@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b23c1264-9776-4fca-973c-c8c4429f9488",
+  "path": "remember",
+  "path_key": "remember",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

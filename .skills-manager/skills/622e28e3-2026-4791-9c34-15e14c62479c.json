@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "622e28e3-2026-4791-9c34-15e14c62479c",
+  "path": "remotion-best-practices",
+  "path_key": "remotion-best-practices",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

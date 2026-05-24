@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c2a6220b-3eb7-4ea8-9f55-5072d2f4221e",
+  "path": "reinikeai-bot-research-add-fields",
+  "path_key": "reinikeai-bot-research-add-fields",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

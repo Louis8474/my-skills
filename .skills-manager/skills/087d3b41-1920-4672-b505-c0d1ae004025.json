@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "087d3b41-1920-4672-b505-c0d1ae004025",
+  "path": "start-super-pm",
+  "path_key": "start-super-pm",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

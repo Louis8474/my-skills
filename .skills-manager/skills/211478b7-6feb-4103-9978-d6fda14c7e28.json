@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "211478b7-6feb-4103-9978-d6fda14c7e28",
+  "path": "database-schema-design",
+  "path_key": "database-schema-design",
+  "enabled": true,
+  "tags": [
+    "database"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

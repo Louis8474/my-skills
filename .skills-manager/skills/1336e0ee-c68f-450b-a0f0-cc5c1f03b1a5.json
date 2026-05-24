@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "1336e0ee-c68f-450b-a0f0-cc5c1f03b1a5",
+  "path": "agentkit-seo-cv-ats",
+  "path_key": "agentkit-seo-cv-ats",
+  "enabled": true,
+  "tags": [
+    "agents-meta",
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "6065e695-37be-491a-a1d0-56e5f457ac6d",
+  "path": "spec-miner-2",
+  "path_key": "spec-miner-2",
+  "enabled": true,
+  "tags": [
+    "architecture",
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

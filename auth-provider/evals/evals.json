@@ -1,0 +1,23 @@
+{
+    "skill_name": "auth-provider",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "I want to add Google and GitHub login to my Next.js + FastAPI app. Users should be able to sign in without creating a password.",
+            "expected_output": "Agent asks: do you want a managed provider or roll your own OAuth? Recommends Clerk for vibe-coders. Sets up ClerkProvider in layout.tsx, middleware.ts for route protection, UserButton component, and FastAPI JWKS-based JWT verification endpoint.",
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "I set up Clerk but when a new user signs up, I don't have their data in my PostgreSQL database. How do I sync them?",
+            "expected_output": "Agent implements Clerk webhook: sets up POST /webhooks/clerk route with svix signature verification, handles user.created event to insert into users table with clerk_id, handles user.deleted. Shows DB schema addition (clerk_id column, nullable, unique, indexed).",
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "My FastAPI backend needs to know who the current user is when the Next.js frontend makes API calls. How does Clerk work across the stack?",
+            "expected_output": "Agent explains the full flow: Next.js gets session token from Clerk -> sends as Bearer token in API calls -> FastAPI get_current_user_id() verifies JWT using Clerk JWKS endpoint -> returns clerk user ID. Shows both the frontend fetch with auth header and the FastAPI Depends() pattern.",
+            "files": []
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "78fa9508-8b70-4f77-9221-76b6dd448260",
+  "path": "prd-light",
+  "path_key": "prd-light",
+  "enabled": true,
+  "tags": [
+    "documentation",
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

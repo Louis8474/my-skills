@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e784ec3b-0c5f-4f3c-aebd-d4f461f97352",
+  "path": "skill-comply",
+  "path_key": "skill-comply",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

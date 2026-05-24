@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b6bb18ab-c316-41e5-b5ef-7e84cef3ee06",
+  "path": "model-deployment",
+  "path_key": "model-deployment",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

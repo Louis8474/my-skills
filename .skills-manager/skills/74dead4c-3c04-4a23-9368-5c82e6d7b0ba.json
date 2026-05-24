@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "74dead4c-3c04-4a23-9368-5c82e6d7b0ba",
+  "path": "santa-method",
+  "path_key": "santa-method",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2cc4749f-eb96-4d8e-9710-3384c7765ea0",
+  "path": "web-inspect",
+  "path_key": "web-inspect",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

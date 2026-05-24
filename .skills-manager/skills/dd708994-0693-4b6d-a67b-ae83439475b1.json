@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "dd708994-0693-4b6d-a67b-ae83439475b1",
+  "path": "pytorch-patterns",
+  "path_key": "pytorch-patterns",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

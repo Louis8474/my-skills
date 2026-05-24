@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "d67a45b1-176c-42d2-821d-0f72767fb11d",
+  "path": "design-system-patterns",
+  "path_key": "design-system-patterns",
+  "enabled": true,
+  "tags": [
+    "design-references",
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

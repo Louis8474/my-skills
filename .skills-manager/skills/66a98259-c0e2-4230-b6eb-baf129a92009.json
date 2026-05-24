@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "66a98259-c0e2-4230-b6eb-baf129a92009",
+  "path": "accelerator-application",
+  "path_key": "accelerator-application",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

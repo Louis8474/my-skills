@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "993bbb17-5243-4e64-906e-758407231347",
+  "path": "recovering-deleted-files-with-photorec",
+  "path_key": "recovering-deleted-files-with-photorec",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

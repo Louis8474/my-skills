@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d03f937c-b13f-4e1f-9492-8fa257edf015",
+  "path": "postgresql-table-design",
+  "path_key": "postgresql-table-design",
+  "enabled": true,
+  "tags": [
+    "database"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

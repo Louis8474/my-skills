@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "225d16e9-b1d2-4f9e-95f6-63ab8e53a33e",
+  "path": "deliberate-practice",
+  "path_key": "deliberate-practice",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

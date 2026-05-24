@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d5c062d2-b08b-4ee7-a663-709ef6f45054",
+  "path": "gitnexus-refactoring",
+  "path_key": "gitnexus-refactoring",
+  "enabled": true,
+  "tags": [
+    "git-workflow"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

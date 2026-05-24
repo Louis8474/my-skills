@@ -1,0 +1,23 @@
+{
+  "skill_name": "db",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Design the database schema for a multi-tenant SaaS app. Each company has users, projects, and tasks. A task belongs to a project, a project belongs to a company, users belong to companies.",
+      "expected_output": "Agent produces SQLAlchemy 2.0 Mapped models: Company, User (with company_id FK), Project (with company_id FK), Task (with project_id FK, assignee_id FK->User). All FKs have ondelete behavior specified. created_at/updated_at on all tables. Indexes on all FK columns. Alembic migration command shown.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "My GET /api/v1/products endpoint loads 100 products and for each one makes a separate DB call to fetch the category. It's very slow.",
+      "expected_output": "Agent identifies this as an N+1 query. Modifies the ProductRepository.get_all() to use selectinload(Product.category). No change to the API route. Explains the difference between lazy loading (causes N+1) and selectinload (one query per relationship). Optionally suggests adding an index on products.category_id.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Set up RxDB for my React Native app so it works offline and syncs with my FastAPI backend when the user is online.",
+      "expected_output": "Agent creates RxDB schema for the relevant collection, initializes the DB with Dexie storage, sets up a replication pull/push handler pointing to /api/v1/sync/<collection>. Notes that the FastAPI backend needs a checkpoint-based sync endpoint. Provides the sync endpoint signature.",
+      "files": []
+    }
+  ]
+}

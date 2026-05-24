@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0921ab4d-6b35-470f-866c-cde3b690c0b7",
+  "path": "architecture-designer-2",
+  "path_key": "architecture-designer-2",
+  "enabled": true,
+  "tags": [
+    "architecture"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

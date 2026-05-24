@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e5574899-520f-45c8-9e65-c6e586c50c04",
+  "path": "parallel-2",
+  "path_key": "parallel-2",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

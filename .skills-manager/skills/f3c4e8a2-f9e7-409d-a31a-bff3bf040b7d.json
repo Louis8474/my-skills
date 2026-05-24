@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f3c4e8a2-f9e7-409d-a31a-bff3bf040b7d",
+  "path": "java-code",
+  "path_key": "java-code",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

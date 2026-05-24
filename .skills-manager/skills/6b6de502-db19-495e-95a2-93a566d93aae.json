@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6b6de502-db19-495e-95a2-93a566d93aae",
+  "path": "pricing-strategy",
+  "path_key": "pricing-strategy",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

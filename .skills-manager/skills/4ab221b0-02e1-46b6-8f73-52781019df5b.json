@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "4ab221b0-02e1-46b6-8f73-52781019df5b",
+  "path": "unit-test",
+  "path_key": "unit-test",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

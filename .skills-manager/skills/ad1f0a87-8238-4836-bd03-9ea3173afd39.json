@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ad1f0a87-8238-4836-bd03-9ea3173afd39",
+  "path": "healthcare-cdss-patterns",
+  "path_key": "healthcare-cdss-patterns",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

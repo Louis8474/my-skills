@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e26353b6-fe2a-47ec-85d4-ff8be6b81d17",
+  "path": "design-md-claude",
+  "path_key": "design-md-claude",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

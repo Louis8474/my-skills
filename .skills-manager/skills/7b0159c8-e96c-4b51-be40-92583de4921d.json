@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7b0159c8-e96c-4b51-be40-92583de4921d",
+  "path": "intercepting-mobile-traffic-with-burpsuite",
+  "path_key": "intercepting-mobile-traffic-with-burpsuite",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

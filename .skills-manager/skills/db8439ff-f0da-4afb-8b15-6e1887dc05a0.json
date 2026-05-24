@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "db8439ff-f0da-4afb-8b15-6e1887dc05a0",
+  "path": "fix",
+  "path_key": "fix",
+  "enabled": true,
+  "tags": [
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "34432a2b-f116-400c-9130-807cdb9a4c9b",
+  "path": "import-external-skill",
+  "path_key": "import-external-skill",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

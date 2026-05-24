@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "43698e34-8862-4487-af26-f22c7667d836",
+  "path": "pm-pool",
+  "path_key": "pm-pool",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

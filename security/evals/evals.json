@@ -1,0 +1,23 @@
+{
+  "skill_name": "security",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Set up JWT authentication for my FastAPI app. Access tokens should expire after 15 minutes and I need a refresh token mechanism.",
+      "expected_output": "Agent implements create_access_token() and decode_token() using python-jose, ACCESS_TOKEN_TTL=15min, get_current_user Depends() injector. Implements refresh token: stored hashed in DB, httpOnly cookie, rotated on use, full token family revocation on reuse detection.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Do a security review of my user profile endpoint: GET /api/v1/users/{user_id}. Any user can call it with any user_id.",
+      "expected_output": "Agent identifies IDOR (Insecure Direct Object Reference) vulnerability - A01 Broken Access Control. Proposes fix: add row-level check (order.user_id == current_user.id), return 404 (not 403) for unauthorized access to hide resource existence. Also checks for missing auth dependency and response model leaking internal fields.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I want to add file upload support. Users can upload profile pictures.",
+      "expected_output": "Agent specifies: validate MIME type server-side (not just extension), enforce 5MB max size, store in S3 not local disk (with pre-signed URL for access), sanitize filename (uuid-based, not user-supplied), scan for malicious content via ClamAV or similar. OWASP file upload risks cited.",
+      "files": []
+    }
+  ]
+}

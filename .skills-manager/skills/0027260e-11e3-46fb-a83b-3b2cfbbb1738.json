@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0027260e-11e3-46fb-a83b-3b2cfbbb1738",
+  "path": "gitnexus-pr-review",
+  "path_key": "gitnexus-pr-review",
+  "enabled": true,
+  "tags": [
+    "git-workflow"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

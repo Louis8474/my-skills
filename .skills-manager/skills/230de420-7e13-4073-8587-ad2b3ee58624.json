@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "230de420-7e13-4073-8587-ad2b3ee58624",
+  "path": "jq",
+  "path_key": "jq",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

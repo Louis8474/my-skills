@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "856f0465-4638-4ee3-9a55-04c3b2e281a0",
+  "path": "prd",
+  "path_key": "prd",
+  "enabled": true,
+  "tags": [
+    "documentation",
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

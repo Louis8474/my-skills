@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "9820b6fd-dace-4cde-81b0-00467fff868c",
+  "path": "release-changelog",
+  "path_key": "release-changelog",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

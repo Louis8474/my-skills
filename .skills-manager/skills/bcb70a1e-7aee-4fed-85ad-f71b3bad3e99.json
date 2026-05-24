@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "bcb70a1e-7aee-4fed-85ad-f71b3bad3e99",
+  "path": "videodb",
+  "path_key": "videodb",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

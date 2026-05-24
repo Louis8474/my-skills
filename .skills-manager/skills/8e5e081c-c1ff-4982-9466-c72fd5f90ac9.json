@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8e5e081c-c1ff-4982-9466-c72fd5f90ac9",
+  "path": "ralph",
+  "path_key": "ralph",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

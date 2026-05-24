@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e77b51de-5af8-44b9-8d64-3b39806dc766",
+  "path": "design-md-figma",
+  "path_key": "design-md-figma",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

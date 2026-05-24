@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d947a1d0-e73b-4560-9fb0-af06b60d95bf",
+  "path": "design-md-clickhouse",
+  "path_key": "design-md-clickhouse",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7176d3fb-622f-44e4-ade2-66679b4f166c",
+  "path": "probe-rs",
+  "path_key": "probe-rs",
+  "enabled": true,
+  "tags": [
+    "embedded-iot"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

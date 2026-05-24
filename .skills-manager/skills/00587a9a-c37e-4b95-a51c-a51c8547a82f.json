@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "00587a9a-c37e-4b95-a51c-a51c8547a82f",
+  "path": "nestjs-expert-2",
+  "path_key": "nestjs-expert-2",
+  "enabled": true,
+  "tags": [
+    "backend",
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

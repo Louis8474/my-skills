@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "461d095f-bc7d-4e7e-98c7-6cef6066ecb7",
+  "path": "support-lead",
+  "path_key": "support-lead",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

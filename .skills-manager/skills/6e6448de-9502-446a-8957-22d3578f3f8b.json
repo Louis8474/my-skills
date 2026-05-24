@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6e6448de-9502-446a-8957-22d3578f3f8b",
+  "path": "engineering",
+  "path_key": "engineering",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

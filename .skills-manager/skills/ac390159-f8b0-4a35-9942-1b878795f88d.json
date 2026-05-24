@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ac390159-f8b0-4a35-9942-1b878795f88d",
+  "path": "springboot-verification",
+  "path_key": "springboot-verification",
+  "enabled": true,
+  "tags": [
+    "backend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

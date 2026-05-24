@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "367ab018-51fd-4cab-84e3-f62fc9ad5f15",
+  "path": "ci-cd-and-automation",
+  "path_key": "ci-cd-and-automation",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

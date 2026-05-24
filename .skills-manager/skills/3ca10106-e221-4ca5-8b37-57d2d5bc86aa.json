@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3ca10106-e221-4ca5-8b37-57d2d5bc86aa",
+  "path": "super-architect",
+  "path_key": "super-architect",
+  "enabled": true,
+  "tags": [
+    "architecture"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

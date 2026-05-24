@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "bf74f100-2c18-48fc-bc5b-6a2642719c39",
+  "path": "airc_reminder",
+  "path_key": "airc_reminder",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

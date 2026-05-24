@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c6ab188f-a427-49f0-b180-167386b5bba6",
+  "path": "motion-choreography-patterns",
+  "path_key": "motion-choreography-patterns",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

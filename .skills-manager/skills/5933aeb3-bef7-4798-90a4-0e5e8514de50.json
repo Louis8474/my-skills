@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "5933aeb3-bef7-4798-90a4-0e5e8514de50",
+  "path": "understand-diff",
+  "path_key": "understand-diff",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

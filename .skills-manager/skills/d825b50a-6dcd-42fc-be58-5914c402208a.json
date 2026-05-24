@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d825b50a-6dcd-42fc-be58-5914c402208a",
+  "path": "conversion-engineer",
+  "path_key": "conversion-engineer",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

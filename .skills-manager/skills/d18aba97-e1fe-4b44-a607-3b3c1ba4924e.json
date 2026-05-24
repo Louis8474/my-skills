@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d18aba97-e1fe-4b44-a607-3b3c1ba4924e",
+  "path": "doc-condenser",
+  "path_key": "doc-condenser",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

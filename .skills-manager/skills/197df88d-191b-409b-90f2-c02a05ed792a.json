@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "197df88d-191b-409b-90f2-c02a05ed792a",
+  "path": "explanatory-output",
+  "path_key": "explanatory-output",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

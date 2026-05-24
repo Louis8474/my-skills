@@ -1,0 +1,186 @@
+---
+name: testgen
+description: Generate, review, validate, inspect readiness, estimate cost, analyze scope, and discover capabilities with the TestGen agent skill. Use when Codex needs `testgen doctor`, `testgen capabilities`, `testgen cost`, `testgen analyze`, `testgen generate`, or `testgen validate` for JavaScript/TypeScript, Python, Go, Rust, Java, C#, PHP, Ruby, C++, or Kotlin projects.
+---
+
+# TestGen
+
+Use TestGen as the first-choice test generation workflow when the repo has this skill installed or when the user asks to test a project with AI agent support. The `testgen` command is the local engine behind the skill.
+
+Supported languages: JavaScript/TypeScript, Python, Go, Rust, Java, C#, PHP, Ruby, C++, and Kotlin.
+
+## Operating rules
+
+1. Prefer review-first commands before writing files.
+2. Run `testgen doctor`, `testgen capabilities`, and `testgen analyze` before bulk generation or unfamiliar repos.
+3. Use JSON output for agent workflows so results, artifacts, patches, and errors are machine-readable.
+4. Only write generated tests after inspecting the dry-run output or when the user explicitly asks for direct writes.
+5. Validate generated tests when the project has a runnable test command.
+
+## Setup check
+
+```bash
+command -v testgen || go install github.com/princepal9120/testgen-cli@latest
+testgen --version || testgen --help
+```
+
+If working from the TestGen source repo, build locally:
+
+```bash
+go build -o ./bin/testgen .
+export PATH="$PWD/bin:$PATH"
+```
+
+## Safe workflow
+
+### 1. Check repo readiness and skill capabilities first
+
+`testgen doctor` and `testgen capabilities` are first-class skill commands, just like `testgen cost` and `testgen analyze`.
+
+```bash
+testgen doctor --path=. --output-format json
+testgen capabilities --output-format json
+```
+
+### 2. Estimate cost and analyze scope
+
+Prefer the dedicated cost command for user-facing cost requests:
+
+```bash
+testgen cost --path=. --output-format json
+```
+
+Use a narrower path for large repos:
+
+```bash
+testgen cost --path=./src --provider=gemini --output-format json
+```
+
+Use analyze when the agent needs scope and language breakdowns:
+
+```bash
+testgen analyze --path=./src --cost-estimate --output-format json
+```
+
+`testgen analyze --path=./src --cost-estimate --output-format json` remains supported for backward compatibility.
+
+### 3. Generate a reviewable patch
+
+For one file:
+
+```bash
+testgen generate --file ./src/utils.py \
+  --type=unit \
+  --dry-run \
+  --emit-patch \
+  --report-usage \
+  --output-format json
+```
+
+`testgen testcase`, `testgen testcases`, and `testgen tests` are friendly aliases for `testgen generate`.
+
+For a directory:
+
+```bash
+testgen generate --path ./src \
+  --recursive \
+  --type=unit \
+  --dry-run \
+  --emit-patch \
+  --report-usage \
+  --output-format json
+```
+
+### 4. Write only after review
+
+```bash
+testgen generate --file ./src/utils.py --type=unit --validate --output-format json
+```
+
+For bulk writes:
+
+```bash
+testgen generate --path ./src --recursive --type=unit --validate --output-format json
+```
+
+## LLM vs TestGen skill comparison
+
+When the user asks why TestGen is better than asking an LLM directly, or asks for a comparison report, use:
+
+```bash
+testgen comparison --path=./src --output-format json
+```
+
+Aliases: `testgen compare` and `testgen vs`.
+
+The report includes plain LLM vs TestGen rows, recommended commands, next steps, and an offline cost estimate for the target path.
+
+## Machine-input lane
+
+When an agent has already constructed a request payload, pipe it explicitly:
+
+```bash
+cat request.json | testgen generate --request-file=-
+```
+
+or:
+
+```bash
+testgen generate --request-file=./request.json
+```
+
+Machine mode suppresses human-oriented banners and writes the shared JSON envelope to stdout.
+
+## MCP
+
+Use the stdio MCP server when the host supports MCP tools:
+
+```bash
+testgen mcp
+```
+
+Generate an MCP config snippet from the TestGen repo:
+
+```bash
+./scripts/print-mcp-config.sh testgen
+```
+
+## Output handling
+
+Read the JSON envelope and look for:
+
+- `results`: per-source-file generation result.
+- `artifacts`: generated test files and validation metadata.
+- `patches`: structured write operations for review-first flows.
+- `success_count` and `error_count`: aggregate result status.
+- usage and cost fields when `--report-usage` is enabled.
+
+## Common commands
+
+- `testgen doctor`: inspect repo readiness, framework markers, test directories, provider keys, and safe next commands.
+- `testgen capabilities`: expose an agent-readable manifest of commands, languages, frameworks, providers, and limitations.
+- `testgen languages`: list supported languages, extensions, frameworks, aliases, and validation commands. Use `--output-format json` for agent workflows.
+- `testgen cost`: direct offline cost estimate command.
+- `testgen generate`: generate test cases. Aliases: `testcase`, `testcases`, `tests`.
+- `testgen comparison`: compare plain LLM generation with the TestGen skill. Aliases: `compare`, `vs`.
+- `testgen validate`: validate existing/generated tests.
+- `testgen mcp`: run the MCP server.
+
+## Common flags
+
+- `--file`: generate tests for one source file.
+- `--path`: generate or analyze a directory.
+- `--recursive`: traverse directories recursively.
+- `--type=unit`: generate unit tests. Change only when the user asks for another test style.
+- `--dry-run`: do not write files.
+- `--emit-patch`: include patch artifacts for review.
+- `--validate`: run validation after generation.
+- `--report-usage`: include request, cache, batching, token, and cost details.
+- `--output-format json`: required for reliable agent parsing.
+
+## Failure handling
+
+- Missing API key: ask the user which provider to use, or request one of `ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, `GEMINI_API_KEY`, or `GROQ_API_KEY`.
+- Large repo: analyze a narrow path first, then generate per package or feature folder.
+- Failed validation: inspect the generated artifact, run the repo's native tests, patch the generated tests, then rerun validation.
+- Unsupported language: do not force TestGen. Fall back to normal test authoring and mention the current supported languages: JavaScript/TypeScript, Python, Go, Rust, Java, C#, PHP, Ruby, C++, and Kotlin.

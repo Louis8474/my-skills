@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f9ea1d28-6520-4fae-aaf8-8eb50f81ffbc",
+  "path": "code-review-excellence",
+  "path_key": "code-review-excellence",
+  "enabled": true,
+  "tags": [
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

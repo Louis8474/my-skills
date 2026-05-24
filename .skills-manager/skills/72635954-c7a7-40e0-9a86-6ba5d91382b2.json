@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "72635954-c7a7-40e0-9a86-6ba5d91382b2",
+  "path": "ai-integration",
+  "path_key": "ai-integration",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

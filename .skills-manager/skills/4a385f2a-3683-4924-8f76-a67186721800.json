@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "4a385f2a-3683-4924-8f76-a67186721800",
+  "path": "project-session-manager",
+  "path_key": "project-session-manager",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

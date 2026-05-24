@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "23e3f917-41f8-4fdf-bd27-06ac19db617d",
+  "path": "vitest",
+  "path_key": "vitest",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

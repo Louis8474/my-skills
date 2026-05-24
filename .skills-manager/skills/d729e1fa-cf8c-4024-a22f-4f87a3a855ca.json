@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d729e1fa-cf8c-4024-a22f-4f87a3a855ca",
+  "path": "chatbot-conversation-design",
+  "path_key": "chatbot-conversation-design",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

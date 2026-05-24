@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0ee30ca1-ac07-48e3-be71-2220f12306ca",
+  "path": "connections-optimizer",
+  "path_key": "connections-optimizer",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

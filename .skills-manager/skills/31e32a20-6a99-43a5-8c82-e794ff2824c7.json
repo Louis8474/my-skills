@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "31e32a20-6a99-43a5-8c82-e794ff2824c7",
+  "path": "rapid-prototyper",
+  "path_key": "rapid-prototyper",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

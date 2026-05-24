@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "859a3d2d-e07c-4ffb-b361-cac80571d2c0",
+  "path": "lightpanda-browser",
+  "path_key": "lightpanda-browser",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

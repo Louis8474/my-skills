@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "999cbc1d-c3af-4a66-b724-0615862c0256",
+  "path": "idea-validator",
+  "path_key": "idea-validator",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

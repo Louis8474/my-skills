@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "cbdc0e2a-1b29-46cc-874d-6cecef5a8207",
+  "path": "email-marketing-bible",
+  "path_key": "email-marketing-bible",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

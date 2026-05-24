@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "27245bbe-6461-433e-ad8b-5384e9449f92",
+  "path": "srs-generation",
+  "path_key": "srs-generation",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "skill_name": "migrations",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "I added a new `bio` field to my User SQLAlchemy model. How do I create and apply the Alembic migration?",
+            "expected_output": "Agent runs alembic revision --autogenerate -m 'add_user_bio_column', shows the generated migration, flags if bio is nullable=False on existing table (red flag), explains the 3-step NOT NULL pattern if needed. Shows alembic upgrade head command and how to verify with alembic current.",
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "I need to add an index on the `orders.status` column to speed up queries. The table has 500k rows in production.",
+            "expected_output": "Agent creates an Alembic migration using op.execute() with CREATE INDEX CONCURRENTLY syntax. Explains why op.create_index() would lock the table. Shows both upgrade() and downgrade() with DROP INDEX CONCURRENTLY.",
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "A bad migration just ran in production and my app is broken. How do I roll back?",
+            "expected_output": "Agent provides the recovery SOP: run alembic current to confirm state, run alembic downgrade -1 to roll back one step, verify with alembic current again, check application health. Notes that downgrade() must be implemented for this to work. If data was deleted (drop_column/drop_table), explains DB restore from backup.",
+            "files": []
+        }
+    ]
+}

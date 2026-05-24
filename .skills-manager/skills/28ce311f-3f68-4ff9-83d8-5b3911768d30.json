@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "28ce311f-3f68-4ff9-83d8-5b3911768d30",
+  "path": "investor-materials",
+  "path_key": "investor-materials",
+  "enabled": true,
+  "tags": [
+    "marketing-sales",
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

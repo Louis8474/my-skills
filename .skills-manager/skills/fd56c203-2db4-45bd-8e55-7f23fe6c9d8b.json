@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "fd56c203-2db4-45bd-8e55-7f23fe6c9d8b",
+  "path": "agentkit-seo-web-portfolio",
+  "path_key": "agentkit-seo-web-portfolio",
+  "enabled": true,
+  "tags": [
+    "agents-meta",
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

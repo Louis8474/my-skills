@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c878173a-6fd1-4d0e-a201-cac66716fe06",
+  "path": "pm-report",
+  "path_key": "pm-report",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

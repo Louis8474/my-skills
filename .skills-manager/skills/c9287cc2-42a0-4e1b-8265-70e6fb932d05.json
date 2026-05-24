@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c9287cc2-42a0-4e1b-8265-70e6fb932d05",
+  "path": "smp-episode-writer",
+  "path_key": "smp-episode-writer",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

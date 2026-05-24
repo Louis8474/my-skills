@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "bb4363b9-7463-4c8a-90e1-97358b98426b",
+  "path": "founder-context",
+  "path_key": "founder-context",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

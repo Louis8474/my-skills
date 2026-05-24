@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3a2f3529-3000-4d6b-bf63-9f132a368b11",
+  "path": "java-coding-standards",
+  "path_key": "java-coding-standards",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

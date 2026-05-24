@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "1d2e59dd-d6fa-430c-8d75-1002e625e6da",
+  "path": "pm-journey",
+  "path_key": "pm-journey",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

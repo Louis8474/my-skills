@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "1e4382af-ac95-43bf-9d5e-11b117d0a0a7",
+  "path": "laravel-security",
+  "path_key": "laravel-security",
+  "enabled": true,
+  "tags": [
+    "backend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

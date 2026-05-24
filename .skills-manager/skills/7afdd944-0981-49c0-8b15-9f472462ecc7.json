@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7afdd944-0981-49c0-8b15-9f472462ecc7",
+  "path": "professional-communication",
+  "path_key": "professional-communication",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

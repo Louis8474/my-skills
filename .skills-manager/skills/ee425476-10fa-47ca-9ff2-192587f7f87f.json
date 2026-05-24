@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ee425476-10fa-47ca-9ff2-192587f7f87f",
+  "path": "file-organization",
+  "path_key": "file-organization",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

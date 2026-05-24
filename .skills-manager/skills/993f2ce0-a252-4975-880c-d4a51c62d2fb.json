@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "993f2ce0-a252-4975-880c-d4a51c62d2fb",
+  "path": "pm-user-story",
+  "path_key": "pm-user-story",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

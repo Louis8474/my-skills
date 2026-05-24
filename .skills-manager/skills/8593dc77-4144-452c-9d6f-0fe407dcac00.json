@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "8593dc77-4144-452c-9d6f-0fe407dcac00",
+  "path": "code-review-expert",
+  "path_key": "code-review-expert",
+  "enabled": true,
+  "tags": [
+    "code-quality",
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

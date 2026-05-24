@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e5298856-e2da-45be-ba51-971323ce69cc",
+  "path": "dependency-audit",
+  "path_key": "dependency-audit",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

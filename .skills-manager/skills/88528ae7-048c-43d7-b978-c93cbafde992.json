@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "88528ae7-048c-43d7-b978-c93cbafde992",
+  "path": "product-marketing-context",
+  "path_key": "product-marketing-context",
+  "enabled": true,
+  "tags": [
+    "marketing-sales",
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

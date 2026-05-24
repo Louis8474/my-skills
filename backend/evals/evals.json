@@ -1,0 +1,23 @@
+{
+  "skill_name": "backend",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Set up a new FastAPI project from scratch for a task management app. I want the proper folder structure, dependencies, and a health-check endpoint.",
+      "expected_output": "Agent asks about stack (new project detected). Creates src/ layout with main.py, config.py, database.py, models/, schemas/, repositories/, services/, api/v1/. Writes pyproject.toml with uv deps. Implements GET /health -> 200 OK. No business logic beyond scaffold.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I need a UserRepository with get_by_id, get_by_email, create, and update methods using async SQLAlchemy.",
+      "expected_output": "Agent creates src/repositories/user_repo.py using AsyncSession + select() ORM queries. All methods are async def, return User ORM instances or None. Uses Depends(get_db) pattern reference. No raw SQL strings.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I need a background job that sends a weekly digest email to all users every Monday at 9am UTC.",
+      "expected_output": "Agent implements a Celery beat task using the existing Redis broker. Creates tasks/digest.py with @shared_task decorator, uses structlog for logging, includes error handling. Updates celeryconfig.py with the CELERYBEAT_SCHEDULE entry.",
+      "files": []
+    }
+  ]
+}

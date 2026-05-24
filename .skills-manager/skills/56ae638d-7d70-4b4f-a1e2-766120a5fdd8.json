@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "56ae638d-7d70-4b4f-a1e2-766120a5fdd8",
+  "path": "git-flow-branch-creator",
+  "path_key": "git-flow-branch-creator",
+  "enabled": true,
+  "tags": [
+    "git-workflow"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

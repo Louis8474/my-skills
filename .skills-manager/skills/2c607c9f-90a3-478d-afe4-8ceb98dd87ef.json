@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2c607c9f-90a3-478d-afe4-8ceb98dd87ef",
+  "path": "using-galyarder-framework",
+  "path_key": "using-galyarder-framework",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

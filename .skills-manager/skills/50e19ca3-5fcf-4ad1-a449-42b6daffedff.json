@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "50e19ca3-5fcf-4ad1-a449-42b6daffedff",
+  "path": "buildable-issue",
+  "path_key": "buildable-issue",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

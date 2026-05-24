@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c24bf4ea-0c9b-4f93-b6a8-d59c816735a0",
+  "path": "meeting-transcription",
+  "path_key": "meeting-transcription",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "afc3dd0e-ff33-4225-9601-b21a3df8aa40",
+  "path": "security-review",
+  "path_key": "security-review",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

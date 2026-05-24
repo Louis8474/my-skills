@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8df96f80-7054-41df-89e7-4b7d0b5b32f8",
+  "path": "gdpr-ccpa-privacy-auditor",
+  "path_key": "gdpr-ccpa-privacy-auditor",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

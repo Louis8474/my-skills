@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "fc5f73eb-213d-43aa-be82-85302023a039",
+  "path": "continuous-agent-loop",
+  "path_key": "continuous-agent-loop",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

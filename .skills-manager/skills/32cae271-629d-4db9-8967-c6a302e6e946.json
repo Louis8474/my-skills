@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "32cae271-629d-4db9-8967-c6a302e6e946",
+  "path": "design-review",
+  "path_key": "design-review",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

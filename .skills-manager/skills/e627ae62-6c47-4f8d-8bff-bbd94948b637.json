@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e627ae62-6c47-4f8d-8bff-bbd94948b637",
+  "path": "design-md-elevenlabs",
+  "path_key": "design-md-elevenlabs",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

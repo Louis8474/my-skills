@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Simple Fix",
+    "prompt": "I fixed a typo in the README.md file. Commit this for me.",
+    "assertions": [
+      {
+        "type": "contains",
+        "value": "fix: "
+      },
+      {
+        "type": "not_contains",
+        "value": "feat: "
+      }
+    ]
+  },
+  {
+    "name": "Feature with Scope",
+    "prompt": "I added a new API endpoint for user profile updates in the auth module. Commit these changes.",
+    "assertions": [
+      {
+        "type": "contains",
+        "value": "feat(auth): "
+      },
+      {
+        "type": "contains",
+        "value": "add "
+      }
+    ]
+  },
+  {
+    "name": "Breaking Change",
+    "prompt": "I removed the deprecated /v1/old-endpoint because it was replaced by /v2. This is a breaking change. Please commit it.",
+    "assertions": [
+      {
+        "type": "contains",
+        "value": "!"
+      },
+      {
+        "type": "contains",
+        "value": "BREAKING CHANGE:"
+      }
+    ]
+  },
+  {
+    "name": "Documentation Update",
+    "prompt": "I updated the developer guides with instructions on how to use the new CLI. Commit this.",
+    "assertions": [
+      {
+        "type": "contains",
+        "value": "docs: "
+      }
+    ]
+  },
+  {
+    "name": "Ambiguous Commit Request",
+    "prompt": "Commit these changes.",
+    "assertions": [
+      {
+        "type": "contains",
+        "value": "?"
+      }
+    ]
+  }
+]

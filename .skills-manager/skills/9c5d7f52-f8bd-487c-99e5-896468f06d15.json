@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "9c5d7f52-f8bd-487c-99e5-896468f06d15",
+  "path": "translation",
+  "path_key": "translation",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

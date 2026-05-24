@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e2fdf4e5-ae79-4320-92f3-3fd43d916e00",
+  "path": "tdd-workflow",
+  "path_key": "tdd-workflow",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

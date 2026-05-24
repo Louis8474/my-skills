@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "134f25e1-5309-4dab-ad42-d2d6d491f5c6",
+  "path": "prd-to-plan",
+  "path_key": "prd-to-plan",
+  "enabled": true,
+  "tags": [
+    "documentation",
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

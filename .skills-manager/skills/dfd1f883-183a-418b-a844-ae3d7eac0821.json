@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "dfd1f883-183a-418b-a844-ae3d7eac0821",
+  "path": "hyperparameter-tuning",
+  "path_key": "hyperparameter-tuning",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e89e3444-4229-4b18-8817-49dfcc233e63",
+  "path": "codebase-onboarding",
+  "path_key": "codebase-onboarding",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

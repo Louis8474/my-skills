@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "66e988f0-71ea-49c4-b69b-27a5ef6b3d2e",
+  "path": "mycrab-tunnel-skill",
+  "path_key": "mycrab-tunnel-skill",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

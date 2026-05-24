@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "047919ed-0dea-4934-866e-8a80d9afeee3",
+  "path": "airc_quit",
+  "path_key": "airc_quit",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

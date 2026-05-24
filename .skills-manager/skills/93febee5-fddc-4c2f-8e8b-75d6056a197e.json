@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "93febee5-fddc-4c2f-8e8b-75d6056a197e",
+  "path": "laravel-patterns",
+  "path_key": "laravel-patterns",
+  "enabled": true,
+  "tags": [
+    "backend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

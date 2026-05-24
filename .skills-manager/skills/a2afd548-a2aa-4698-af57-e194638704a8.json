@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a2afd548-a2aa-4698-af57-e194638704a8",
+  "path": "python-fundamentals",
+  "path_key": "python-fundamentals",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

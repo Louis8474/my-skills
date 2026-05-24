@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "83e309c0-b07d-4f8b-bf1b-82bf9e95ddd8",
+  "path": "infrastructure-as-code",
+  "path_key": "infrastructure-as-code",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

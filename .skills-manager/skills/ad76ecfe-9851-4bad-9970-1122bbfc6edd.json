@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "ad76ecfe-9851-4bad-9970-1122bbfc6edd",
+  "path": "architecture-reviewer",
+  "path_key": "architecture-reviewer",
+  "enabled": true,
+  "tags": [
+    "architecture",
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

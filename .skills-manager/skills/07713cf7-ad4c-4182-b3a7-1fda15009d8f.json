@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "07713cf7-ad4c-4182-b3a7-1fda15009d8f",
+  "path": "python-fundamentals-313",
+  "path_key": "python-fundamentals-313",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

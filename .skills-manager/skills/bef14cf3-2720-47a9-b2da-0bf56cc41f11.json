@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "bef14cf3-2720-47a9-b2da-0bf56cc41f11",
+  "path": "dynamic-application-security-testing",
+  "path_key": "dynamic-application-security-testing",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "bcdfa790-9205-468b-95b2-1dc4959ee401",
+  "path": "devops-github-actions",
+  "path_key": "devops-github-actions",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

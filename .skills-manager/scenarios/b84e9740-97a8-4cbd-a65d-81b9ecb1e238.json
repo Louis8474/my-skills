@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "scenario_id": "b84e9740-97a8-4cbd-a65d-81b9ecb1e238",
+  "name": "Web-Dashboard",
+  "description": "Frontend / dashboard development stack",
+  "icon": null,
+  "sort_order": 2
+}

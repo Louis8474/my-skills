@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e3dd9342-06e4-4f30-8ad6-96966c6a4978",
+  "path": "design-md-posthog",
+  "path_key": "design-md-posthog",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

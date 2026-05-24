@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "0ebdd767-c80b-4e57-92fd-b4a42200e17d",
+  "path": "adr",
+  "path_key": "adr",
+  "enabled": true,
+  "tags": [
+    "architecture",
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

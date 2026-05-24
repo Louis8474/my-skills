@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0f1982a5-54ce-4e61-805c-ebd486e842c5",
+  "path": "llm-wiki-full",
+  "path_key": "llm-wiki-full",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

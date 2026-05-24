@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ceb910c6-4227-4754-bde2-62fc7daa9429",
+  "path": "secure-code-guardian",
+  "path_key": "secure-code-guardian",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "2823ed40-c2ed-493d-83ed-0c8abf5c8975",
+  "path": "frontend-testing",
+  "path_key": "frontend-testing",
+  "enabled": true,
+  "tags": [
+    "frontend",
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

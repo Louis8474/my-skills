@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "aae6c823-c65d-4297-90aa-055d6e5594e7",
+  "path": "test-baselining",
+  "path_key": "test-baselining",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

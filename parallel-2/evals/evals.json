@@ -1,0 +1,23 @@
+{
+  "skill_name": "parallel",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I need to build these three UI components at the same time: <Header /> with a nav menu, <Footer /> with social links, and <HeroSection /> with a CTA button. They don't share data.",
+      "expected_output": "Agent runs the file intersection test (no shared files confirmed), fans out to 3 parallel units, assigns owned file paths to each, runs aggregation with tsc --noEmit after all complete. Results matrix shows all 3 units.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Can we parallelize these two tasks? Task A: Create the users DB migration. Task B: Create the UserRepository that queries the users table.",
+      "expected_output": "Agent identifies that Task B depends on Task A (the table must exist before the repo code runs against it). Flags as NOT parallelizable. Recommends sequential execution: A then B. Does not fan out.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Parallelize: Task A adds a products migration. Task B adds a reviews migration (reviews.product_id FK -> products). Task C creates the <ProductCard /> React component.",
+      "expected_output": "Agent identifies B has a FK dependency on A (products must exist first). Correctly groups: [A] alone first, then [B + C] in parallel (reviews migration and frontend component share no files). Batch 2 results matrix shows B and C as parallel units.",
+      "files": []
+    }
+  ]
+}

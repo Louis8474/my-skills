@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "396a3efd-b20f-4d9b-bf79-6c95ddd92f83",
+  "path": "rfc",
+  "path_key": "rfc",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

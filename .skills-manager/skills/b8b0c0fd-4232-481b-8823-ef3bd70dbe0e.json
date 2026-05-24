@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b8b0c0fd-4232-481b-8823-ef3bd70dbe0e",
+  "path": "nextjs-app-router-patterns",
+  "path_key": "nextjs-app-router-patterns",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

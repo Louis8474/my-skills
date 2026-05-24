@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "80a0e764-392d-4c03-b3db-9fc78aac7058",
+  "path": "android-clean-architecture",
+  "path_key": "android-clean-architecture",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

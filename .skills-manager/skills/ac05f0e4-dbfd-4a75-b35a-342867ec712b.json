@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ac05f0e4-dbfd-4a75-b35a-342867ec712b",
+  "path": "customer-billing-ops",
+  "path_key": "customer-billing-ops",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

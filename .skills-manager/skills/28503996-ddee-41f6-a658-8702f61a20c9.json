@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "28503996-ddee-41f6-a658-8702f61a20c9",
+  "path": "dotnet-core",
+  "path_key": "dotnet-core",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3888df33-e3ab-4de3-935d-4841f28e1ca0",
+  "path": "codex-orchestrator-subagents",
+  "path_key": "codex-orchestrator-subagents",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

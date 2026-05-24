@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "963b2ad6-8f07-49cd-901d-7b65f12dd0cc",
+  "path": "salesforce-developer",
+  "path_key": "salesforce-developer",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

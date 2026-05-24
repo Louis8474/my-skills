@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "126b0ab1-1d81-44dd-b227-989dd08069fe",
+  "path": "design-md-mistralai",
+  "path_key": "design-md-mistralai",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

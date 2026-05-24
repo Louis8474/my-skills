@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7695c29b-29e7-4fc9-96d4-e91adc8adb32",
+  "path": "changelog-automation",
+  "path_key": "changelog-automation",
+  "enabled": true,
+  "tags": [
+    "git-workflow"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

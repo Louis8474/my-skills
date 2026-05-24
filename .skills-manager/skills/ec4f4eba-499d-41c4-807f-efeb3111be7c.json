@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ec4f4eba-499d-41c4-807f-efeb3111be7c",
+  "path": "pm-funnel",
+  "path_key": "pm-funnel",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

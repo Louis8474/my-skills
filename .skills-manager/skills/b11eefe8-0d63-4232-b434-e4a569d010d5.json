@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b11eefe8-0d63-4232-b434-e4a569d010d5",
+  "path": "nodejs-keccak256",
+  "path_key": "nodejs-keccak256",
+  "enabled": true,
+  "tags": [
+    "backend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

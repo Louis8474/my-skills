@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e84d1f46-f93c-428a-9df4-93cc327ade8f",
+  "path": "marketing-demand-acquisition",
+  "path_key": "marketing-demand-acquisition",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

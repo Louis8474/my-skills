@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3580c57b-0346-4cf1-b650-4ac3130da1f0",
+  "path": "code-tour",
+  "path_key": "code-tour",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

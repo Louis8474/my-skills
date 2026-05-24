@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "156907bf-e3f7-4a9b-90ba-0f8d7947d832",
+  "path": "design-md-togetherai",
+  "path_key": "design-md-togetherai",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

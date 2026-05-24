@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a5f555b3-f021-4526-8569-10a3a8422e3a",
+  "path": "fundraising-email",
+  "path_key": "fundraising-email",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

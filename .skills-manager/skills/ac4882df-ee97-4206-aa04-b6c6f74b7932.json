@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ac4882df-ee97-4206-aa04-b6c6f74b7932",
+  "path": "research-critique",
+  "path_key": "research-critique",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

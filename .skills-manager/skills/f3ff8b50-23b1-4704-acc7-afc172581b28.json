@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f3ff8b50-23b1-4704-acc7-afc172581b28",
+  "path": "interface-designer",
+  "path_key": "interface-designer",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

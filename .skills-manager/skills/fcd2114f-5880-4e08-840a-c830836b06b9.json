@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "fcd2114f-5880-4e08-840a-c830836b06b9",
+  "path": "track-management",
+  "path_key": "track-management",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

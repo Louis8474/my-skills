@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "709dfd16-313a-412f-8479-951e529a447c",
+  "path": "design-patterns",
+  "path_key": "design-patterns",
+  "enabled": true,
+  "tags": [
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

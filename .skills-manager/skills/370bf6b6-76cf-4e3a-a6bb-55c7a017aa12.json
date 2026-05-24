@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "370bf6b6-76cf-4e3a-a6bb-55c7a017aa12",
+  "path": "cleanup-unnecessary-variables",
+  "path_key": "cleanup-unnecessary-variables",
+  "enabled": true,
+  "tags": [
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "1d55cf47-e371-4eda-870f-e7514603aa46",
+  "path": "campaign-analytics",
+  "path_key": "campaign-analytics",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

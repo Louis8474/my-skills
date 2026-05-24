@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a2ba5b0e-11f6-4e89-88ea-27ee26b0cfe2",
+  "path": "repo-sentinel",
+  "path_key": "repo-sentinel",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

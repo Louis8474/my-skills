@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "a02f34fa-81a3-4ab5-b37c-d9ed0b0b751c",
+  "path": "postgres-pro",
+  "path_key": "postgres-pro",
+  "enabled": true,
+  "tags": [
+    "database",
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

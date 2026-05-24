@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b8d581bc-bc40-4d43-a3f0-4ac5d21953a3",
+  "path": "bounded-loop",
+  "path_key": "bounded-loop",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

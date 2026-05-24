@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f4b1e2de-03d0-41ca-83fc-21fb91953893",
+  "path": "design-md-cursor",
+  "path_key": "design-md-cursor",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e8bbf0f2-2ca5-49da-a52d-bc16bf467a76",
+  "path": "doc-updater",
+  "path_key": "doc-updater",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

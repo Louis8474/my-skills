@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "21ddf911-3250-451d-9116-783ffe4bfec8",
+  "path": "iso-42001-ai-governance",
+  "path_key": "iso-42001-ai-governance",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

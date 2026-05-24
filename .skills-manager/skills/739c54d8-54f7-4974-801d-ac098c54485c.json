@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "739c54d8-54f7-4974-801d-ac098c54485c",
+  "path": "galyarder-cfo-coo",
+  "path_key": "galyarder-cfo-coo",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

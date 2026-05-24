@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "a71a9d41-ee94-4d9a-8382-d3c6c7da7c1d",
+  "path": "playwright-pro",
+  "path_key": "playwright-pro",
+  "enabled": true,
+  "tags": [
+    "languages",
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7a8e8e77-bea1-4317-8630-287d2632fe94",
+  "path": "legal-counsel",
+  "path_key": "legal-counsel",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

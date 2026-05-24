@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b6057ce9-1f8c-44f3-b26d-de3f2cb45390",
+  "path": "refactor-cleaner",
+  "path_key": "refactor-cleaner",
+  "enabled": true,
+  "tags": [
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

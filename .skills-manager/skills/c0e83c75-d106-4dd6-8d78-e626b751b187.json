@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c0e83c75-d106-4dd6-8d78-e626b751b187",
+  "path": "regex-builder",
+  "path_key": "regex-builder",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

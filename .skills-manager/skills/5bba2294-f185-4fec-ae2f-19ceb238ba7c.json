@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "5bba2294-f185-4fec-ae2f-19ceb238ba7c",
+  "path": "context-optimization",
+  "path_key": "context-optimization",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

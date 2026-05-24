@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "4b1f2ca9-73b0-4412-8576-c4475e36db84",
+  "path": "deepinit",
+  "path_key": "deepinit",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

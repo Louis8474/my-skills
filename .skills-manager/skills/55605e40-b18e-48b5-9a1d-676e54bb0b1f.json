@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "55605e40-b18e-48b5-9a1d-676e54bb0b1f",
+  "path": "react-native",
+  "path_key": "react-native",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

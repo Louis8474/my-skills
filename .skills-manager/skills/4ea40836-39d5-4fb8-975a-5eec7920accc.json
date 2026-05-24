@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "4ea40836-39d5-4fb8-975a-5eec7920accc",
+  "path": "email",
+  "path_key": "email",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

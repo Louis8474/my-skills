@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "ebe6bd00-0c19-45c9-873b-9ac9e9e24cdd",
+  "path": "write-a-prd",
+  "path_key": "write-a-prd",
+  "enabled": true,
+  "tags": [
+    "documentation",
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

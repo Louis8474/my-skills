@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "859cbb82-93d1-4aec-a43d-1c8517bac7cf",
+  "path": "documentation-and-adrs",
+  "path_key": "documentation-and-adrs",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

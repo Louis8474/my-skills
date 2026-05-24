@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8543271e-9b52-4c4a-b80b-b7e603749996",
+  "path": "devops-ansible-playbook-creator",
+  "path_key": "devops-ansible-playbook-creator",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

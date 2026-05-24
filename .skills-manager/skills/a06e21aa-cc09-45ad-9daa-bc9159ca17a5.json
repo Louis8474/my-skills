@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a06e21aa-cc09-45ad-9daa-bc9159ca17a5",
+  "path": "swarmvault",
+  "path_key": "swarmvault",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

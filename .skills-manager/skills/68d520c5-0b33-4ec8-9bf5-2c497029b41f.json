@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "68d520c5-0b33-4ec8-9bf5-2c497029b41f",
+  "path": "enterprise-agent-ops",
+  "path_key": "enterprise-agent-ops",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

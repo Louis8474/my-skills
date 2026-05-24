@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c0dede57-e936-4c9f-b778-1f5daafbbfd4",
+  "path": "dart-flutter-patterns",
+  "path_key": "dart-flutter-patterns",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

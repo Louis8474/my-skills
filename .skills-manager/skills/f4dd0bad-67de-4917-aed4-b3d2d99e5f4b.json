@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "f4dd0bad-67de-4917-aed4-b3d2d99e5f4b",
+  "path": "docs-latex-expert",
+  "path_key": "docs-latex-expert",
+  "enabled": true,
+  "tags": [
+    "documentation",
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

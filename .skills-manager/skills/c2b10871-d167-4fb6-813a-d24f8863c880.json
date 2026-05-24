@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c2b10871-d167-4fb6-813a-d24f8863c880",
+  "path": "yolobox",
+  "path_key": "yolobox",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

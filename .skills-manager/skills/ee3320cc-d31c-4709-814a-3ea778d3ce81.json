@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ee3320cc-d31c-4709-814a-3ea778d3ce81",
+  "path": "engineering-retro",
+  "path_key": "engineering-retro",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

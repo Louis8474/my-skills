@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "0fe54547-fd7a-4398-b765-16258e5282e3",
+  "path": "research-report",
+  "path_key": "research-report",
+  "enabled": true,
+  "tags": [
+    "documentation",
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

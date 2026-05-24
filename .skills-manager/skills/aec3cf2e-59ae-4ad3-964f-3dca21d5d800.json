@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "aec3cf2e-59ae-4ad3-964f-3dca21d5d800",
+  "path": "x-api",
+  "path_key": "x-api",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

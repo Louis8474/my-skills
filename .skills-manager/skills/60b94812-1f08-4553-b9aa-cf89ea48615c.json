@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "60b94812-1f08-4553-b9aa-cf89ea48615c",
+  "path": "laravel-verification",
+  "path_key": "laravel-verification",
+  "enabled": true,
+  "tags": [
+    "backend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

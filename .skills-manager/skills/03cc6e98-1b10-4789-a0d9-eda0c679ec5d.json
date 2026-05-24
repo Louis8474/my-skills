@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "03cc6e98-1b10-4789-a0d9-eda0c679ec5d",
+  "path": "fix-patch-capture",
+  "path_key": "fix-patch-capture",
+  "enabled": true,
+  "tags": [
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

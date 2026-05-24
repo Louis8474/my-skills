@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "20adfd0c-761d-40f2-9753-ea898e2bee05",
+  "path": "liquid-glass-design",
+  "path_key": "liquid-glass-design",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "281a6ba5-24d6-461b-8041-e6b83cc0bb12",
+  "path": "enhance-prompt",
+  "path_key": "enhance-prompt",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

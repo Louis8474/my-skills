@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "270776be-aa2f-450a-bb65-0791f1c9ace4",
+  "path": "xss-testing-burpsuite-2",
+  "path_key": "xss-testing-burpsuite-2",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

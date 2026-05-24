@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b189485e-3052-4eed-8222-eec9aaf93806",
+  "path": "git-commit-helper",
+  "path_key": "git-commit-helper",
+  "enabled": true,
+  "tags": [
+    "git-workflow"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

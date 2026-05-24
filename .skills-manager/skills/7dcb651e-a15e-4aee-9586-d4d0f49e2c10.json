@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7dcb651e-a15e-4aee-9586-d4d0f49e2c10",
+  "path": "pm-risk",
+  "path_key": "pm-risk",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

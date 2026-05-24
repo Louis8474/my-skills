@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6ebf5f7e-3bce-425e-9877-4957aa3b4b06",
+  "path": "python-uv-expert",
+  "path_key": "python-uv-expert",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

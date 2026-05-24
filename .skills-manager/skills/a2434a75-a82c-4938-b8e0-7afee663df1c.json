@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a2434a75-a82c-4938-b8e0-7afee663df1c",
+  "path": "duck-search",
+  "path_key": "duck-search",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

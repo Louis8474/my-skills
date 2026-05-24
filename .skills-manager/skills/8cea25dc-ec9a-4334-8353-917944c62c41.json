@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8cea25dc-ec9a-4334-8353-917944c62c41",
+  "path": "galyarder-specialist",
+  "path_key": "galyarder-specialist",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

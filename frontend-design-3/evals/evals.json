@@ -1,0 +1,35 @@
+{
+    "skill_name": "frontend-design",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Build me a premium SaaS landing page for a cloud security startup called 'ShieldNet'. Dark theme, modern feel, should have hero, features (4 cards), pricing (3 tiers), testimonials carousel, and FAQ. Make it look like a $5k agency job, not generic AI output.",
+            "expected_output": "A complete HTML/CSS/JS landing page with: defined aesthetic direction, custom font pairing (not Inter/Roboto), 8px spacing grid, scroll-reveal animations, glassmorphic or premium card treatments, dark theme with HSL-based palette, responsive design, sticky nav with backdrop-blur, and all requested sections following the conversion blueprint.",
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "I need a dashboard component for an analytics app. Should have a sidebar nav, top metrics row with 4 stat cards, a main chart area, and a recent activity table. Make it clean and professional but not boring. React component please.",
+            "expected_output": "A React dashboard component with: purposeful layout using CSS Grid, consistent spacing scale, proper typography hierarchy (display + body font pair), stat cards with hover states, responsive sidebar collapse, and cohesive color system with CSS variables.",
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Create a portfolio website hero section. I'm a product designer, want something bold and creative - not the typical centered text with gradient background. Surprise me with the layout but keep it professional.",
+            "expected_output": "A distinctive hero section with: unexpected/asymmetric layout, bold typography choices (not generic fonts), creative use of whitespace, micro-animations on load (staggered reveals), memorable visual treatment, and responsive behavior.",
+            "files": []
+        },
+        {
+            "id": 4,
+            "prompt": "what font size should i use for headings vs body text? and how much padding should cards have? building a marketing site",
+            "expected_output": "The skill provides specific typography scale recommendations (Major Third 1.250), exact heading sizes (h1: 48px, h2: 36px, etc.), body at 16-18px, line-height rules (1.1-1.2 headings, 1.5-1.7 body), card padding standards (24px medium), and references the typography-scale.md and spacing-system.md for deeper detail.",
+            "files": []
+        },
+        {
+            "id": 5,
+            "prompt": "I have a Next.js app and want to add scroll animations to my sections - they should fade in and slide up as the user scrolls. Also want a sticky header that gets a frosted glass effect on scroll. What's the best approach?",
+            "expected_output": "Provides specific animation implementation using Motion (Framer Motion) for React with whileInView, or GSAP ScrollTrigger as alternative. Includes code for IntersectionObserver reveal pattern, sticky nav with backdrop-filter:blur(12px), timing standards (0.6s duration, stagger 0.08-0.12s), and references animation-guide.md for full code patterns.",
+            "files": []
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "scenario_id": "762b04d5-46c0-476f-97f5-1351d46ab0e0",
+  "name": "AIoT-Core",
+  "description": "Embedded systems + AI/ML core stack for AIoT engineering",
+  "icon": null,
+  "sort_order": 1
+}

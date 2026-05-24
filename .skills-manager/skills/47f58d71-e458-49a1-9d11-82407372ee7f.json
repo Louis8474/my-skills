@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "47f58d71-e458-49a1-9d11-82407372ee7f",
+  "path": "deep-dive",
+  "path_key": "deep-dive",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

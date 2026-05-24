@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a91ec657-0f41-4a9d-8f6e-a6aaa7d7ec38",
+  "path": "feature-design",
+  "path_key": "feature-design",
+  "enabled": true,
+  "tags": [
+    "architecture"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

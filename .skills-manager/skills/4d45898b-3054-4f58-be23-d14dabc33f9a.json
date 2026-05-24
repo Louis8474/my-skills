@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "4d45898b-3054-4f58-be23-d14dabc33f9a",
+  "path": "api-integration",
+  "path_key": "api-integration",
+  "enabled": true,
+  "tags": [
+    "backend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

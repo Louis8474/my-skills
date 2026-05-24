@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "skill_id": "d858266b-7146-406c-a949-db37224319fc",
+  "path": "cpp-testing",
+  "path_key": "cpp-testing",
+  "enabled": true,
+  "tags": [
+    "embedded-iot",
+    "languages",
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

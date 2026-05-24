@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "82663b07-cac0-4b20-b3be-56b6513e2682",
+  "path": "pm-agile",
+  "path_key": "pm-agile",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

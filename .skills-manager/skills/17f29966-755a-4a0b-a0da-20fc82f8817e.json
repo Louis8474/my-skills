@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "17f29966-755a-4a0b-a0da-20fc82f8817e",
+  "path": "debug",
+  "path_key": "debug",
+  "enabled": true,
+  "tags": [
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

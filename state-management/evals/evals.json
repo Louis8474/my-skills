@@ -1,0 +1,23 @@
+{
+    "skill_name": "state-management",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "I have a shopping cart in my Next.js app. The cart items disappear when the user navigates to a different page. I'm using useState in the cart component.",
+            "expected_output": "Agent classifies as global client state problem. Implements useCartStore with Zustand + persist middleware. Cart items survive navigation (held in Zustand, persisted to localStorage). Component uses useCartStore hook directly with no prop drilling. Explains why useState doesn't work across pages.",
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "My product listing page fetches products in a useEffect. When the user goes to a product detail page and comes back, it re-fetches and flashes a loading spinner. How do I fix this?",
+            "expected_output": "Agent classifies as server state problem. Sets up React Query QueryClientProvider in app/providers.tsx. Creates useProducts() hook with queryKey ['products'] and appropriate staleTime. Cached data shows instantly on return navigation, background refresh happens silently. Removes the useEffect.",
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "My FastAPI product endpoint takes 400ms because it hits the DB every time. The product catalog only changes when an admin edits it. How do I cache this?",
+            "expected_output": "Agent implements cache-aside pattern with Redis: get_product_cached() checks redis.get(cache_key) first, on miss fetches DB and does redis.setex(cache_key, 300, ...). update_product() invalidates both the single-item and list cache keys. Redis injected via Depends(get_redis) using a connection pool.",
+            "files": []
+        }
+    ]
+}

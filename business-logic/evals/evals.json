@@ -1,0 +1,23 @@
+{
+    "skill_name": "business-logic",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "I need to build a subscription upgrade system. Users can move from Free -> Pro -> Enterprise. Downgrading is not allowed. Upgrading takes effect immediately. A user can't be on the Free plan if they have more than 3 projects.",
+            "expected_output": "Agent extracts plain rules before coding. Produces VALID_TRANSITIONS dict (Free->Pro,Enterprise; Pro->Enterprise; Enterprise->{}). Creates upgrade_subscription() service with guard clauses for each rule. Produces 4+ unit tests, one per rule. Domain event: SubscriptionUpgradedEvent published after success.",
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Calculate the final price for an order: apply a percentage discount first, then add tax (18%), then add a flat shipping fee if the order is under $50. Round to 2 decimal places.",
+            "expected_output": "Agent extracts this as a pure function calculate_order_total(line_items, discount_code, destination) -> float. No DB calls. Step-by-step: subtotal -> apply discount -> apply tax on post-discount subtotal -> apply shipping threshold. Unit tests cover all branching: with/without discount, above/below shipping threshold.",
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "An order goes through stages: Draft → Submitted → Under Review → Approved → Fulfilled. Rejecting an order at 'Under Review' sends it back to 'Submitted'. Cancellation is only possible from Draft or Submitted.",
+            "expected_output": "Agent builds VALID_TRANSITIONS dict covering all paths including the Rejected→Submitted backward transition. transition_order() raises HTTPException with allowed transitions listed on invalid attempt. Tests cover at least one invalid transition (e.g., Draft→Fulfilled) and the rejection reversal path.",
+            "files": []
+        }
+    ]
+}

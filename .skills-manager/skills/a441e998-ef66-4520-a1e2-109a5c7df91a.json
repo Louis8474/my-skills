@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a441e998-ef66-4520-a1e2-109a5c7df91a",
+  "path": "research-add-fields",
+  "path_key": "research-add-fields",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

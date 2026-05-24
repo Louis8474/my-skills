@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "89e972bd-8339-4fe1-89da-bdb9b61f9f57",
+  "path": "pitch-deck",
+  "path_key": "pitch-deck",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

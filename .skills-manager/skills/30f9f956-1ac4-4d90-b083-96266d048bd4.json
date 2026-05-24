@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "30f9f956-1ac4-4d90-b083-96266d048bd4",
+  "path": "fullstack-guardian",
+  "path_key": "fullstack-guardian",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

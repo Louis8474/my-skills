@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d007d9bd-6873-4601-a25a-2d91584c4d95",
+  "path": "copywriting-2",
+  "path_key": "copywriting-2",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,307 @@
+---
+# Playbook complexo de exemplo para testes
+# Configura um servidor web completo com Nginx, PHP e banco de dados
+
+- name: Configuração completa do servidor web
+  hosts: webservers
+  become: yes
+  vars:
+    # Configurações gerais
+    app_name: "meuapp"
+    app_version: "1.2.3"
+    app_port: 8080
+    app_user: "www-data"
+    
+    # Configurações do banco de dados
+    db_name: "meuapp_db"
+    db_user: "meuapp_user"
+    db_password: "{{ vault_db_password }}"
+    
+    # Configurações do Nginx
+    nginx_worker_processes: "auto"
+    nginx_worker_connections: 1024
+    nginx_client_max_body_size: "64M"
+    
+    # Configurações do PHP
+    php_version: "8.1"
+    php_memory_limit: "256M"
+    php_upload_max_filesize: "64M"
+    php_post_max_size: "64M"
+    
+    # Configurações de SSL
+    ssl_certificate: "/etc/ssl/certs/{{ app_name }}.crt"
+    ssl_certificate_key: "/etc/ssl/private/{{ app_name }}.key"
+    enable_ssl: true
+    
+  tasks:
+    - name: Atualizar cache de pacotes
+      apt:
+        update_cache: yes
+        cache_valid_time: 3600
+      tags: [packages, setup]
+      
+    - name: Instalar dependências do sistema
+      apt:
+        name:
+          - software-properties-common
+          - apt-transport-https
+          - ca-certificates
+          - curl
+          - gnupg
+          - lsb-release
+          - unzip
+          - git
+        state: present
+      tags: [packages, setup]
+      
+    - name: Adicionar repositório PHP
+      apt_repository:
+        repo: "ppa:ondrej/php"
+        update_cache: yes
+      when: ansible_distribution == "Ubuntu"
+      tags: [php, packages]
+      
+    - name: Instalar PHP e extensões
+      apt:
+        name:
+          - "php{{ php_version }}-fpm"
+          - "php{{ php_version }}-mysql"
+          - "php{{ php_version }}-cli"
+          - "php{{ php_version }}-common"
+          - "php{{ php_version }}-curl"
+          - "php{{ php_version }}-gd"
+          - "php{{ php_version }}-mbstring"
+          - "php{{ php_version }}-xml"
+          - "php{{ php_version }}-zip"
+        state: present
+      tags: [php, packages]
+      
+    - name: Configurar PHP
+      template:
+        src: templates/php.ini.j2
+        dest: "/etc/php/{{ php_version }}/fpm/php.ini"
+        owner: root
+        group: root
+        mode: '0644'
+      notify: Restart PHP-FPM
+      tags: [php, config]
+      
+    - name: Instalar Nginx
+      apt:
+        name: nginx
+        state: present
+      tags: [nginx, packages]
+      
+    - name: Criar diretórios do Nginx
+      file:
+        path: "{{ item }}"
+        state: directory
+        owner: root
+        group: root
+        mode: '0755'
+      loop:
+        - "/etc/nginx/sites-available"
+        - "/etc/nginx/sites-enabled"
+        - "/var/log/nginx/{{ app_name }}"
+      tags: [nginx, config]
+      
+    - name: Configurar Nginx principal
+      template:
+        src: templates/nginx.conf.j2
+        dest: /etc/nginx/nginx.conf
+        owner: root
+        group: root
+        mode: '0644'
+      notify: Reload Nginx
+      tags: [nginx, config]
+      
+    - name: Configurar virtual host
+      template:
+        src: templates/vhost.conf.j2
+        dest: "/etc/nginx/sites-available/{{ app_name }}"
+        owner: root
+        group: root
+        mode: '0644'
+      notify: Reload Nginx
+      tags: [nginx, config]
+      
+    - name: Habilitar virtual host
+      file:
+        src: "/etc/nginx/sites-available/{{ app_name }}"
+        dest: "/etc/nginx/sites-enabled/{{ app_name }}"
+        state: link
+      notify: Reload Nginx
+      tags: [nginx, config]
+      
+    - name: Remover configuração padrão
+      file:
+        path: /etc/nginx/sites-enabled/default
+        state: absent
+      notify: Reload Nginx
+      tags: [nginx, config]
+      
+    - name: Criar banco de dados
+      mysql_db:
+        name: "{{ db_name }}"
+        state: present
+        collation: utf8mb4_unicode_ci
+      tags: [database, config]
+      
+    - name: Criar usuário do banco de dados
+      mysql_user:
+        name: "{{ db_user }}"
+        password: "{{ db_password }}"
+        priv: "{{ db_name }}.*:ALL"
+        state: present
+      tags: [database, config]
+      
+    - name: Criar diretório da aplicação
+      file:
+        path: "/var/www/{{ app_name }}"
+        state: directory
+        owner: "{{ app_user }}"
+        group: "{{ app_user }}"
+        mode: '0755'
+      tags: [app, setup]
+      
+    - name: Clonar repositório da aplicação
+      git:
+        repo: "https://github.com/exemplo/{{ app_name }}.git"
+        dest: "/var/www/{{ app_name }}"
+        version: "{{ app_version }}"
+        force: yes
+      become_user: "{{ app_user }}"
+      tags: [app, deploy]
+      
+    - name: Instalar dependências da aplicação
+      composer:
+        command: install
+        working_dir: "/var/www/{{ app_name }}"
+        no_dev: yes
+        optimize_autoloader: yes
+      become_user: "{{ app_user }}"
+      tags: [app, deploy]
+      
+    - name: Configurar arquivo de ambiente
+      template:
+        src: templates/env.j2
+        dest: "/var/www/{{ app_name }}/.env"
+        owner: "{{ app_user }}"
+        group: "{{ app_user }}"
+        mode: '0640'
+      tags: [app, config]
+      
+    - name: Executar migrações do banco de dados
+      command: "php artisan migrate --force"
+      args:
+        chdir: "/var/www/{{ app_name }}"
+      become_user: "{{ app_user }}"
+      tags: [app, database]
+      
+    - name: Cache de configuração
+      command: "php artisan config:cache"
+      args:
+        chdir: "/var/www/{{ app_name }}"
+      become_user: "{{ app_user }}"
+      tags: [app, optimize]
+      
+    - name: Configurar permissões
+      file:
+        path: "/var/www/{{ app_name }}"
+        owner: "{{ app_user }}"
+        group: "{{ app_user }}"
+        recurse: yes
+      tags: [app, permissions]
+      
+    - name: Configurar logrotate
+      template:
+        src: templates/logrotate.j2
+        dest: "/etc/logrotate.d/{{ app_name }}"
+        owner: root
+        group: root
+        mode: '0644'
+      tags: [monitoring, config]
+      
+    - name: Configurar backup automático
+      cron:
+        name: "Backup do banco de dados {{ app_name }}"
+        hour: 2
+        minute: 0
+        job: "/usr/bin/mysqldump {{ db_name }} | gzip > /backups/{{ app_name }}_$(date +\\%Y\\%m\\%d).sql.gz"
+        user: root
+      tags: [backup, config]
+      
+    - name: Habilitar serviços para iniciar na boot
+      systemd:
+        name: "{{ item }}"
+        enabled: yes
+      loop:
+        - nginx
+        - "php{{ php_version }}-fpm"
+        - mysql
+      tags: [services, setup]
+      
+  handlers:
+    - name: Reload Nginx
+      systemd:
+        name: nginx
+        state: reloaded
+        
+    - name: Restart Nginx
+      systemd:
+        name: nginx
+        state: restarted
+        
+    - name: Restart PHP-FPM
+      systemd:
+        name: "php{{ php_version }}-fpm"
+        state: restarted
+        
+    - name: Restart MySQL
+      systemd:
+        name: mysql
+        state: restarted
+        
+  post_tasks:
+    - name: Verificar serviços
+      systemd:
+        name: "{{ item }}"
+        state: started
+      register: service_check
+      loop:
+        - nginx
+        - "php{{ php_version }}-fpm"
+        - mysql
+      tags: [verify, monitoring]
+      
+    - name: Testar endpoint da aplicação
+      uri:
+        url: "http://localhost:{{ app_port }}/health"
+        status_code: 200
+      register: health_check
+      retries: 5
+      delay: 10
+      tags: [verify, monitoring]
+      
+    - name: Relatório final
+      debug:
+        msg: |
+          ✅ Configuração concluída com sucesso!
+          
+          Aplicação: {{ app_name }}
+          Versão: {{ app_version }}
+          URL: http://{{ ansible_fqdn }}
+          Porta: {{ app_port }}
+          
+          Serviços:
+          - Nginx: {{ '✓' if service_check.results[0].status.ActiveState == 'active' else '✗' }}
+          - PHP-FPM: {{ '✓' if service_check.results[1].status.ActiveState == 'active' else '✗' }}
+          - MySQL: {{ '✓' if service_check.results[2].status.ActiveState == 'active' else '✗' }}
+          
+          Health Check: {{ '✓' if health_check.status == 200 else '✗' }}
+          
+          Próximos passos:
+          1. Acessar http://{{ ansible_fqdn }}
+          2. Verificar logs em /var/log/nginx/{{ app_name }}/
+          3. Monitorar performance
+      tags: [report]

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b7ef25f9-471b-4e49-b00f-751553e8a98b",
+  "path": "crafting-effective-readmes",
+  "path_key": "crafting-effective-readmes",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

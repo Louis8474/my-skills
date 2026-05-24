@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "bea148ee-868a-4784-a003-70663940b8a6",
+  "path": "graph",
+  "path_key": "graph",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

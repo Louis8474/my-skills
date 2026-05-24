@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "11071190-1516-4688-bec9-52270211bbc1",
+  "path": "blog-post-writing",
+  "path_key": "blog-post-writing",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

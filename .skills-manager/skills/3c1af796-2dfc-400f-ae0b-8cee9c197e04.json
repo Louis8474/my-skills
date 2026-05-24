@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3c1af796-2dfc-400f-ae0b-8cee9c197e04",
+  "path": "mcp-setup",
+  "path_key": "mcp-setup",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8a4847b9-5ec1-40d8-83d0-961276a3ed5b",
+  "path": "airc_whois",
+  "path_key": "airc_whois",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

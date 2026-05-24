@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c57b22d2-d7e4-44c5-aadb-0d040f6a5f7f",
+  "path": "ml-pipeline-creation",
+  "path_key": "ml-pipeline-creation",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

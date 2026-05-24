@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d20b53e2-35ae-4132-904c-22d88ab5bf42",
+  "path": "skill-personalizer",
+  "path_key": "skill-personalizer",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Yolobox"
+  short_description: "Orient to the current yolobox sandbox"
+  default_prompt: "Use $yolobox to orient yourself to the current yolobox sandbox, working constraints, and available freedoms."
+
+policy:
+  allow_implicit_invocation: true

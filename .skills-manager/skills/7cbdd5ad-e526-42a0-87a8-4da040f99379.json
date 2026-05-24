@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7cbdd5ad-e526-42a0-87a8-4da040f99379",
+  "path": "refactor",
+  "path_key": "refactor",
+  "enabled": true,
+  "tags": [
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

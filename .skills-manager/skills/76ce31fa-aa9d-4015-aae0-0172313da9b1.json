@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "76ce31fa-aa9d-4015-aae0-0172313da9b1",
+  "path": "awesome-ai-agent-skills-code-review",
+  "path_key": "awesome-ai-agent-skills-code-review",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

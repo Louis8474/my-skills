@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a068cf8f-342f-4b37-8664-16e580da0fdb",
+  "path": "rss",
+  "path_key": "rss",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

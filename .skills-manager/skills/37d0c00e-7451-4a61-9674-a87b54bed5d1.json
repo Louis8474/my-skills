@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "37d0c00e-7451-4a61-9674-a87b54bed5d1",
+  "path": "brief-to-tasks",
+  "path_key": "brief-to-tasks",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

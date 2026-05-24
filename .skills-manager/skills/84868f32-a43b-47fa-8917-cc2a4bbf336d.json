@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "84868f32-a43b-47fa-8917-cc2a4bbf336d",
+  "path": "pm-mvp",
+  "path_key": "pm-mvp",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

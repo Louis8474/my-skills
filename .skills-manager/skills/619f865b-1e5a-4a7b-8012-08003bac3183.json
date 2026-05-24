@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "619f865b-1e5a-4a7b-8012-08003bac3183",
+  "path": "agentkit-seo-linkedin",
+  "path_key": "agentkit-seo-linkedin",
+  "enabled": true,
+  "tags": [
+    "agents-meta",
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

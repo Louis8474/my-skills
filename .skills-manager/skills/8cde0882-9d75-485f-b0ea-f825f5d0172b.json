@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8cde0882-9d75-485f-b0ea-f825f5d0172b",
+  "path": "code-documenter-2",
+  "path_key": "code-documenter-2",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

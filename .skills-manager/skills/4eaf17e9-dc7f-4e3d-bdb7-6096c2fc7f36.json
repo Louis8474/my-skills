@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "4eaf17e9-dc7f-4e3d-bdb7-6096c2fc7f36",
+  "path": "gateguard",
+  "path_key": "gateguard",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

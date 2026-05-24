@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "077596eb-8a08-46a9-b398-d5c9e4994159",
+  "path": "keil",
+  "path_key": "keil",
+  "enabled": true,
+  "tags": [
+    "embedded-iot"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

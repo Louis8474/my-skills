@@ -1,0 +1,115 @@
+# title: |md
+#   # <Design Name/>
+#   Circa <Month Year/>
+# | {near: top-right}
+
+vars: {
+  d2-config: {
+    theme-id: 302
+    pad: 20
+    layout-engine: tala
+  }
+}
+
+# Styling
+# Two parallel class families are required for white-background diagrams:
+#
+# 1. Plain-label classes (e.g. domain_actor): dark fill + font-color: white.
+#    Use for legend swatches, simple string-label nodes, small badges.
+#    font-color cascades correctly to plain-text labels.
+#
+# 2. Markdown classes (e.g. domain_actor_md): light tinted fill + colored stroke.
+#    Use for any node whose label is a |md ... | block.
+#    font-color does NOT cascade into markdown — the tinted fill keeps
+#    the default dark markdown text readable. The stroke carries the
+#    semantic color signal instead.
+#    Suffix convention: _md for leaf nodes, _grp for container groups
+#    whose children contain markdown.
+
+classes: {
+  domain_grp: {
+    style: {
+      stroke: "#1971c2"
+      fill: "#e7f5ff"
+      border-radius: 6
+      font-color: black
+    }
+  }
+  domain_actor: {
+    style: {
+      fill: "lightsalmon"
+      stroke: "#FFC107"
+      border-radius: 5
+      font-color: black
+    }
+  }
+
+  # --- Markdown / container variants ---
+  # Use when node label is |md ... | or the container holds markdown children.
+
+  domain_grp_md: {
+    style: {
+      stroke: "#1971c2"
+      stroke-width: 2
+      fill: "#e7f5ff"
+      border-radius: 6
+      font-color: "#1971c2"
+    }
+  }
+  domain_actor_md: {
+    style: {
+      fill: "#fff8f0"
+      stroke: "#FFC107"
+      stroke-width: 3
+      border-radius: 5
+      font-color: "#7a4100"
+    }
+  }
+}
+
+# Model (entities)
+payment_domain: |md
+  ## Some Domain
+  [Software System]<br/>
+  Appropriaetely detailed description of the domain's purpose and responsibilities.
+| {
+  label.near: bottom-center
+  shape: rectangle
+  class: domain_grp
+}
+
+api_service: |md
+  ## Some API Service
+  [container: finagle typescript]<br/>
+  Appropriaetely detailed description of the service's purpose and responsibilities.
+| {
+  shape: rectangle
+  label.near: bottom-center
+  class: [systembe; domain_actor]
+}
+
+tx_db: |md
+  ## Some transactional database
+  [Container: Postgres]<br/>
+  Appropriaetely detailed description of the database's purpose and responsibilities.
+| {
+  shape: rectangle
+  class: [systembe; systemdb; domain_actor]
+}
+
+# Canonical markdown node example — uses domain_actor_md so text stays readable
+# on a white background. The colored stroke carries the semantic signal.
+api_service_detail: |md
+  ## Payment API — Detail View
+  [Container: Finagle / TypeScript]
+
+  Handles incoming payment requests, validates against fraud rules,
+  and commits transactions to the Postgres store.
+
+  **Owner:** payments-team
+  **SLA:** 99.9% uptime, p99 < 200 ms
+| {
+  shape: rectangle
+  label.near: bottom-center
+  class: domain_actor_md
+}

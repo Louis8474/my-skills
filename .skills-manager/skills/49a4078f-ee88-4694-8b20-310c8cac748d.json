@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "49a4078f-ee88-4694-8b20-310c8cac748d",
+  "path": "executing-red-team-exercise",
+  "path_key": "executing-red-team-exercise",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

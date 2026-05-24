@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "fa7bbc79-27c3-44fe-9304-ea8f485dc1d1",
+  "path": "accounting",
+  "path_key": "accounting",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

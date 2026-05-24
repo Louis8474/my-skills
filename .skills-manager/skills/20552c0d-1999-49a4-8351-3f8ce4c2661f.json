@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "20552c0d-1999-49a4-8351-3f8ce4c2661f",
+  "path": "csharp-developer",
+  "path_key": "csharp-developer",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

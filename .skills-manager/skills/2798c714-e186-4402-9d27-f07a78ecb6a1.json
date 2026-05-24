@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2798c714-e186-4402-9d27-f07a78ecb6a1",
+  "path": "design-md-ollama",
+  "path_key": "design-md-ollama",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

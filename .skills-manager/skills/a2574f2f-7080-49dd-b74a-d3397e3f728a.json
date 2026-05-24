@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a2574f2f-7080-49dd-b74a-d3397e3f728a",
+  "path": "opus-4-7-migration",
+  "path_key": "opus-4-7-migration",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

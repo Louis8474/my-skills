@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "8db1a931-bab3-4d35-96ad-c6a2227a9c70",
+  "path": "fine-tuning-expert",
+  "path_key": "fine-tuning-expert",
+  "enabled": true,
+  "tags": [
+    "ai-ml",
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

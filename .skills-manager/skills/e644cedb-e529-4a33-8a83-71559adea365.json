@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e644cedb-e529-4a33-8a83-71559adea365",
+  "path": "design-md-notion",
+  "path_key": "design-md-notion",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

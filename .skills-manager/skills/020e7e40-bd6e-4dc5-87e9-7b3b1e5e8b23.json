@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "020e7e40-bd6e-4dc5-87e9-7b3b1e5e8b23",
+  "path": "swift-expert-2",
+  "path_key": "swift-expert-2",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

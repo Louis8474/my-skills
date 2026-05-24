@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "61ca78f6-5d6e-47e5-8502-757c0ab352b4",
+  "path": "autopilot",
+  "path_key": "autopilot",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

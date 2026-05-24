@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c7bb02ee-efd7-4911-9990-059c03392d57",
+  "path": "safe-process-signals",
+  "path_key": "safe-process-signals",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

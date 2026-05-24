@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2fe541f8-31c5-4e59-8014-5f7823cb56c8",
+  "path": "incident-response",
+  "path_key": "incident-response",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

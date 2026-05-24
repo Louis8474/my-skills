@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "81cae66e-3960-4d62-9d55-16c47fbd496c",
+  "path": "repository-pattern",
+  "path_key": "repository-pattern",
+  "enabled": true,
+  "tags": [
+    "architecture"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

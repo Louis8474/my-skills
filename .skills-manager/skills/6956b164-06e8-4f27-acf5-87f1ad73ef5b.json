@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6956b164-06e8-4f27-acf5-87f1ad73ef5b",
+  "path": "content-engine",
+  "path_key": "content-engine",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

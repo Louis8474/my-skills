@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "781cd2ba-d8e9-4b87-a244-bfd6ed79ff09",
+  "path": "report",
+  "path_key": "report",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

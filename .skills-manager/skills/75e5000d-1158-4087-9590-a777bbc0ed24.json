@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "75e5000d-1158-4087-9590-a777bbc0ed24",
+  "path": "project-bootstrap-wizard",
+  "path_key": "project-bootstrap-wizard",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

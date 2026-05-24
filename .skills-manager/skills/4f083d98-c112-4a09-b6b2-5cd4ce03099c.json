@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "4f083d98-c112-4a09-b6b2-5cd4ce03099c",
+  "path": "note-promotion",
+  "path_key": "note-promotion",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

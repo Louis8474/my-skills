@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7748ef34-8e80-412e-b81a-162ec20be02f",
+  "path": "link-workspace-packages",
+  "path_key": "link-workspace-packages",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

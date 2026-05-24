@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "7bf6236e-97fb-404e-9826-b6836bea0774",
+  "path": "paper-to-skill",
+  "path_key": "paper-to-skill",
+  "enabled": true,
+  "tags": [
+    "agents-meta",
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e1576053-81cb-4f91-87f1-a7c8d2aa3661",
+  "path": "home-assistant-frontend",
+  "path_key": "home-assistant-frontend",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

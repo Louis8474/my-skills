@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "970c0b34-e910-4095-98e2-a525127a1591",
+  "path": "galyarder-cmo",
+  "path_key": "galyarder-cmo",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

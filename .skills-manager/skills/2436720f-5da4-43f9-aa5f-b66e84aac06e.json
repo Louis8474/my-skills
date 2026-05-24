@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2436720f-5da4-43f9-aa5f-b66e84aac06e",
+  "path": "home-assistant-lazy-context",
+  "path_key": "home-assistant-lazy-context",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

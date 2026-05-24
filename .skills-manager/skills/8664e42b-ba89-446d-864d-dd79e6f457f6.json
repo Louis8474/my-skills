@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8664e42b-ba89-446d-864d-dd79e6f457f6",
+  "path": "context-retrieval",
+  "path_key": "context-retrieval",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

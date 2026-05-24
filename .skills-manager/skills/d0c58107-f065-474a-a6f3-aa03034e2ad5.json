@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d0c58107-f065-474a-a6f3-aa03034e2ad5",
+  "path": "python",
+  "path_key": "python",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

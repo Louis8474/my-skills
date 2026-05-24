@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "skill_id": "f3b0a7ba-34fb-4342-be23-12dcf9f97fd3",
+  "path": "api-designer-2",
+  "path_key": "api-designer-2",
+  "enabled": true,
+  "tags": [
+    "architecture",
+    "backend",
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

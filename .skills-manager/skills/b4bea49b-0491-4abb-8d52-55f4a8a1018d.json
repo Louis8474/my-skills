@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b4bea49b-0491-4abb-8d52-55f4a8a1018d",
+  "path": "visa-doc-translate",
+  "path_key": "visa-doc-translate",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

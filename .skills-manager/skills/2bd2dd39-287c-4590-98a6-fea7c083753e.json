@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2bd2dd39-287c-4590-98a6-fea7c083753e",
+  "path": "prisma-database-setup",
+  "path_key": "prisma-database-setup",
+  "enabled": true,
+  "tags": [
+    "database"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

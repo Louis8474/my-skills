@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ca7aa4a8-17b2-4e4e-940e-ee244972c1df",
+  "path": "csharp",
+  "path_key": "csharp",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

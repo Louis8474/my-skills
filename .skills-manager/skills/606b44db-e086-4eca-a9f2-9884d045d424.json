@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "606b44db-e086-4eca-a9f2-9884d045d424",
+  "path": "joc-reference",
+  "path_key": "joc-reference",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

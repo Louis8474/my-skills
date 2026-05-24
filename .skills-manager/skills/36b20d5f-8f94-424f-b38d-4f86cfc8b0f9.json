@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "36b20d5f-8f94-424f-b38d-4f86cfc8b0f9",
+  "path": "data-room",
+  "path_key": "data-room",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ece3093b-aeb6-4ea0-a176-149c5dccc258",
+  "path": "monitor-ci",
+  "path_key": "monitor-ci",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

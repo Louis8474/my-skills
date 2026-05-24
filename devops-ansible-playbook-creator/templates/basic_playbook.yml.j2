@@ -1,0 +1,142 @@
+---
+# Playbook básico para {{ project_name | default('meu_projeto') }}
+# Autor: {{ author | default('Seu Nome') }}
+# Data: {{ date | default(ansible_date_time.date) }}
+
+- name: {{ play_name | default('Configuração do servidor') }}
+  hosts: {{ target_hosts | default('all') }}
+  become: {{ use_sudo | default('yes') }}
+  vars:
+    # Variáveis do playbook
+    app_name: {{ app_name | default('minha_app') }}
+    app_version: {{ app_version | default('latest') }}
+    app_port: {{ app_port | default('8080') }}
+    
+    # Configurações do sistema
+    timezone: {{ timezone | default('America/Sao_Paulo') }}
+    enable_firewall: {{ enable_firewall | default('true') }}
+    
+  tasks:
+    - name: Verificar conectividade
+      ping:
+      
+    - name: Atualizar cache de pacotes
+      apt:
+        update_cache: yes
+        cache_valid_time: 3600
+      when: ansible_os_family == "Debian"
+      
+    - name: Instalar pacotes essenciais
+      package:
+        name:
+          - vim
+          - git
+          - curl
+          - wget
+          - htop
+          - net-tools
+        state: present
+      
+    - name: Configurar fuso horário
+      file:
+        src: /usr/share/zoneinfo/{{ timezone }}
+        dest: /etc/localtime
+        state: link
+        force: yes
+        
+    - name: Criar usuário da aplicação
+      user:
+        name: {{ app_user | default('appuser') }}
+        system: yes
+        shell: /bin/bash
+        home: /home/{{ app_user | default('appuser') }}
+        create_home: yes
+        
+    - name: Criar diretório da aplicação
+      file:
+        path: /opt/{{ app_name }}
+        state: directory
+        owner: {{ app_user | default('appuser') }}
+        group: {{ app_user | default('appuser') }}
+        mode: '0755'
+        
+    - name: Copiar código da aplicação
+      copy:
+        src: ../app/
+        dest: /opt/{{ app_name }}/
+        owner: {{ app_user | default('appuser') }}
+        group: {{ app_user | default('appuser') }}
+      notify: Restart {{ app_name }}
+      
+    - name: Instalar dependências
+      command: pip install -r requirements.txt
+      args:
+        chdir: /opt/{{ app_name }}
+      notify: Restart {{ app_name }}
+      
+    - name: Configurar serviço systemd
+      template:
+        src: templates/app.service.j2
+        dest: /etc/systemd/system/{{ app_name }}.service
+      notify: 
+        - Reload systemd
+        - Restart {{ app_name }}
+        
+    - name: Habilitar serviço para iniciar na boot
+      systemd:
+        name: {{ app_name }}
+        enabled: yes
+        state: started
+        
+    - name: Configurar firewall
+      ufw:
+        rule: allow
+        port: '{{ app_port }}'
+        proto: tcp
+      when: enable_firewall | bool
+      
+    - name: Abrir porta no firewall
+      ufw:
+        state: enabled
+        policy: deny
+      when: enable_firewall | bool
+  
+  handlers:
+    - name: Reload systemd
+      systemd:
+        daemon_reload: yes
+        
+    - name: Restart {{ app_name }}
+      systemd:
+        name: {{ app_name }}
+        state: restarted
+        enabled: yes
+        
+  post_tasks:
+    - name: Verificar se serviço está rodando
+      systemd:
+        name: {{ app_name }}
+        state: started
+      register: service_status
+      
+    - name: Mostrar status do serviço
+      debug:
+        msg: "Serviço {{ app_name }} está {{ 'rodando' if service_status.status.ActiveState == 'active' else 'parado' }}"
+        
+    - name: Testar conectividade da aplicação
+      uri:
+        url: http://localhost:{{ app_port }}/health
+        status_code: 200
+      retries: 5
+      delay: 10
+      register: health_check
+      ignore_errors: yes
+      
+    - name: Relatório final
+      debug:
+        msg: |
+          ✅ Configuração concluída!
+          Aplicação: {{ app_name }}
+          Versão: {{ app_version }}
+          Porta: {{ app_port }}
+          Status: {{ 'Saudável' if health_check.status == 200 else 'Verificar manualmente' }}

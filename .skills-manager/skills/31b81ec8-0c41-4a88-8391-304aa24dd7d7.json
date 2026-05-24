@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "31b81ec8-0c41-4a88-8391-304aa24dd7d7",
+  "path": "rtk-tdd",
+  "path_key": "rtk-tdd",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

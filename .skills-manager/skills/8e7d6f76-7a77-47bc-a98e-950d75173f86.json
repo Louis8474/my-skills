@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8e7d6f76-7a77-47bc-a98e-950d75173f86",
+  "path": "pr-report",
+  "path_key": "pr-report",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

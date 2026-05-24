@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "748fd2c5-4702-47d1-9d78-86c86d51b7db",
+  "path": "dependency-updater",
+  "path_key": "dependency-updater",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

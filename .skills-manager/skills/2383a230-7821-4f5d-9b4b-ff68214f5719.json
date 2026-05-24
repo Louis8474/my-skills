@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2383a230-7821-4f5d-9b4b-ff68214f5719",
+  "path": "effect",
+  "path_key": "effect",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

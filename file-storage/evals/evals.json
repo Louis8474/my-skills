@@ -1,0 +1,23 @@
+{
+    "skill_name": "file-storage",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "I want users to be able to upload a profile picture. The picture should be stored somewhere safe and displayed at their profile URL.",
+            "expected_output": "Agent implements POST /uploads/image with UploadFile, reads file content, detects MIME type with python-magic (not Content-Type header), enforces 10MB limit, resizes if width>2048px with Pillow, generates UUID-based S3 key (never uses user-supplied filename), uploads to S3 with put_object, returns CDN URL.",
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "My users need to upload large video files (up to 500MB). Routing them through my FastAPI server seems slow and expensive.",
+            "expected_output": "Agent implements pre-signed URL flow: POST /uploads/presign validates content type and returns {upload_url, key, public_url}. Frontend uploads directly to S3 using PUT request with the pre-signed URL. After upload, frontend calls PATCH /users/me with the public_url to save to DB. Explains the S3 egress cost savings.",
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "A user deleted their profile picture. Now they uploaded a new one. I'm worried about old files accumulating in my S3 bucket.",
+            "expected_output": "Agent implements delete_file(s3_key) calling s3.delete_object(). Shows the update flow: when user uploads new avatar, retrieve the old avatar S3 key from the user record, delete the old object, then save the new URL. Warns about storage cost buildup from orphaned objects.",
+            "files": []
+        }
+    ]
+}

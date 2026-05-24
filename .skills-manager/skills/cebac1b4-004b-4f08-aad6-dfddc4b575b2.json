@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "cebac1b4-004b-4f08-aad6-dfddc4b575b2",
+  "path": "design-md-kraken",
+  "path_key": "design-md-kraken",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

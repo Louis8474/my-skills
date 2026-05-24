@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c433bdb3-a8a2-4bc1-bba5-f687b0f98ed4",
+  "path": "gpt-taste",
+  "path_key": "gpt-taste",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

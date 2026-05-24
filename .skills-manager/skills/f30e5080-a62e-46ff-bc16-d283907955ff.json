@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f30e5080-a62e-46ff-bc16-d283907955ff",
+  "path": "intellisearch",
+  "path_key": "intellisearch",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7415fc78-af11-417e-8ef9-87626a311644",
+  "path": "odp",
+  "path_key": "odp",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

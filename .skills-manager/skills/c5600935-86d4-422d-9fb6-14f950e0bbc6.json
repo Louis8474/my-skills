@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c5600935-86d4-422d-9fb6-14f950e0bbc6",
+  "path": "data-cleaning",
+  "path_key": "data-cleaning",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

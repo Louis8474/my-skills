@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a4b8fbab-b2c6-4203-92b4-c103e53dee93",
+  "path": "design-md-spotify",
+  "path_key": "design-md-spotify",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3ad0b250-b953-4e52-884f-56d9e8252731",
+  "path": "joc-doctor",
+  "path_key": "joc-doctor",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e7c30875-d1e7-4f19-abbe-154b2c4b027d",
+  "path": "nestjs-best-practices",
+  "path_key": "nestjs-best-practices",
+  "enabled": true,
+  "tags": [
+    "backend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

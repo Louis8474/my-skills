@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2d2602ef-10f5-4d49-bb08-b2368f4392e2",
+  "path": "agent-harness-construction",
+  "path_key": "agent-harness-construction",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e7217470-45af-4cce-a044-15e933a3f625",
+  "path": "opencode-skill-creator",
+  "path_key": "opencode-skill-creator",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

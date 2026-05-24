@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "4809a3e3-ab42-4770-b3e5-b3a92342a96f",
+  "path": "ship-workflow",
+  "path_key": "ship-workflow",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

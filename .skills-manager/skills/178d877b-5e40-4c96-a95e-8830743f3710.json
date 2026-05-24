@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "178d877b-5e40-4c96-a95e-8830743f3710",
+  "path": "code-refiner",
+  "path_key": "code-refiner",
+  "enabled": true,
+  "tags": [
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

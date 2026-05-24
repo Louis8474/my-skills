@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "bc047e3f-76b3-473e-96e1-fdbbc91a0c44",
+  "path": "legacy-modernization",
+  "path_key": "legacy-modernization",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

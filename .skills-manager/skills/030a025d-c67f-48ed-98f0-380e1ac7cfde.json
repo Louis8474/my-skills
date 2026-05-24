@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "030a025d-c67f-48ed-98f0-380e1ac7cfde",
+  "path": "visual-design-foundations",
+  "path_key": "visual-design-foundations",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

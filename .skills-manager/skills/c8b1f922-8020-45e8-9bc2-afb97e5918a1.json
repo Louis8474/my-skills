@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c8b1f922-8020-45e8-9bc2-afb97e5918a1",
+  "path": "super-pm",
+  "path_key": "super-pm",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

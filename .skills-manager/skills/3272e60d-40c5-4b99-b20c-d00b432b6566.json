@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3272e60d-40c5-4b99-b20c-d00b432b6566",
+  "path": "legal-finance",
+  "path_key": "legal-finance",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

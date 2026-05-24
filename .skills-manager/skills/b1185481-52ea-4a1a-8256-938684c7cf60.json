@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b1185481-52ea-4a1a-8256-938684c7cf60",
+  "path": "google-workspace-ops",
+  "path_key": "google-workspace-ops",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

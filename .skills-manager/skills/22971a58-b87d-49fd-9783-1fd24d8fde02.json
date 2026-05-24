@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "22971a58-b87d-49fd-9783-1fd24d8fde02",
+  "path": "opencode-command-creator",
+  "path_key": "opencode-command-creator",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

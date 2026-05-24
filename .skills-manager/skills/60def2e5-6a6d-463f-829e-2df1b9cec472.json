@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "60def2e5-6a6d-463f-829e-2df1b9cec472",
+  "path": "react-state-management",
+  "path_key": "react-state-management",
+  "enabled": true,
+  "tags": [
+    "architecture",
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

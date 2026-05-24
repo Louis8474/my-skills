@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0a82c82f-c0dc-4729-8b34-957e4dc917a5",
+  "path": "gitnexus-debugging",
+  "path_key": "gitnexus-debugging",
+  "enabled": true,
+  "tags": [
+    "git-workflow"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

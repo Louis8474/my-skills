@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3b2e5768-67bf-48ba-aacb-8d6259168b66",
+  "path": "idea",
+  "path_key": "idea",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

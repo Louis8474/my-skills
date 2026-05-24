@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "480ceeee-a730-446d-9246-ca0de6ca9c90",
+  "path": "galyarder-cto",
+  "path_key": "galyarder-cto",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

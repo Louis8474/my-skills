@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7ee60835-1f3b-4cbf-8513-6f36f2962321",
+  "path": "agent-eval",
+  "path_key": "agent-eval",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

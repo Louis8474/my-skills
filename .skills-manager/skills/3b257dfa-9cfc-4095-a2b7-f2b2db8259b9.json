@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "3b257dfa-9cfc-4095-a2b7-f2b2db8259b9",
+  "path": "agentkit-seo-github",
+  "path_key": "agentkit-seo-github",
+  "enabled": true,
+  "tags": [
+    "agents-meta",
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

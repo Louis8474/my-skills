@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "68890221-073a-4e49-98b0-c42b2e43a8fd",
+  "path": "claude-opus-migration",
+  "path_key": "claude-opus-migration",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

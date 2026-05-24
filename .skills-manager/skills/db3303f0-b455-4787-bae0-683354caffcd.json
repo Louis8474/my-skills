@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "db3303f0-b455-4787-bae0-683354caffcd",
+  "path": "eval-harness",
+  "path_key": "eval-harness",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

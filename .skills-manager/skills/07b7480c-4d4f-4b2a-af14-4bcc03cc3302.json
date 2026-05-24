@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "07b7480c-4d4f-4b2a-af14-4bcc03cc3302",
+  "path": "team-builder",
+  "path_key": "team-builder",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

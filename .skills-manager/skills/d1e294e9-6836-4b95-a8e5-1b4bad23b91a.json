@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d1e294e9-6836-4b95-a8e5-1b4bad23b91a",
+  "path": "email-drafting",
+  "path_key": "email-drafting",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

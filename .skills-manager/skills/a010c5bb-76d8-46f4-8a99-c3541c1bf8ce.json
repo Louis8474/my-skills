@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a010c5bb-76d8-46f4-8a99-c3541c1bf8ce",
+  "path": "e2e-testing",
+  "path_key": "e2e-testing",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

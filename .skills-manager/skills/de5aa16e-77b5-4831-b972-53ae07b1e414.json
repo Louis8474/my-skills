@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "de5aa16e-77b5-4831-b972-53ae07b1e414",
+  "path": "terraform",
+  "path_key": "terraform",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

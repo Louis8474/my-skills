@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e41b8891-a3ef-4719-b110-751638737372",
+  "path": "context-ranking",
+  "path_key": "context-ranking",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

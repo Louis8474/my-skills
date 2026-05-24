@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8c695e02-d5d3-4667-8923-cb48fe88f382",
+  "path": "dashboard-builder",
+  "path_key": "dashboard-builder",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "fa5da19f-af9e-493e-8f1c-5beee7996215",
+  "path": "ask-questions-if-underspecified",
+  "path_key": "ask-questions-if-underspecified",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

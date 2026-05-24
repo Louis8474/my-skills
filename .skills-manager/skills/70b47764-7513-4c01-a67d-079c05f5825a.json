@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "70b47764-7513-4c01-a67d-079c05f5825a",
+  "path": "integration-test",
+  "path_key": "integration-test",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

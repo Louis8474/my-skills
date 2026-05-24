@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a1a3c8e6-ffc3-4e51-a21a-40162c7672ed",
+  "path": "csv-tools",
+  "path_key": "csv-tools",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

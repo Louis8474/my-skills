@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "17b31d79-630c-4456-b7c6-0d7edda179c3",
+  "path": "pr-review",
+  "path_key": "pr-review",
+  "enabled": true,
+  "tags": [
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

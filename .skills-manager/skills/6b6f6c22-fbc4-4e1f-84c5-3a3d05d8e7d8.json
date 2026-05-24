@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6b6f6c22-fbc4-4e1f-84c5-3a3d05d8e7d8",
+  "path": "srt-punctuator",
+  "path_key": "srt-punctuator",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

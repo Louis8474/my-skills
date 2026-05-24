@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "408736fa-7d4b-43ee-86e8-ea2cd771d4ce",
+  "path": "grounded-analysis",
+  "path_key": "grounded-analysis",
+  "enabled": true,
+  "tags": [
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

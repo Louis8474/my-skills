@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "7375b38a-2cd7-4ee5-88d5-161f0a4ae54e",
+  "path": "investor-research",
+  "path_key": "investor-research",
+  "enabled": true,
+  "tags": [
+    "marketing-sales",
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "43c3a920-2e88-440f-9619-4571496efb5e",
+  "path": "pm-brainstorm",
+  "path_key": "pm-brainstorm",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

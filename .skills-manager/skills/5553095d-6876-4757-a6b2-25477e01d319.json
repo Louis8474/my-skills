@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "5553095d-6876-4757-a6b2-25477e01d319",
+  "path": "plan-review",
+  "path_key": "plan-review",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

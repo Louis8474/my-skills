@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "bbac1076-637a-46b2-8b7e-6a456b6c249d",
+  "path": "finops",
+  "path_key": "finops",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "skill_name": "onboarding",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "I want to build a SaaS app where teams can manage their projects. Help me set it up from scratch.",
+            "expected_output": "Agent asks stack confirmation question listing the standard Supernova stack. On approval, generates: full directory structure (backend/frontend monorepo), pyproject.toml with all deps, .env.example, docker-compose.yml with postgres health check + redis, main.py with lifespan + CORS middleware, Next.js init command, .gitignore, README with Quick Start, and first git commit.",
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "I already have a Next.js frontend. I just need to add a FastAPI backend.",
+            "expected_output": "Agent does NOT run the full scaffold. Identifies this as an existing project. Creates only the backend/ directory structure inside the existing project, adds pyproject.toml, .env.example with DB/Redis vars, Dockerfile, and updates the existing docker-compose.yml or creates one if missing. Does not overwrite the existing frontend.",
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "What goes in the .env.example file and what goes in .env?",
+            "expected_output": "Agent explains: .env.example is committed to git with placeholder values (SECRET_KEY=change-me-to-random-string), .env has real secrets and is in .gitignore. Shows the complete .env.example template with all variables for the full Supernova stack and explains the secret generation command (openssl rand -hex 32).",
+            "files": []
+        }
+    ]
+}

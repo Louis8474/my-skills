@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "498e60eb-5800-4db2-ad5b-467368b80ded",
+  "path": "django-expert",
+  "path_key": "django-expert",
+  "enabled": true,
+  "tags": [
+    "backend",
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "17f05cf1-99d3-4f95-b0fa-d181147159ff",
+  "path": "board-deck-builder",
+  "path_key": "board-deck-builder",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

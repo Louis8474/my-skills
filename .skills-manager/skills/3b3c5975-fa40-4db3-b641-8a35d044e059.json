@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3b3c5975-fa40-4db3-b641-8a35d044e059",
+  "path": "devops-vagrant-file-creator",
+  "path_key": "devops-vagrant-file-creator",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7015911d-4e87-4b0d-a156-b7e8d6217ab7",
+  "path": "video-editing",
+  "path_key": "video-editing",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

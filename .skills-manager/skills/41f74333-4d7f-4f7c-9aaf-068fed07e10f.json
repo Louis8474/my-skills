@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "41f74333-4d7f-4f7c-9aaf-068fed07e10f",
+  "path": "zh-writing",
+  "path_key": "zh-writing",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

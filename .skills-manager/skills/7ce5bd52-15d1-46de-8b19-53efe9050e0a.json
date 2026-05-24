@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7ce5bd52-15d1-46de-8b19-53efe9050e0a",
+  "path": "canary-watch",
+  "path_key": "canary-watch",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

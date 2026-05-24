@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2ac3a9a6-2255-4406-a34a-f9bf0b2d0534",
+  "path": "gh-repo-management",
+  "path_key": "gh-repo-management",
+  "enabled": true,
+  "tags": [
+    "git-workflow"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

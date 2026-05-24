@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "5dffbd7f-5720-45ac-b313-b2cd48f97ebc",
+  "path": "browser-qa",
+  "path_key": "browser-qa",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

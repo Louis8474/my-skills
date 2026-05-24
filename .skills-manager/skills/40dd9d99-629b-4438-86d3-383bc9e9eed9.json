@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "40dd9d99-629b-4438-86d3-383bc9e9eed9",
+  "path": "rag-architect",
+  "path_key": "rag-architect",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

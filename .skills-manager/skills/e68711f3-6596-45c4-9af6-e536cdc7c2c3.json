@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e68711f3-6596-45c4-9af6-e536cdc7c2c3",
+  "path": "prisma-postgres-setup",
+  "path_key": "prisma-postgres-setup",
+  "enabled": true,
+  "tags": [
+    "database"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

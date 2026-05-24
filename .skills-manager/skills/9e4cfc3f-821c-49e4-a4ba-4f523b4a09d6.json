@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "9e4cfc3f-821c-49e4-a4ba-4f523b4a09d6",
+  "path": "pm-cross",
+  "path_key": "pm-cross",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

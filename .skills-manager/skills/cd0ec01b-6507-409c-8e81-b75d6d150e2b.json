@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "cd0ec01b-6507-409c-8e81-b75d6d150e2b",
+  "path": "knowledge-graph-creation",
+  "path_key": "knowledge-graph-creation",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

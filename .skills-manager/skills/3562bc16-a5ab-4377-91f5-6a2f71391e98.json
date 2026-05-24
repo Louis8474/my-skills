@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3562bc16-a5ab-4377-91f5-6a2f71391e98",
+  "path": "typescript-pro",
+  "path_key": "typescript-pro",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

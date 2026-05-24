@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "81b6f56d-7293-4651-b413-ec5d30b83a15",
+  "path": "css-motion-systems",
+  "path_key": "css-motion-systems",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

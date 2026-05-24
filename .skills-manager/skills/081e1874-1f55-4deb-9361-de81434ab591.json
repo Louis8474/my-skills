@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "081e1874-1f55-4deb-9361-de81434ab591",
+  "path": "java-secure-coding",
+  "path_key": "java-secure-coding",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

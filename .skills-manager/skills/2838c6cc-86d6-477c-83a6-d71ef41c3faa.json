@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2838c6cc-86d6-477c-83a6-d71ef41c3faa",
+  "path": "report-generation",
+  "path_key": "report-generation",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

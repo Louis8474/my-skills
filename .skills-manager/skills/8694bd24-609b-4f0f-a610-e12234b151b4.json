@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8694bd24-609b-4f0f-a610-e12234b151b4",
+  "path": "cancel",
+  "path_key": "cancel",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

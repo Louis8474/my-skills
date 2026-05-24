@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "310834de-51de-4018-b6ef-6d2a73077ae8",
+  "path": "react-native-expert",
+  "path_key": "react-native-expert",
+  "enabled": true,
+  "tags": [
+    "frontend",
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

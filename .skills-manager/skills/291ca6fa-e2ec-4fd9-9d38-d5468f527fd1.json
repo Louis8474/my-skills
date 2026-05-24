@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "291ca6fa-e2ec-4fd9-9d38-d5468f527fd1",
+  "path": "seo-optimization",
+  "path_key": "seo-optimization",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

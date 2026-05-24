@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "4694d112-1ca5-492f-8a9d-5db3d582e5ec",
+  "path": "ux-expert",
+  "path_key": "ux-expert",
+  "enabled": true,
+  "tags": [
+    "frontend",
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

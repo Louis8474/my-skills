@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "4bff50f9-164c-4e63-beaa-a2a6b8892580",
+  "path": "fundraising-operator",
+  "path_key": "fundraising-operator",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

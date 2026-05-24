@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "9bd96193-8e74-4395-9036-b09c334c1c5a",
+  "path": "content-hash-cache-pattern",
+  "path_key": "content-hash-cache-pattern",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

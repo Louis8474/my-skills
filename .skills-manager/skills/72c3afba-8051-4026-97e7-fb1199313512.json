@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "72c3afba-8051-4026-97e7-fb1199313512",
+  "path": "java-clean-code",
+  "path_key": "java-clean-code",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

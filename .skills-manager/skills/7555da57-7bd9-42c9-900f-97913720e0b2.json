@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7555da57-7bd9-42c9-900f-97913720e0b2",
+  "path": "design-md-expo",
+  "path_key": "design-md-expo",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "skill_name": "plan",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to build a SaaS app where restaurants can manage their menus online and customers can browse and order. I have no idea where to start.",
+      "expected_output": "Agent runs Step 1 intake, classifies as full-build, asks about stack or confirms defaults. Produces a dependency-ordered checklist: DB schema first (restaurants, menus, menu_items, orders), then backend services, then API routes, then frontend pages. Risks are identified (auth, payments, multi-tenancy).",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Add a 'favorites' feature to my existing Next.js + FastAPI app. Users should be able to heart/unheart a product and see their saved list.",
+      "expected_output": "Agent detects existing project, does NOT ask about tech stack defaults. Decomposes into: DB (user_favorites join table), backend (FavoriteRepository, FavoriteService), API (POST/DELETE /favorites, GET /favorites), Frontend (useFavorites hook, <FavoriteButton /> component). Plan is dependency-ordered.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I need to add Stripe subscription billing to my app. Monthly and yearly plans.",
+      "expected_output": "Agent identifies high-risk feature and flags risks: webhook idempotency, failed payment retry, cancellation proration. Produces a plan that sequences: Stripe product/price setup, DB (subscriptions table), backend (StripeWebhookService, SubscriptionService), frontend (pricing page, checkout flow). Auth dependency noted.",
+      "files": []
+    }
+  ]
+}

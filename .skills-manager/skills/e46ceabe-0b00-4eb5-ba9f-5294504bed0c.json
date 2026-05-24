@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e46ceabe-0b00-4eb5-ba9f-5294504bed0c",
+  "path": "python-patterns",
+  "path_key": "python-patterns",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

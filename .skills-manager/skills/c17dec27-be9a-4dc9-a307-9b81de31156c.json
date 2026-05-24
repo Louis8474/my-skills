@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c17dec27-be9a-4dc9-a307-9b81de31156c",
+  "path": "executing-active-directory-attack-simulation",
+  "path_key": "executing-active-directory-attack-simulation",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

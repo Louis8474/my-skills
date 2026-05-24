@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e924b0a9-b2b2-4c9f-acdd-41d83a3f097b",
+  "path": "dingtalk-bridge",
+  "path_key": "dingtalk-bridge",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

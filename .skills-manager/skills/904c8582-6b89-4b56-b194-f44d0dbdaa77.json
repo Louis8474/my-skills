@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "904c8582-6b89-4b56-b194-f44d0dbdaa77",
+  "path": "web-fetch",
+  "path_key": "web-fetch",
+  "enabled": true,
+  "tags": [
+    "frontend",
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

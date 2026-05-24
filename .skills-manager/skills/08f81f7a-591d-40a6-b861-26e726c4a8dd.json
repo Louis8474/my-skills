@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "08f81f7a-591d-40a6-b861-26e726c4a8dd",
+  "path": "contract-and-proposal-writer",
+  "path_key": "contract-and-proposal-writer",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

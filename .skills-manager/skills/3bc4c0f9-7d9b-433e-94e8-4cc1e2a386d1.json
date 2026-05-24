@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3bc4c0f9-7d9b-433e-94e8-4cc1e2a386d1",
+  "path": "mcp-developer-2",
+  "path_key": "mcp-developer-2",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

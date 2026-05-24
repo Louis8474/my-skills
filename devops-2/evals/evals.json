@@ -1,0 +1,23 @@
+{
+  "skill_name": "devops",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Set up a CI pipeline for my FastAPI + Next.js monorepo on GitHub Actions. It should run backend tests with a real PostgreSQL DB and run frontend type checking.",
+      "expected_output": "Agent creates .github/workflows/ci.yml with: postgres service container, backend job (uv install, ruff, mypy, pytest with DATABASE_URL pointing to service), frontend job (npm ci, tsc --noEmit). Jobs run in parallel. Build job (Docker image push) runs only on main after both pass.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Dockerize my FastAPI backend. It should be production-ready, not run as root, and have a health check.",
+      "expected_output": "Agent produces a multi-stage Dockerfile: builder stage (uv pip install), runtime stage (python:3.12-slim, adduser appuser, COPY from builder). USER appuser set. HEALTHCHECK with curl /health. CMD uses uvicorn with --host 0.0.0.0. No .env file copied into image.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I need a docker-compose setup for local development with FastAPI, PostgreSQL, Redis, and a Celery worker.",
+      "expected_output": "Agent produces docker-compose.yml with: api (build ., env_file, depends_on db/redis with healthcheck condition), db (postgres:16-alpine with healthcheck, named volume), redis (redis:7-alpine), worker (same image as api, command: celery -A src.celery worker). Named volume for postgres data.",
+      "files": []
+    }
+  ]
+}

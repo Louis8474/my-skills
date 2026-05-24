@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "5d73c172-d863-472d-b537-2bc6d7bd80c9",
+  "path": "auth-implementation-patterns",
+  "path_key": "auth-implementation-patterns",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

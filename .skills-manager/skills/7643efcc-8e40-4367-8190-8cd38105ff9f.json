@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "7643efcc-8e40-4367-8190-8cd38105ff9f",
+  "path": "ai-regression-testing",
+  "path_key": "ai-regression-testing",
+  "enabled": true,
+  "tags": [
+    "ai-ml",
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

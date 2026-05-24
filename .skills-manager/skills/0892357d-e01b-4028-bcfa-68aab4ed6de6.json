@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0892357d-e01b-4028-bcfa-68aab4ed6de6",
+  "path": "pm-business-model",
+  "path_key": "pm-business-model",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

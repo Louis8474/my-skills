@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "59411683-44c7-4165-8cf0-2759dd06748c",
+  "path": "test-patterns",
+  "path_key": "test-patterns",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

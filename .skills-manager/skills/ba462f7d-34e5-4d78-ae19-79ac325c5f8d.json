@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ba462f7d-34e5-4d78-ae19-79ac325c5f8d",
+  "path": "legal-tos-privacy",
+  "path_key": "legal-tos-privacy",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

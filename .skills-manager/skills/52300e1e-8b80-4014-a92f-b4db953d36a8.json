@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "52300e1e-8b80-4014-a92f-b4db953d36a8",
+  "path": "external-context",
+  "path_key": "external-context",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

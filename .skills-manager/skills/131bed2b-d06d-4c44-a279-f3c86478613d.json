@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "131bed2b-d06d-4c44-a279-f3c86478613d",
+  "path": "codex-loop",
+  "path_key": "codex-loop",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "26a6c0ea-71be-4337-863a-77ac71d8ca37",
+  "path": "swift-actor-persistence",
+  "path_key": "swift-actor-persistence",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

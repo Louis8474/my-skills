@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "1e9b4204-4129-4e66-b093-a0b67686a38e",
+  "path": "api-contract",
+  "path_key": "api-contract",
+  "enabled": true,
+  "tags": [
+    "backend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

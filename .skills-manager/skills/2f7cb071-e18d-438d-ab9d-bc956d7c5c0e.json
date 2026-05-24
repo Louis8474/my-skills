@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2f7cb071-e18d-438d-ab9d-bc956d7c5c0e",
+  "path": "design-md-voltagent",
+  "path_key": "design-md-voltagent",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

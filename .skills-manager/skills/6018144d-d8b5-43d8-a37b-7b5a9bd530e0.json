@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6018144d-d8b5-43d8-a37b-7b5a9bd530e0",
+  "path": "file-storage",
+  "path_key": "file-storage",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

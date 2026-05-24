@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3a3e3a58-e0ce-4215-9f2b-d6637f9893d1",
+  "path": "atlassian-mcp",
+  "path_key": "atlassian-mcp",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

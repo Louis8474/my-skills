@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a89cbec1-27f7-470e-8df0-0e45e550d716",
+  "path": "whisper-extract",
+  "path_key": "whisper-extract",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

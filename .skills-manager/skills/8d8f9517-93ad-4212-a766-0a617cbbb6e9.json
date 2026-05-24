@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8d8f9517-93ad-4212-a766-0a617cbbb6e9",
+  "path": "design-md-ibm",
+  "path_key": "design-md-ibm",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

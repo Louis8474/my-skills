@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "17acc91f-631d-4d6a-a264-49db675f67b5",
+  "path": "newrelic-cli",
+  "path_key": "newrelic-cli",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

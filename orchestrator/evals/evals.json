@@ -1,0 +1,23 @@
+{
+  "skill_name": "orchestrator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Build me a full-stack job board. Companies can post jobs, seekers can apply, and there's an admin dashboard.",
+      "expected_output": "Agent classifies as full-build, user-type as non-technical. Produces a dispatch plan: plan -> system-architecture -> db -> backend -> api -> security -> frontend -> ui-ux -> devops. Prerequisite gate checks: stack confirmed before any domain skill runs.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "My checkout API is returning 500 errors on about 2% of requests. Can you debug it?",
+      "expected_output": "Agent classifies as simple/technical. Routes to: audit skill for targeted checkout module review. Does not invoke plan/db/frontend unnecessarily. Dispatch log shows correct scoped routing.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I need to add email notifications when an order ships. The order already exists in the DB.",
+      "expected_output": "Agent classifies as compound. Routes to: business-logic (define notification trigger rule), backend (email service integration), testing (unit test for trigger condition). Does NOT invoke db (no schema change), frontend, or devops. Dispatch log reflects correct minimal scope.",
+      "files": []
+    }
+  ]
+}

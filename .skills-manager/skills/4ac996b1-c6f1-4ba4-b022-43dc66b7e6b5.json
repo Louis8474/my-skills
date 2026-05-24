@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "4ac996b1-c6f1-4ba4-b022-43dc66b7e6b5",
+  "path": "design-md-composio",
+  "path_key": "design-md-composio",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d0f9ddec-f912-4576-8f79-821f9a002ed1",
+  "path": "saas-finops-optimization",
+  "path_key": "saas-finops-optimization",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

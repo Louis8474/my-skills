@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "5bf94828-cfcd-4863-adfe-685ec249af67",
+  "path": "web-design-guidelines",
+  "path_key": "web-design-guidelines",
+  "enabled": true,
+  "tags": [
+    "frontend",
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

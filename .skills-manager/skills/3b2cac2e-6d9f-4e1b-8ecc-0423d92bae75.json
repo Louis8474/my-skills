@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3b2cac2e-6d9f-4e1b-8ecc-0423d92bae75",
+  "path": "logistics-exception-management",
+  "path_key": "logistics-exception-management",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

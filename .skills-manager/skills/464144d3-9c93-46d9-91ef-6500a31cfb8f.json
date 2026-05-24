@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "464144d3-9c93-46d9-91ef-6500a31cfb8f",
+  "path": "everything-claude-code-conventions",
+  "path_key": "everything-claude-code-conventions",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

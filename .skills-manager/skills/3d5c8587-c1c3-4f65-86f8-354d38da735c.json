@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "3d5c8587-c1c3-4f65-86f8-354d38da735c",
+  "path": "stitch-loop",
+  "path_key": "stitch-loop",
+  "enabled": true,
+  "tags": [
+    "agents-meta",
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

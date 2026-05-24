@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "bdde57f4-8bf6-488b-856d-bf957ac56b0f",
+  "path": "agent-introspection-debugging",
+  "path_key": "agent-introspection-debugging",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

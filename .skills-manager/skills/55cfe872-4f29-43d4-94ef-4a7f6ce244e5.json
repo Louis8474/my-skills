@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "55cfe872-4f29-43d4-94ef-4a7f6ce244e5",
+  "path": "odt",
+  "path_key": "odt",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

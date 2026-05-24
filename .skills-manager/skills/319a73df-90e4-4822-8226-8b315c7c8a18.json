@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "319a73df-90e4-4822-8226-8b315c7c8a18",
+  "path": "design-md-replicate",
+  "path_key": "design-md-replicate",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

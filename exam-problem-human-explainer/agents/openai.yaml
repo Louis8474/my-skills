@@ -1,0 +1,5 @@
+interface:
+  display_name: "Exam Problem Explainer"
+  short_description: "Solve exam problems with arrow flowcharts"
+  brand_color: "#2563EB"
+  default_prompt: "Use $exam-problem-human-explainer to solve this problem with an arrow-connected main flowchart, brace/arrow derivation modules, sparse boxes only around scoring-point results, merged cases when useful, and only necessary non-derivational notes."

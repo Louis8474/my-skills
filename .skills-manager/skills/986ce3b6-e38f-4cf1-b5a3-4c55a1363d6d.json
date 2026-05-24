@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "986ce3b6-e38f-4cf1-b5a3-4c55a1363d6d",
+  "path": "jira-report-comment",
+  "path_key": "jira-report-comment",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

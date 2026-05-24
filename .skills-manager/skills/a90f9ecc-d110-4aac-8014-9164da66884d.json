@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a90f9ecc-d110-4aac-8014-9164da66884d",
+  "path": "agent-smith",
+  "path_key": "agent-smith",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

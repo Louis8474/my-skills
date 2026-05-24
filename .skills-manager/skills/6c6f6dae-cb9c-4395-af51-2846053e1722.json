@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6c6f6dae-cb9c-4395-af51-2846053e1722",
+  "path": "docker-compose-setup",
+  "path_key": "docker-compose-setup",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

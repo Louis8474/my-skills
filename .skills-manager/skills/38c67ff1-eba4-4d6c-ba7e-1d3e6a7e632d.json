@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "38c67ff1-eba4-4d6c-ba7e-1d3e6a7e632d",
+  "path": "skill-distiller",
+  "path_key": "skill-distiller",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "cfc4a5a0-800a-46ef-a409-d14fc1110c72",
+  "path": "openclaw-persona-forge",
+  "path_key": "openclaw-persona-forge",
+  "enabled": true,
+  "tags": [
+    "agents-meta",
+    "embedded-iot"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

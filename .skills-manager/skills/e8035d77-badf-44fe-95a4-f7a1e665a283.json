@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e8035d77-badf-44fe-95a4-f7a1e665a283",
+  "path": "feasibility-assessor",
+  "path_key": "feasibility-assessor",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2fa28d3f-c559-4db0-9fbf-0b37af854c52",
+  "path": "neoforge-modding",
+  "path_key": "neoforge-modding",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

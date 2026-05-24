@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8273f264-8dcc-4a9f-a345-7c2aad5be916",
+  "path": "design-md-spacex",
+  "path_key": "design-md-spacex",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

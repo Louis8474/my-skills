@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8032a14f-1575-4984-8c4d-00fdc97e0444",
+  "path": "migrate",
+  "path_key": "migrate",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

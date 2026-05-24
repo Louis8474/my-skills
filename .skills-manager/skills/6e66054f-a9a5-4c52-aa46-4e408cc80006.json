@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6e66054f-a9a5-4c52-aa46-4e408cc80006",
+  "path": "java-solid-design",
+  "path_key": "java-solid-design",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

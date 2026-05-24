@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "32509bef-5529-4112-8e41-2c1a06825f47",
+  "path": "design-tokens",
+  "path_key": "design-tokens",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

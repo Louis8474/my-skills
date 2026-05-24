@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "cbbb8a2d-cca3-4443-8e2a-cc4e69285b8f",
+  "path": "python-type-hints",
+  "path_key": "python-type-hints",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

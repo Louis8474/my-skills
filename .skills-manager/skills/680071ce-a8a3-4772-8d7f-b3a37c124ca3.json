@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "680071ce-a8a3-4772-8d7f-b3a37c124ca3",
+  "path": "docs-first-research",
+  "path_key": "docs-first-research",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

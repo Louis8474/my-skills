@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c45a70a7-b6b8-4dc9-919f-bda4b77b7ad2",
+  "path": "frontend-accessibility",
+  "path_key": "frontend-accessibility",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

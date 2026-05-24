@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "227fc406-09ab-4700-b8ac-bba9f4d12877",
+  "path": "test-driven-execution",
+  "path_key": "test-driven-execution",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

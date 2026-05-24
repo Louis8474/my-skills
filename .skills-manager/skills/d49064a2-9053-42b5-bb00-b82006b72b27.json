@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d49064a2-9053-42b5-bb00-b82006b72b27",
+  "path": "sql-optimization-patterns",
+  "path_key": "sql-optimization-patterns",
+  "enabled": true,
+  "tags": [
+    "database"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

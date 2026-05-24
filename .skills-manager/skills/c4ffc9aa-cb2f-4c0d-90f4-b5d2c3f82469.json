@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c4ffc9aa-cb2f-4c0d-90f4-b5d2c3f82469",
+  "path": "visual-verdict",
+  "path_key": "visual-verdict",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

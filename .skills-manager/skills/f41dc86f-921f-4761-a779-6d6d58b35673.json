@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f41dc86f-921f-4761-a779-6d6d58b35673",
+  "path": "nextjs-turbopack",
+  "path_key": "nextjs-turbopack",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

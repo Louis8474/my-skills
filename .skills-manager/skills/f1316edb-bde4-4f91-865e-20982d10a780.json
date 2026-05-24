@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f1316edb-bde4-4f91-865e-20982d10a780",
+  "path": "terminal-ops",
+  "path_key": "terminal-ops",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d04fa560-16c0-4ef5-9824-44a10de6b55b",
+  "path": "web-animation",
+  "path_key": "web-animation",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

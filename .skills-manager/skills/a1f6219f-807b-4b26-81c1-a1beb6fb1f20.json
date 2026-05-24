@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a1f6219f-807b-4b26-81c1-a1beb6fb1f20",
+  "path": "pm-change",
+  "path_key": "pm-change",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

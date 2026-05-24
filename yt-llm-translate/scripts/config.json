@@ -1,0 +1,21 @@
+{
+  "debug": false,
+  "model": "deepseek/deepseek-v4-flash",
+  "yt-download-proxy": "http://127.0.0.1:10808",
+  "opencode_path": "D:\\nvm4w\\nodejs\\opencode.ps1",
+  "whisper": {
+    "model": "small",
+    "language": "en",
+    "timeout": 1200
+  },
+  "translation": {
+    "chunk_size": "auto",
+    "min_size": 30,
+    "max_size": 100,
+    "thread_num": 4
+  },
+  "punctuation_check": {
+    "expected_per_lines": 0.333,
+    "threshold_factor": 0.4
+  }
+}

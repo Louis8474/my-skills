@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "cc6c26b9-16d6-47f2-a349-f6b6af06a4e1",
+  "path": "brand-voice",
+  "path_key": "brand-voice",
+  "enabled": true,
+  "tags": [
+    "design-references",
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

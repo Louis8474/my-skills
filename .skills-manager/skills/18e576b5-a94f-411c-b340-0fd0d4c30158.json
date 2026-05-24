@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "18e576b5-a94f-411c-b340-0fd0d4c30158",
+  "path": "impl",
+  "path_key": "impl",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

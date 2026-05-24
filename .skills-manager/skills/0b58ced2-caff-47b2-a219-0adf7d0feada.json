@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0b58ced2-caff-47b2-a219-0adf7d0feada",
+  "path": "browserstack",
+  "path_key": "browserstack",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

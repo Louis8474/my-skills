@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "49afeb8b-dcb7-42be-9e61-fa7c01abec91",
+  "path": "design-md-coinbase",
+  "path_key": "design-md-coinbase",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

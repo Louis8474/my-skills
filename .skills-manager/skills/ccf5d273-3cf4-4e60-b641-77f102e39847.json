@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ccf5d273-3cf4-4e60-b641-77f102e39847",
+  "path": "create-agent-adapter",
+  "path_key": "create-agent-adapter",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

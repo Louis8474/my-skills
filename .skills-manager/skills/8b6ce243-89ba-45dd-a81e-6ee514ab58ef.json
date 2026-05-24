@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8b6ce243-89ba-45dd-a81e-6ee514ab58ef",
+  "path": "evm-token-decimals",
+  "path_key": "evm-token-decimals",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

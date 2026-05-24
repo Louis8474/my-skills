@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "eed267e1-202b-4b85-b786-32a135190086",
+  "path": "vercel-react-best-practices",
+  "path_key": "vercel-react-best-practices",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

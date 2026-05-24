@@ -1,0 +1,46 @@
+{
+  "name": "dingtalk-to-ai-skill",
+  "version": "1.5.0",
+  "description": "通过钉钉群聊远程控制本地 AI CLI（OpenCode 或 Claude Code），支持聊天命令、项目记忆、媒体处理、多Agent路由、定时任务",
+  "author": "dreamor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dreamor/dingtalk-to-ai-skill.git"
+  },
+  "keywords": [
+    "dingtalk",
+    "opencode",
+    "claude",
+    "cli",
+    "integration",
+    "bridge",
+    "chatbot",
+    "ai-agent",
+    "memory",
+    "media",
+    "router",
+    "scheduler"
+  ],
+  "agents": [
+    "opencode",
+    "claude-code"
+  ],
+  "entry": "SKILL.md",
+  "license": "MIT",
+  "skills": [
+    {
+      "id": "dingtalk-bridge",
+      "name": "Dingtalk Bridge",
+      "description": "Manage the Dingtalk to AI CLI bridge (OpenCode or Claude Code). Supports chat commands, project memory, media processing, multi-agent routing, and scheduled tasks.",
+      "commands": [
+        "setup",
+        "start",
+        "stop",
+        "status",
+        "logs",
+        "doctor",
+        "rebuild"
+      ]
+    }
+  ]
+}

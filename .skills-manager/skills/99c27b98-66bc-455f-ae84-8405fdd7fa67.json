@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "99c27b98-66bc-455f-ae84-8405fdd7fa67",
+  "path": "ralplan",
+  "path_key": "ralplan",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

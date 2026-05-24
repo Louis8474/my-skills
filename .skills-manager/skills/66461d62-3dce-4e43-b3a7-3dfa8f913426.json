@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "66461d62-3dce-4e43-b3a7-3dfa8f913426",
+  "path": "healthcare-emr-patterns",
+  "path_key": "healthcare-emr-patterns",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

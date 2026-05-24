@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c123407a-dbe7-43bf-b8f1-4ae0ccb5f583",
+  "path": "minecraft-plugin-maker",
+  "path_key": "minecraft-plugin-maker",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

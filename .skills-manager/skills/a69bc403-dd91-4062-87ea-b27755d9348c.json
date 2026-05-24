@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a69bc403-dd91-4062-87ea-b27755d9348c",
+  "path": "executive",
+  "path_key": "executive",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

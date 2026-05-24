@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2433c57d-4af3-430c-a59f-6467db8b8a6b",
+  "path": "finishing-a-development-branch",
+  "path_key": "finishing-a-development-branch",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

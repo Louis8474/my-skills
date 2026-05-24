@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b4bf2905-e45f-45d9-8181-38a266c887e3",
+  "path": "airc_away",
+  "path_key": "airc_away",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

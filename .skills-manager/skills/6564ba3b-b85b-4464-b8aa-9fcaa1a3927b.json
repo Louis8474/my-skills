@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6564ba3b-b85b-4464-b8aa-9fcaa1a3927b",
+  "path": "data-scraper-agent",
+  "path_key": "data-scraper-agent",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

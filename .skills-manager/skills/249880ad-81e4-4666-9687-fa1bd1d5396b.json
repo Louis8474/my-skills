@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "249880ad-81e4-4666-9687-fa1bd1d5396b",
+  "path": "qa-systematic",
+  "path_key": "qa-systematic",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

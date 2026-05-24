@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "db85f7b7-03b0-4c80-a1f1-e8d6a085dbed",
+  "path": "openhive",
+  "path_key": "openhive",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

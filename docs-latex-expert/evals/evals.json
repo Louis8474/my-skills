@@ -1,0 +1,14 @@
+[
+  {
+    "prompt": "Can you review this LaTeX code and tell me what's wrong?\n\n\\documentclass{article}\n\\usepackage{times}\n\\begin{document}\n\\def\\E{\\mathbb{E}}\n{\n\\bf Important} and {\\it emphasized} text.\n$$E = mc^2$$\n\\begin{eqnarray}\na &=& b \\\\\nc &=& d\n\\end{eqnarray}\nThe value is $H_{effective}$.\n\\centerline{Centered text}\n\\sloppy\n\\end{document}",
+    "expected_topics": ["\\def vs \\newcommand", "obsolete font commands", "$$ vs \\[", "eqnarray vs align", "text in math mode", "\\centerline", "\\sloppy", "times package"]
+  },
+  {
+    "prompt": "Help me write a section about the uncertainty principle for a physics paper. I need proper math formatting with aligned equations and correct Dirac notation.",
+    "expected_topics": ["align environment", "amsmath", "\\label", "physics package", "bra-ket notation", "\\eqref", "one sentence per line"]
+  },
+  {
+    "prompt": "I'm setting up a new LaTeX document for my thesis. What packages and preamble setup do you recommend for a document with lots of math, figures, and a bibliography?",
+    "expected_topics": ["amsmath", "graphicx", "biblatex/bibtex", "cleveref", "siunitx", "inputenc", "fontenc", "geometry", "T1 encoding"]
+  }
+]

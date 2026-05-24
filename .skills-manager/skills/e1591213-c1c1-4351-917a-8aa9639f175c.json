@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e1591213-c1c1-4351-917a-8aa9639f175c",
+  "path": "analytics-architect",
+  "path_key": "analytics-architect",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

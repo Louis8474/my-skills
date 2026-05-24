@@ -1,0 +1,42 @@
+[
+  {
+    "id": "basic-node-ci",
+    "prompt": "Create a GitHub Actions workflow for a Node.js project that runs tests on push and pull requests",
+    "description": "Basic CI workflow with common patterns",
+    "tags": ["ci", "node", "testing"],
+    "assertions": [
+      {"type": "contains", "value": "on:", "description": "Workflow has a trigger"},
+      {"type": "contains", "value": "push", "description": "Triggers on push"},
+      {"type": "contains", "value": "pull_request", "description": "Triggers on pull_request"},
+      {"type": "contains", "value": "actions/setup-node", "description": "Sets up Node.js"},
+      {"type": "contains_any", "values": ["npm test", "yarn test", "pnpm test"], "description": "Runs tests"},
+      {"type": "contains", "value": "runs-on:", "description": "Specifies a runner"}
+    ]
+  },
+  {
+    "id": "docker-deploy",
+    "prompt": "I need a GitHub Actions workflow that builds a Docker image and pushes it to Docker Hub when I push to main. Use OIDC if possible, otherwise use secrets.",
+    "description": "Docker build and deployment workflow",
+    "tags": ["cd", "docker", "deployment"],
+    "assertions": [
+      {"type": "contains", "value": "on:", "description": "Workflow has a trigger"},
+      {"type": "contains_any", "values": ["docker/build-push-action", "docker build"], "description": "Builds Docker image"},
+      {"type": "contains", "value": "push", "description": "Pushes image"},
+      {"type": "contains_any", "values": ["tags:", "DOCKERHUB", "docker.io"], "description": "References Docker Hub tags or credentials"},
+      {"type": "contains_any", "values": ["secrets.", "id-token:", "OIDC"], "description": "Uses secrets or OIDC for authentication"}
+    ]
+  },
+  {
+    "id": "reusable-workflow",
+    "prompt": "Help me create a reusable workflow for linting and testing that can be called from multiple repositories in my organization. It should support both Python and Node.js projects.",
+    "description": "Reusable workflow with matrix strategy",
+    "tags": ["reusable", "multi-language", "organization"],
+    "assertions": [
+      {"type": "contains", "value": "workflow_call", "description": "Is a reusable workflow"},
+      {"type": "contains_any", "values": ["inputs:", "workflow_call:"], "description": "Accepts inputs"},
+      {"type": "contains_any", "values": ["python", "setup-python"], "description": "Supports Python"},
+      {"type": "contains_any", "values": ["node", "setup-node"], "description": "Supports Node.js"},
+      {"type": "contains_any", "values": ["matrix", "strategy", "if:"], "description": "Uses matrix or conditional logic for multi-language support"}
+    ]
+  }
+]

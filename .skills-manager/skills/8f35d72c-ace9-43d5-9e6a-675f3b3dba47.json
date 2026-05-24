@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8f35d72c-ace9-43d5-9e6a-675f3b3dba47",
+  "path": "technical-writing",
+  "path_key": "technical-writing",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

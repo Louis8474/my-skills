@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "aec36327-5c01-483a-98e6-464bc5bf3a7f",
+  "path": "documentation-sync",
+  "path_key": "documentation-sync",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

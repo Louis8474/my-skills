@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "150ce36d-0925-4af5-8404-f6ff8a38f8ec",
+  "path": "messages-ops",
+  "path_key": "messages-ops",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

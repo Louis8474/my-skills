@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "032eef1e-567e-4d06-818e-61636525fa48",
+  "path": "release",
+  "path_key": "release",
+  "enabled": true,
+  "tags": [
+    "devops-cloud"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

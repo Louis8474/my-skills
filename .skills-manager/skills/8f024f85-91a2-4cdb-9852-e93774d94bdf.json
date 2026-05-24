@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8f024f85-91a2-4cdb-9852-e93774d94bdf",
+  "path": "pm-market",
+  "path_key": "pm-market",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

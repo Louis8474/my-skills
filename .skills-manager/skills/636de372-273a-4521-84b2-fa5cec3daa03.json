@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "636de372-273a-4521-84b2-fa5cec3daa03",
+  "path": "tcr",
+  "path_key": "tcr",
+  "enabled": true,
+  "tags": [
+    "testing"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "308d5ddc-138c-4632-815b-c5ec4b9bbf3a",
+  "path": "founder-thought-leadership",
+  "path_key": "founder-thought-leadership",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

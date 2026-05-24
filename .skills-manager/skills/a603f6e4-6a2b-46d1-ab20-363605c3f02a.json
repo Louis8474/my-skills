@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a603f6e4-6a2b-46d1-ab20-363605c3f02a",
+  "path": "naming-cheatsheet",
+  "path_key": "naming-cheatsheet",
+  "enabled": true,
+  "tags": [
+    "code-quality"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

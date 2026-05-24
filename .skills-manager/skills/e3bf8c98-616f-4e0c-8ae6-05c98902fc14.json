@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e3bf8c98-616f-4e0c-8ae6-05c98902fc14",
+  "path": "design-md-mongodb",
+  "path_key": "design-md-mongodb",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

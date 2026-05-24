@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3e7e2e33-9bd2-4707-b470-0d30173e2dbc",
+  "path": "gitnexus-exploring",
+  "path_key": "gitnexus-exploring",
+  "enabled": true,
+  "tags": [
+    "git-workflow"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

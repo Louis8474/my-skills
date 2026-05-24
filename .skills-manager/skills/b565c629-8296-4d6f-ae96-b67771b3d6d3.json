@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b565c629-8296-4d6f-ae96-b67771b3d6d3",
+  "path": "finance-based-pricing-advisor",
+  "path_key": "finance-based-pricing-advisor",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

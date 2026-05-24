@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "662270f5-001b-4231-a4f0-a162208efb73",
+  "path": "mui",
+  "path_key": "mui",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e2f99363-accb-4757-9c98-c4afdab224f8",
+  "path": "growth-engineer",
+  "path_key": "growth-engineer",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

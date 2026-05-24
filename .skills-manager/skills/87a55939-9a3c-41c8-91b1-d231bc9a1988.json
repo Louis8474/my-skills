@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "87a55939-9a3c-41c8-91b1-d231bc9a1988",
+  "path": "network-debug",
+  "path_key": "network-debug",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

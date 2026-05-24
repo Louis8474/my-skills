@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "47c07b3b-4b82-479b-94f3-99a2b44a36b1",
+  "path": "cybersecurity",
+  "path_key": "cybersecurity",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

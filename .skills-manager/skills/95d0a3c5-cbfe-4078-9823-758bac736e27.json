@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "95d0a3c5-cbfe-4078-9823-758bac736e27",
+  "path": "propagate",
+  "path_key": "propagate",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

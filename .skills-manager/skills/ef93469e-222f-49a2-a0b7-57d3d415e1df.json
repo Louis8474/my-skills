@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ef93469e-222f-49a2-a0b7-57d3d415e1df",
+  "path": "gpu-optimizer",
+  "path_key": "gpu-optimizer",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

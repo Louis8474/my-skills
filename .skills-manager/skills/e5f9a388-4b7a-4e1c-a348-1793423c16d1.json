@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e5f9a388-4b7a-4e1c-a348-1793423c16d1",
+  "path": "bugfix-loop",
+  "path_key": "bugfix-loop",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

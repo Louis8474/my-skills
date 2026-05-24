@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "da6287d7-e92c-497c-9af7-14d60041c7f6",
+  "path": "performance-debug",
+  "path_key": "performance-debug",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

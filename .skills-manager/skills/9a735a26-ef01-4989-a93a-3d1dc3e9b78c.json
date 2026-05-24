@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "9a735a26-ef01-4989-a93a-3d1dc3e9b78c",
+  "path": "api-docs-generator",
+  "path_key": "api-docs-generator",
+  "enabled": true,
+  "tags": [
+    "backend",
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

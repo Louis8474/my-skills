@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "cfeb3741-b78e-4e2a-ba56-cb257b9f2233",
+  "path": "data-analysis",
+  "path_key": "data-analysis",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

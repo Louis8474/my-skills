@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "46f2c41f-71b4-4017-a7f1-890899ef9299",
+  "path": "taste-design",
+  "path_key": "taste-design",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

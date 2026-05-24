@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6cddad43-2307-4c83-9b78-85bc9269c1ff",
+  "path": "design-md-nvidia",
+  "path_key": "design-md-nvidia",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

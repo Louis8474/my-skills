@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c67ca8c6-09c0-4dfe-9df1-811712a1bc7e",
+  "path": "sql-query-generation",
+  "path_key": "sql-query-generation",
+  "enabled": true,
+  "tags": [
+    "database"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

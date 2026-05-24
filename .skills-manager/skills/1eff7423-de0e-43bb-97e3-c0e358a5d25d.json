@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "1eff7423-de0e-43bb-97e3-c0e358a5d25d",
+  "path": "harvest-context",
+  "path_key": "harvest-context",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

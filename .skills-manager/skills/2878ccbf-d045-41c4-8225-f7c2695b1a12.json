@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2878ccbf-d045-41c4-8225-f7c2695b1a12",
+  "path": "airc_send-file",
+  "path_key": "airc_send-file",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

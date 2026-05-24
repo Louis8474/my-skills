@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0275a164-d524-4a99-bcba-bfe9ba9dbd61",
+  "path": "design-flow",
+  "path_key": "design-flow",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

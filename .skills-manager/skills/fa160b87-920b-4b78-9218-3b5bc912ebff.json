@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "fa160b87-920b-4b78-9218-3b5bc912ebff",
+  "path": "programmatic-seo",
+  "path_key": "programmatic-seo",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

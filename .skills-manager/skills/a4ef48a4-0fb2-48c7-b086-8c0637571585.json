@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a4ef48a4-0fb2-48c7-b086-8c0637571585",
+  "path": "validating-backup-integrity-for-recovery",
+  "path_key": "validating-backup-integrity-for-recovery",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

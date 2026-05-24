@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "53fe85d3-478b-45a0-9a44-640ad0eb6504",
+  "path": "telegram-sender",
+  "path_key": "telegram-sender",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

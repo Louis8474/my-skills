@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "54936708-e182-4371-80a8-27fc9450c121",
+  "path": "prompt-lab",
+  "path_key": "prompt-lab",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

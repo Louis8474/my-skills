@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "aa6af62f-118a-4134-ac19-eae7fc09a5dc",
+  "path": "design-md-linearapp",
+  "path_key": "design-md-linearapp",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "afe1f6f1-6e7c-46d2-94c2-3d293968efc1",
+  "path": "python-backend",
+  "path_key": "python-backend",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

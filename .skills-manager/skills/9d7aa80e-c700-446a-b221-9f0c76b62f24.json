@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "9d7aa80e-c700-446a-b221-9f0c76b62f24",
+  "path": "video",
+  "path_key": "video",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0a4675b9-7575-4d48-8a1f-9e3ab5c509f7",
+  "path": "java-api-design",
+  "path_key": "java-api-design",
+  "enabled": true,
+  "tags": [
+    "languages"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

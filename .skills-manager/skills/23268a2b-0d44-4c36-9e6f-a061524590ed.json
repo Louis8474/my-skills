@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "23268a2b-0d44-4c36-9e6f-a061524590ed",
+  "path": "generating-threat-intelligence-reports",
+  "path_key": "generating-threat-intelligence-reports",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

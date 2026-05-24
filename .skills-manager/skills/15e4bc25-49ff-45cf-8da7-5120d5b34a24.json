@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "15e4bc25-49ff-45cf-8da7-5120d5b34a24",
+  "path": "awesome-ai-agent-skills-frontend-design",
+  "path_key": "awesome-ai-agent-skills-frontend-design",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

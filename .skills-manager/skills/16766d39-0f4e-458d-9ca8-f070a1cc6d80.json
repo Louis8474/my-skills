@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "16766d39-0f4e-458d-9ca8-f070a1cc6d80",
+  "path": "understand-domain",
+  "path_key": "understand-domain",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

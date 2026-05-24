@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "bc760c2d-4399-4c1a-ac4a-23aa5c8280a9",
+  "path": "hookify-rules",
+  "path_key": "hookify-rules",
+  "enabled": true,
+  "tags": [
+    "agents-meta"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

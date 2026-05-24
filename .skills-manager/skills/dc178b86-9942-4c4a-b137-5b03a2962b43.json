@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "dc178b86-9942-4c4a-b137-5b03a2962b43",
+  "path": "token-budget-advisor",
+  "path_key": "token-budget-advisor",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

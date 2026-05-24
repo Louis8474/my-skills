@@ -1,0 +1,23 @@
+{
+    "skill_name": "testing",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "I just built a refund API endpoint. How do I write proper tests for it? The rule is: can only refund within 30 days, order must be 'completed', and amount can't exceed the order total.",
+            "expected_output": "Agent produces 4+ pytest-asyncio tests: one per business rule failure (30-day window, wrong status, amount too high), plus one happy path test that asserts order status changes to 'refunded'. Tests use clean_db fixture, httpx AsyncClient, assert status codes and response body.",
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Write unit tests for my <ProductCard /> React component. It shows a product image, name, price, and an 'Add to Cart' button. When clicked, it calls onAddToCart(productId).",
+            "expected_output": "Agent uses Vitest + React Testing Library. Tests: renders name, image (via alt text), price; clicking the button calls onAddToCart with the correct productId; button is accessible (getByRole). Uses vi.fn() for the mock callback.",
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Set up end-to-end tests for our signup flow. New user signs up -> receives verification email -> clicks link -> lands on dashboard.",
+            "expected_output": "Agent creates playwright.config.ts, writes e2e/signup.spec.ts. Uses page.getByLabel() and page.getByRole() for form interaction. For email verification, mocks the email sending (or uses Mailpit in CI) and intercepts the token. Asserts final URL is /dashboard.",
+            "files": []
+        }
+    ]
+}

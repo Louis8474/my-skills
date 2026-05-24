@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b54a47d2-d171-427c-aec3-79600be2e7db",
+  "path": "system-diagnostics",
+  "path_key": "system-diagnostics",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

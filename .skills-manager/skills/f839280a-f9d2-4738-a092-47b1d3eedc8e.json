@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f839280a-f9d2-4738-a092-47b1d3eedc8e",
+  "path": "executing-phishing-simulation-campaign",
+  "path_key": "executing-phishing-simulation-campaign",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

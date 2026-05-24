@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d20d58b3-1f87-4425-aad2-c0df955a2bab",
+  "path": "knowledge-base-update",
+  "path_key": "knowledge-base-update",
+  "enabled": true,
+  "tags": [
+    "documentation"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

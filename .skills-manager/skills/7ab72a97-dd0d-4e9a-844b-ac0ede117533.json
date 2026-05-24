@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7ab72a97-dd0d-4e9a-844b-ac0ede117533",
+  "path": "joc-teams",
+  "path_key": "joc-teams",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

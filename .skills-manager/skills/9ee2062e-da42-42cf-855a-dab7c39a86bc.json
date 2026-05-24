@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "9ee2062e-da42-42cf-855a-dab7c39a86bc",
+  "path": "safety-guard",
+  "path_key": "safety-guard",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

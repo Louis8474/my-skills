@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "767794ca-3514-4ef4-b117-182d3b1b3f2c",
+  "path": "design-md-airbnb",
+  "path_key": "design-md-airbnb",
+  "enabled": true,
+  "tags": [
+    "design-references"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

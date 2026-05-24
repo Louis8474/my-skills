@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "dd1d3945-cef2-4196-91ed-95e9ff2e971f",
+  "path": "web-to-markdown",
+  "path_key": "web-to-markdown",
+  "enabled": true,
+  "tags": [
+    "agents-meta",
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

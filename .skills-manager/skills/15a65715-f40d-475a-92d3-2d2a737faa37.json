@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "15a65715-f40d-475a-92d3-2d2a737faa37",
+  "path": "contextual-commit",
+  "path_key": "contextual-commit",
+  "enabled": true,
+  "tags": [
+    "git-workflow"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

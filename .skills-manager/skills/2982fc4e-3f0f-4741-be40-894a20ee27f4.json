@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2982fc4e-3f0f-4741-be40-894a20ee27f4",
+  "path": "react",
+  "path_key": "react",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a32e0f25-35ac-483b-afe3-d63b85f22c05",
+  "path": "webhook-setup",
+  "path_key": "webhook-setup",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

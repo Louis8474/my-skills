@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d101846e-bc4f-484a-b030-26cd8398e53c",
+  "path": "websocket-engineer",
+  "path_key": "websocket-engineer",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

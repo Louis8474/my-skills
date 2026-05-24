@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ecadce2b-9a1a-4e34-8838-d45b7a3fd9eb",
+  "path": "academic-figure-prompt",
+  "path_key": "academic-figure-prompt",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

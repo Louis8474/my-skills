@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "68877efa-bd73-49c8-952b-d8ced2582f54",
+  "path": "estimate-calibrator",
+  "path_key": "estimate-calibrator",
+  "enabled": true,
+  "tags": [
+    "product-mgmt"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

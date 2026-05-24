@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "5d930014-9f76-4adc-91f6-af4d32c2730d",
+  "path": "surrogate-verifier",
+  "path_key": "surrogate-verifier",
+  "enabled": true,
+  "tags": [
+    "ai-ml"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

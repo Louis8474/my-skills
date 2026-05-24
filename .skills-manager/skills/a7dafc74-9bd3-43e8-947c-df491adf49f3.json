@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "a7dafc74-9bd3-43e8-947c-df491adf49f3",
+  "path": "mi-car-trial",
+  "path_key": "mi-car-trial",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

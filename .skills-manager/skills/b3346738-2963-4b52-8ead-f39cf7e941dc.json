@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b3346738-2963-4b52-8ead-f39cf7e941dc",
+  "path": "jwt-auth",
+  "path_key": "jwt-auth",
+  "enabled": true,
+  "tags": [
+    "security"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "97cafcb1-f6c2-4d10-b4df-3e0f30b75415",
+  "path": "growth-strategist",
+  "path_key": "growth-strategist",
+  "enabled": true,
+  "tags": [
+    "marketing-sales"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

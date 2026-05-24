@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_id": "feae98ed-ce1d-4a5d-aeb8-6f49b159ec22",
+  "path": "investor-outreach",
+  "path_key": "investor-outreach",
+  "enabled": true,
+  "tags": [
+    "marketing-sales",
+    "research"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

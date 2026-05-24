@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f5377d1c-fe77-41a5-8a5e-41d3189d43f4",
+  "path": "airc_canary",
+  "path_key": "airc_canary",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

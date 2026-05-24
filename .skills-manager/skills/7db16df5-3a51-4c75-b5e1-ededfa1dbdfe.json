@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "7db16df5-3a51-4c75-b5e1-ededfa1dbdfe",
+  "path": "airc_uninstall",
+  "path_key": "airc_uninstall",
+  "enabled": true,
+  "tags": [
+    "misc"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8d4ceb15-8f4a-4f16-a697-abbbb61e793f",
+  "path": "nuxt4-patterns",
+  "path_key": "nuxt4-patterns",
+  "enabled": true,
+  "tags": [
+    "frontend"
+  ],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

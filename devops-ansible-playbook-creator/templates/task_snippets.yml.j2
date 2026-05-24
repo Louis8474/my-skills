@@ -1,0 +1,363 @@
+---
+# Snippets de Tarefas Ansible - Coleção de padrões comuns
+# Copie e adapte conforme necessário
+
+# ============================================
+# 1. INSTALAÇÃO DE PACOTES
+# ============================================
+
+# Instalar pacote Debian/Ubuntu
+- name: Instalar {{ package_name | default('nginx') }}
+  apt:
+    name: "{{ package_name | default('nginx') }}"
+    state: present
+    update_cache: yes
+    cache_valid_time: 3600
+
+# Instalar pacote RHEL/CentOS
+- name: Instalar {{ package_name | default('httpd') }}
+  yum:
+    name: "{{ package_name | default('httpd') }}"
+    state: present
+
+# Instalar múltiplos pacotes
+- name: Instalar pacotes essenciais
+  package:
+    name:
+      - vim
+      - git
+      - curl
+      - wget
+      - htop
+    state: present
+
+# Instalar pacote Python via pip
+- name: Instalar pacote Python
+  pip:
+    name: "{{ pip_package | default('requests') }}"
+    state: present
+    virtualenv: "{{ venv_path | default('/opt/venvs/myapp') }}"
+
+# ============================================
+# 2. GESTÃO DE SERVIÇOS
+# ============================================
+
+# Iniciar e habilitar serviço
+- name: Garantir que {{ service_name | default('nginx') }} está rodando
+  service:
+    name: "{{ service_name | default('nginx') }}"
+    state: started
+    enabled: yes
+
+# Parar serviço
+- name: Parar {{ service_name | default('nginx') }}
+  service:
+    name: "{{ service_name | default('nginx') }}"
+    state: stopped
+
+# Reiniciar serviço
+- name: Reiniciar {{ service_name | default('nginx') }}
+  service:
+    name: "{{ service_name | default('nginx') }}"
+    state: restarted
+
+# Reload de serviço
+- name: Reload configuração do {{ service_name | default('nginx') }}
+  systemd:
+    name: "{{ service_name | default('nginx') }}"
+    state: reloaded
+
+# ============================================
+# 3. GESTÃO DE ARQUIVOS E DIRETÓRIOS
+# ============================================
+
+# Criar diretório
+- name: Criar diretório {{ dir_path | default('/opt/myapp') }}
+  file:
+    path: "{{ dir_path | default('/opt/myapp') }}"
+    state: directory
+    owner: "{{ owner | default('root') }}"
+    group: "{{ group | default('root') }}"
+    mode: "{{ mode | default('0755') }}"
+
+# Copiar arquivo
+- name: Copiar arquivo de configuração
+  copy:
+    src: "{{ src | default('files/myapp.conf') }}"
+    dest: "{{ dest | default('/etc/myapp/myapp.conf') }}"
+    owner: "{{ owner | default('root') }}"
+    group: "{{ group | default('root') }}"
+    mode: "{{ mode | default('0644') }}"
+    backup: yes
+
+# Template com Jinja2
+- name: Gerar arquivo de configuração
+  template:
+    src: "{{ src | default('templates/myapp.conf.j2') }}"
+    dest: "{{ dest | default('/etc/myapp/myapp.conf') }}"
+    owner: "{{ owner | default('root') }}"
+    group: "{{ group | default('root') }}"
+    mode: "{{ mode | default('0644') }}"
+    validate: "{{ validate | default('nginx -t -c %s') }}"
+  notify: "Restart {{ service_name | default('myapp') }}"
+
+# Criar symlink
+- name: Criar symlink
+  file:
+    src: "{{ src | default('/opt/myapp/current') }}"
+    dest: "{{ dest | default('/var/www/myapp') }}"
+    state: link
+    force: yes
+
+# Modificar linha específica em arquivo
+- name: Configurar parâmetro no arquivo
+  lineinfile:
+    path: "{{ file_path | default('/etc/myapp/config.conf') }}"
+    regexp: "{{ regexp | default('^#?PARAM=') }}"
+    line: "{{ line | default('PARAM=value') }}"
+    state: present
+  notify: "Restart {{ service_name | default('myapp') }}"
+
+# Inserir bloco de texto
+- name: Inserir configuração no arquivo
+  blockinfile:
+    path: "{{ file_path | default('/etc/myapp/config.conf') }}"
+    block: |
+      # Configuração adicionada por Ansible
+      setting1 = value1
+      setting2 = value2
+    marker: "# {mark} CONFIGURACAO ANSIBLE"
+    insertafter: "{{ insertafter | default('^\\[general\\]') }}"
+
+# ============================================
+# 4. GESTÃO DE USUÁRIOS
+# ============================================
+
+# Criar usuário
+- name: Criar usuário {{ username | default('myapp') }}
+  user:
+    name: "{{ username | default('myapp') }}"
+    system: yes
+    shell: /bin/bash
+    home: "/home/{{ username | default('myapp') }}"
+    create_home: yes
+    groups: "{{ groups | default([]) }}"
+    append: yes
+
+# Adicionar chave SSH
+- name: Adicionar chave SSH
+  authorized_key:
+    user: "{{ username | default('myapp') }}"
+    key: "{{ ssh_public_key | default(lookup('file', '~/.ssh/id_rsa.pub')) }}"
+    state: present
+
+# ============================================
+# 5. LOOPS E ITERAÇÕES
+# ============================================
+
+# Loop simples com lista
+- name: Criar múltiplos diretórios
+  file:
+    path: "{{ item }}"
+    state: directory
+    mode: '0755'
+  loop:
+    - /opt/app/logs
+    - /opt/app/cache
+    - /opt/app/tmp
+
+# Loop com dicionário
+- name: Criar múltiplos usuários
+  user:
+    name: "{{ item.name }}"
+    groups: "{{ item.groups | default(omit) }}"
+    shell: "{{ item.shell | default('/bin/bash') }}"
+    state: present
+  loop:
+    - { name: 'devops', groups: 'sudo' }
+    - { name: 'deploy', shell: '/bin/zsh' }
+    - { name: 'monitoring' }
+
+# Loop com include de arquivos
+- name: Processar configurações
+  include_tasks: "{{ item }}"
+  loop:
+    - tasks/install.yml
+    - tasks/configure.yml
+    - tasks/verify.yml
+  loop_control:
+    loop_var: task_file
+
+# ============================================
+# 6. CONDICIONAIS
+# ============================================
+
+# Condicional simples
+- name: Tarefa apenas no Ubuntu
+  apt:
+    name: ubuntu-restricted-extras
+    state: present
+  when: ansible_distribution == "Ubuntu"
+
+# Condicional com múltiplas condições
+- name: Tarefa em Debian ou Ubuntu
+  apt:
+    name: vim
+    state: present
+  when: ansible_os_family == "Debian"
+
+# Condicional baseada em variável
+- name: Instalar pacote opcional
+  package:
+    name: "{{ optional_package | default('htop') }}"
+    state: present
+  when: install_optional_packages | default(false)
+
+# Condicional com registro
+- name: Verificar se serviço está rodando
+  command: systemctl is-active {{ service_name | default('myapp') }}
+  register: service_status
+  ignore_errors: yes
+
+- name: Iniciar serviço se não estiver rodando
+  service:
+    name: "{{ service_name | default('myapp') }}"
+    state: started
+  when: service_status.rc != 0
+
+# ============================================
+# 7. TRATAMENTO DE ERROS
+# ============================================
+
+# Block/rescue/always
+- name: Bloco com tratamento de erros
+  block:
+    - name: Tarefa que pode falhar
+      command: /opt/myapp/risky-operation
+      register: result
+  rescue:
+    - name: Log do erro
+      debug:
+        msg: "Operação falhou: {{ result.stderr | default('erro desconhecido') }}"
+    
+    - name: Notificar sobre o erro
+      mail:
+        to: admin@example.com
+        subject: "Erro no deploy de {{ app_name | default('myapp') }}"
+        body: "{{ result.stderr | default('erro desconhecido') }}"
+  always:
+    - name: Limpeza
+      file:
+        path: /tmp/myapp-temp
+        state: absent
+
+# Ignorar erros
+- name: Tentar operação opcional
+  command: /opt/myapp/optional-task
+  ignore_errors: yes
+  register: optional_result
+
+# Fail com mensagem customizada
+- name: Verificar pré-requisitos
+  fail:
+    msg: "O disco está cheio. Precisa de pelo menos 10GB livres."
+  when: ansible_mounts | selectattr('mount', 'equalto', '/') | map(attribute='size_available') | first < 10737418240
+
+# ============================================
+# 8. NOTIFICAÇÕES E HANDLERS
+# ============================================
+
+# Task com notificação
+- name: Atualizar configuração
+  template:
+    src: templates/app.conf.j2
+    dest: /etc/myapp/app.conf
+  notify: Restart myapp
+
+# Handler
+- name: Restart myapp
+  service:
+    name: myapp
+    state: restarted
+
+# Handler com condicional
+- name: Reload nginx
+  systemd:
+    name: nginx
+    state: reloaded
+  when: nginx_config_changed | default(true)
+
+# ============================================
+# 9. COLETA DE INFORMAÇÕES
+# ============================================
+
+# Coletar facts
+- name: Coletar informações do sistema
+  setup:
+
+# Verificar arquivo
+- name: Verificar se arquivo existe
+  stat:
+    path: "{{ file_path | default('/etc/myapp/config.conf') }}"
+  register: file_stat
+
+- name: Processar arquivo se existir
+  debug:
+    msg: "Arquivo existe com tamanho {{ file_stat.stat.size }}"
+  when: file_stat.stat.exists
+
+# Consultar banco de dados
+- name: Obter informações do sistema
+  getent:
+    database: passwd
+    key: "{{ username | default('myapp') }}"
+
+# ============================================
+# 10. COMANDOS E SCRIPTS
+# ============================================
+
+# Executar comando
+- name: Executar comando
+  command: "{{ command | default('/usr/bin/myapp --version') }}"
+  register: cmd_result
+  changed_when: false
+
+# Executar comando com creates (idempotência)
+- name: Compilar aplicação
+  command: make install
+  args:
+    chdir: "{{ app_dir | default('/opt/myapp/src') }}"
+    creates: "{{ app_dir | default('/opt/myapp') }}/bin/myapp"
+
+# Executar shell
+- name: Executar script shell
+  shell: |
+    echo "Iniciando..."
+    /opt/myapp/setup.sh --env={{ env | default('production') }}
+    echo "Concluído!"
+  args:
+    chdir: /opt/myapp
+    executable: /bin/bash
+
+# Executar script local no remote
+- name: Executar script
+  script:
+    cmd: "{{ script_path | default('scripts/setup.sh') }}"
+    creates: "{{ creates | default('/opt/myapp/installed') }}"
+
+# Executar com timeout
+- name: Aguardar serviço
+  wait_for:
+    port: "{{ port | default(8080) }}"
+    delay: "{{ delay | default(5) }}"
+    timeout: "{{ timeout | default(60) }}"
+
+# Executar com retry
+- name: Testar endpoint
+  uri:
+    url: "http://localhost:{{ port | default(8080) }}/health"
+    status_code: 200
+  register: health_check
+  until: health_check.status == 200
+  retries: "{{ retries | default(5) }}"
+  delay: "{{ delay | default(10) }}"
